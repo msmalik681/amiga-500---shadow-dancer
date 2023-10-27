@@ -3,7 +3,7 @@
   "Talkpad": null,
   "Talkpad_OnBottom": false,
   "StartupCodeBlock": "startup",
-  "Recompile": false,
+  "Recompile": true,
   "DebugMode": false,
   "DataVersion": 3,
   "Commands": [

@@ -12,7 +12,7 @@
     "Up": "",
     "UpRight": "",
     "Left": "",
-    "Right": "joe_idle_r",
+    "Right": "joe_duck_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -22,10 +22,10 @@
     "Up": "",
     "UpRight": "joe_jump_r",
     "Left": "",
-    "Right": "joe_walk_r",
-    "DownLeft": "joe_jump_l",
+    "Right": "joe_duck_walk_r",
+    "DownLeft": "joe_duck_walk_l",
     "Down": "",
-    "DownRight": "joe_jump_r"
+    "DownRight": "joe_duck_walk_r"
   },
   "Attacks": {
     "UpLeft": "",
@@ -106,14 +106,14 @@
   ],
   "CollBox": {
     "X": -10,
-    "Y": -55,
+    "Y": -31,
     "Width": 23,
-    "Height": 55
+    "Height": 31
   },
   "AttackDelay": 10,
   "ZOrder": 0,
-  "SpeedLeft": 2.0,
-  "SpeedRight": 2.0,
+  "SpeedLeft": 1.3,
+  "SpeedRight": 1.3,
   "SpeedUp": 4.5,
   "SpeedDown": 4.5,
   "AccelLeft": 0.5,
@@ -162,5 +162,5 @@
   "DataVersion": 3,
   "AutoSpawn": null,
   "AutoNavigate": false,
-  "TileID": 0
+  "TileID": 3
 }

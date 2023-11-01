@@ -1,0 +1,61 @@
+{
+  "Frames": [
+    {
+      "Duration": 8,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "SlicedFast",
+      "SpriteType": "Channel_6_to_1",
+      "Path": "star_01.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": -7,
+      "HandleY": -46,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "star_01",
+      "IsBlank": false
+    },
+    {
+      "Duration": 8,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "SlicedFast",
+      "SpriteType": "Channel_6_to_1",
+      "Path": "star_02.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": -7,
+      "HandleY": -46,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "star_02",
+      "IsBlank": false
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": "",
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0
+}

@@ -11,4 +11,14 @@
       <property name="Name" value="joe_jump" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="ninja_star" type="string" />
+    </properties>
+  </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="joe_duck" type="string" />
+    </properties>
+  </tile>
 </tileset>

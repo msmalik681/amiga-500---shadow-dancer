@@ -6,78 +6,84 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35154
 Music memory (): 0
 BP Buffer memory: 111600
-core sfx/gfx memory: 36608
+core sfx/gfx memory: 35316
 Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 10566
+Map data memory: 12420
 Map background memory: 1396
-EXE memory: 209948
-vm memory: 8444
-project memory: 2822
-memory reserved for active actors on screen (32): 4480
+EXE memory: 210016
+vm memory: 8788
+project memory: 4746
+memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 388162
-Accounted memory other: 246872
-Accounted memory total: 635034
+Accounted memory chip: 386870
+Accounted memory other: 251326
+Accounted memory total: 638196
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 3
-Actor Data Size: 564
-Block Count: 3
-Block Data Size: 204
+Actor Count: 5
+Actor Data Size: 940
+Block Count: 4
+Block Data Size: 272
 Anim5 Count: 0
 Anim5 Data Size: 0
 Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 9
-Animations Data Size: 144
-AnimationFrame Count: 40
-AnimationFrame Data Size: 640
-ImageFrames: 25
-ImageFrame Data Size: 1100
+Animations Count: 16
+Animations Data Size: 256
+AnimationFrame Count: 78
+AnimationFrame Data Size: 1248
+ImageFrames: 39
+ImageFrame Data Size: 1716
 Sprites: 1
 Sprites Data Size: 14
-Attack Data: 1
-Attack Data Size: 66
+Attack Data: 3
+Attack Data Size: 198
 Misc data size: 16
 Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
+Panel hud Original size 7116 Crunched size 1370
 Header data for map stage_1 Original size 7996 Crunched size 258
-Tile data for map stage_1 (mem restrictions:None) Original size 10566 Crunched size 1418
-Background for map stage_1 Original size 1396 Crunched size 82
-Asset bundle 0 (Core project asset bundle) Original size 36608 Crunched size 17228
+Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1474
+Background for map stage_1 Original size 1396 Crunched size 94
+Asset bundle 0 (Core project asset bundle) Original size 35316 Crunched size 21944
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 8148
-Project Header Original size 4036 Crunched size 1192
-Project Data Original size 2822 Crunched size 804
-Project virtual machine (codeblocks) Original size 8444 Crunched size 2542
+Project Header Original size 4036 Crunched size 1194
+Project Data Original size 4746 Crunched size 1214
+Project virtual machine (codeblocks) Original size 8788 Crunched size 2606
 Project virtual machine redirects Original size 4 Crunched size 4
+
+=== Possibly unused Actors ===
+ninja_star
 
 === Codeblocks by compiled size ===
 load_level: 996
-jump_button: 506
+jump_button: 652
 set_yresolution: 448 (Unused?)
-do_teleport: 392
-flipscreen_smooth: 346 (Unused?)
-flipxymove: 306 (Unused?)
+do_teleport: 382
+flipscreen_smooth: 330 (Unused?)
+player_ontimer: 298
 pre_startup: 292
-player_ontimer: 270
+flipxymove: 282 (Unused?)
+player_attack: 278
 pause: 252
-high_jump_up: 204
-snap_to_screen: 190 (Unused?)
-flipymove: 174 (Unused?)
-flipxmove: 158 (Unused?)
+high_jump_up: 196
+snap_to_screen: 182 (Unused?)
+flipymove: 162 (Unused?)
+player_duck_control: 152
+flipxmove: 146 (Unused?)
 load_panel: 146
 pre_quit: 146
-startup: 128
+startup: 132
 destroy_all_blocks: 124 (Unused?)
 load_music: 118 (Unused?)
 pre_load_level: 118
@@ -86,21 +92,21 @@ load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 waitforfireup: 94
 unload_panel: 92
-wrap_screen_bottom: 92 (Unused?)
-wrap_screen_right: 92 (Unused?)
 waitforfiredown: 90
-wrap_screen_left: 88 (Unused?)
-wrap_screen_top: 88 (Unused?)
-flipscreen: 86 (Unused?)
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
+wrap_screen_bottom: 86 (Unused?)
+wrap_screen_right: 86 (Unused?)
 fadeout: 84
+wrap_screen_left: 82 (Unused?)
+wrap_screen_top: 82 (Unused?)
+flipscreen: 78 (Unused?)
 waitforframes: 78
 quit: 66 (Unused?)
-destroy_all_actors: 62 (Unused?)
 jump_actor: 62 (Unused?)
 unload_panel_bottom: 62
 unload_panel_top: 62
+destroy_all_actors: 60 (Unused?)
 fadein: 58
 load_panel_finish: 56
 destroy_actor: 54
@@ -110,6 +116,8 @@ regenerate_screen: 52
 return: 52 (Unused?)
 destroy_block: 48 (Unused?)
 regenerate_screen_wait: 42
+block_jump_up_normal: 36
+block_stop_jump: 36
 vm_registers: 26 (Unused?)
 vm_constants: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)

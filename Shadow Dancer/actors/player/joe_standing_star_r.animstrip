@@ -1,13 +1,13 @@
 {
   "Frames": [
     {
-      "Duration": 4,
+      "Duration": 2,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "jump_01.png",
+      "Path": "standing_star_01.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -21,18 +21,18 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "jump_01",
+      "Name": "standing_star_01",
       "IsBlank": false
     },
     {
-      "Duration": 4,
+      "Duration": 2,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "jump_02.png",
-      "OnFrame": null,
+      "Path": "standing_star_02.png",
+      "OnFrame": "player_attack",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -45,17 +45,17 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "jump_02",
+      "Name": "standing_star_02",
       "IsBlank": false
     },
     {
-      "Duration": 25,
+      "Duration": 2,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "jump_03.png",
+      "Path": "standing_star_03.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -69,59 +69,11 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "jump_03",
-      "IsBlank": false
-    },
-    {
-      "Duration": 4,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "jump_02.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -63,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "jump_02",
-      "IsBlank": false
-    },
-    {
-      "Duration": 50,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "jump_01.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -63,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "jump_01",
+      "Name": "standing_star_03",
       "IsBlank": false
     }
   ],
-  "PreventMovement": false,
+  "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,

@@ -87,7 +87,7 @@
     },
     {
       "Values": {
-        "PanelTop": "none",
+        "PanelTop": "hud",
         "PanelBottom": "none"
       },
       "DataVersion": 6,

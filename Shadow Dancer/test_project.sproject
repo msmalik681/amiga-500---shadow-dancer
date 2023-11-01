@@ -3,7 +3,7 @@
   "Talkpad": null,
   "Talkpad_OnBottom": false,
   "StartupCodeBlock": "startup",
-  "Recompile": false,
+  "Recompile": true,
   "DebugMode": false,
   "DataVersion": 3,
   "Commands": [
@@ -69,13 +69,38 @@
       "OnPress": "jump_button",
       "OnRelease": null,
       "buttonState": 2
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "Tilde",
+      "JoystickPort": 1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": true,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "OnPress": "player_attack",
+      "OnRelease": null,
+      "buttonState": 1
     }
   ],
   "AnimationMetaData": {},
   "Anim5MetaData": {},
   "SoundMetaData": {},
   "MMLMetaData": {},
-  "NumberFontMetaData": {},
+  "NumberFontMetaData": {
+    "defaultnumberfont": {
+      "Radix": 10
+    }
+  },
   "FontMetaData": {},
   "SplashScreen": null,
   "LogicSpeed": "PAL_50HZ",

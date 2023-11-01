@@ -1,7 +1,7 @@
 {
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
-  "DefaultLookDir": "up",
+  "DefaultLookDir": "right",
   "Recycle": "Default",
   "MoveType": "control",
   "MaxEntities": 0,
@@ -12,7 +12,7 @@
     "Up": "joe_high_jump_up_2",
     "UpRight": "",
     "Left": "",
-    "Right": "joe_idle_r",
+    "Right": "joe_high_jump_up_2",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -22,7 +22,7 @@
     "Up": "",
     "UpRight": "joe_jump_r",
     "Left": "",
-    "Right": "joe_walk_r",
+    "Right": "joe_high_jump_up_2",
     "DownLeft": "joe_jump_l",
     "Down": "",
     "DownRight": "joe_jump_r"
@@ -95,11 +95,11 @@
   ],
   "InvalidDirections": [
     true,
-    false,
     true,
     true,
     false,
-    true,
+    false,
+    false,
     true,
     true,
     true
@@ -132,7 +132,7 @@
   "Camera": null,
   "AutoScroll": null,
   "Flags": 0,
-  "AttackProjectile": null,
+  "AttackProjectile": "",
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,

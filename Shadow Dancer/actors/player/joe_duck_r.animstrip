@@ -7,7 +7,7 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "idle.png",
+      "Path": "duck_01.png",
       "OnFrame": "player_duck_control",
       "HasHitBox": false,
       "HitBox": {
@@ -21,7 +21,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "idle",
+      "Name": "duck_01",
       "IsBlank": false
     }
   ],

@@ -7,7 +7,7 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "walk_01.png",
+      "Path": "duck_01.png",
       "OnFrame": "player_duck_control",
       "HasHitBox": false,
       "HitBox": {
@@ -21,7 +21,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "walk_01",
+      "Name": "duck_01",
       "IsBlank": false
     },
     {
@@ -31,7 +31,7 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "walk_01.png",
+      "Path": "duck_01.png",
       "OnFrame": "player_duck_control",
       "HasHitBox": false,
       "HitBox": {
@@ -45,7 +45,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "walk_01",
+      "Name": "duck_01",
       "IsBlank": false
     },
     {
@@ -55,7 +55,7 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "walk_02.png",
+      "Path": "duck_02.png",
       "OnFrame": "player_duck_control",
       "HasHitBox": false,
       "HitBox": {
@@ -69,7 +69,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "walk_02",
+      "Name": "duck_02",
       "IsBlank": false
     },
     {
@@ -79,7 +79,7 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "walk_02.png",
+      "Path": "duck_02.png",
       "OnFrame": "player_duck_control",
       "HasHitBox": false,
       "HitBox": {
@@ -93,7 +93,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "walk_02",
+      "Name": "duck_02",
       "IsBlank": false
     },
     {
@@ -103,7 +103,7 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "walk_03.png",
+      "Path": "duck_03.png",
       "OnFrame": "player_duck_control",
       "HasHitBox": false,
       "HitBox": {
@@ -117,7 +117,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "walk_03",
+      "Name": "duck_03",
       "IsBlank": false
     },
     {
@@ -127,7 +127,7 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "walk_03.png",
+      "Path": "duck_03.png",
       "OnFrame": "player_duck_control",
       "HasHitBox": false,
       "HitBox": {
@@ -141,7 +141,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "walk_03",
+      "Name": "duck_03",
       "IsBlank": false
     },
     {
@@ -151,7 +151,7 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "walk_04.png",
+      "Path": "duck_02.png",
       "OnFrame": "player_duck_control",
       "HasHitBox": false,
       "HitBox": {
@@ -165,7 +165,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "walk_04",
+      "Name": "duck_02",
       "IsBlank": false
     },
     {
@@ -175,7 +175,7 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "walk_04.png",
+      "Path": "duck_02.png",
       "OnFrame": "player_duck_control",
       "HasHitBox": false,
       "HitBox": {
@@ -189,103 +189,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "walk_04",
-      "IsBlank": false
-    },
-    {
-      "Duration": 3,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "walk_05.png",
-      "OnFrame": "player_duck_control",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -63,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "walk_05",
-      "IsBlank": false
-    },
-    {
-      "Duration": 3,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "walk_05.png",
-      "OnFrame": "player_duck_control",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -63,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "walk_05",
-      "IsBlank": false
-    },
-    {
-      "Duration": 3,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "walk_03.png",
-      "OnFrame": "player_duck_control",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -63,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "walk_03",
-      "IsBlank": false
-    },
-    {
-      "Duration": 3,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "walk_03.png",
-      "OnFrame": "player_duck_control",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -63,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "walk_03",
+      "Name": "duck_02",
       "IsBlank": false
     }
   ],

@@ -11,4 +11,9 @@
       <property name="Name" value="upper_platform" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="jump_up_normal" type="string" />
+    </properties>
+  </tile>
 </tileset>

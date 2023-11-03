@@ -21,4 +21,9 @@
       <property name="Name" value="joe_duck" type="string" />
     </properties>
   </tile>
+  <tile id="4">
+    <properties>
+      <property name="Name" value="e_henchman_knife" type="string" />
+    </properties>
+  </tile>
 </tileset>

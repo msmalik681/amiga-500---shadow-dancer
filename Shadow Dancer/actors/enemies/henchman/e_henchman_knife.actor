@@ -2,17 +2,17 @@
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
-  "Recycle": "Default",
-  "MoveType": "cpu",
+  "Recycle": "Always",
+  "MoveType": "cpu_platform",
   "MaxEntities": 0,
   "NudgeX": 8,
-  "NudgeY": 8,
+  "NudgeY": -36,
   "Idles": {
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "star_throw",
-    "Right": "star_throw",
+    "Left": "",
+    "Right": "e_henchman_walk_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -31,11 +31,11 @@
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "star_throw",
-    "Right": "star_throw",
-    "DownLeft": "star_throw",
+    "Left": "",
+    "Right": "e_henchman_atk_r",
+    "DownLeft": "",
     "Down": "",
-    "DownRight": "star_throw"
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -94,26 +94,26 @@
     }
   ],
   "InvalidDirections": [
-    true,
-    true,
+    false,
     true,
     false,
     false,
     false,
+    false,
+    false,
     true,
-    true,
-    true
+    false
   ],
   "CollBox": {
-    "X": -4,
-    "Y": -4,
-    "Width": 8,
-    "Height": 8
+    "X": -9,
+    "Y": 1,
+    "Width": 18,
+    "Height": 51
   },
   "AttackDelay": 0,
   "ZOrder": 0,
-  "SpeedLeft": 4.0,
-  "SpeedRight": 4.0,
+  "SpeedLeft": 0.0,
+  "SpeedRight": 0.0,
   "SpeedUp": 0.0,
   "SpeedDown": 0.0,
   "AccelLeft": null,
@@ -123,15 +123,15 @@
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
-  "CollType_Left": "none",
-  "CollType_Right": "none",
+  "CollType_Left": "block",
+  "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
-  "Player": false,
-  "CanRidePlatform": false,
+  "Player": null,
+  "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
-  "Flags": "projectile",
+  "Flags": 0,
   "AttackProjectile": null,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
@@ -142,8 +142,8 @@
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "",
-  "DivertOutOfScreenLeft": "destroy_actor",
-  "DivertOutOfScreenRight": "destroy_actor",
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
@@ -156,11 +156,11 @@
     "0",
     "0",
     "0",
-    "0"
+    "1"
   ],
   "ControlPort": 0,
   "DataVersion": 3,
   "AutoSpawn": null,
   "AutoNavigate": false,
-  "TileID": 2
+  "TileID": 4
 }

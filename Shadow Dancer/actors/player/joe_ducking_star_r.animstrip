@@ -1,13 +1,13 @@
 {
   "Frames": [
     {
-      "Duration": 7,
+      "Duration": 3,
       "Background": false,
-      "Multiplexes": 16,
+      "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "OnlySprite",
-      "SpriteType": "Channel_4_to_1",
-      "Path": "star_01.png",
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "duck_star_01.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -16,23 +16,23 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -7,
-      "HandleY": -7,
+      "HandleX": -63,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "star_01",
+      "Name": "duck_star_01",
       "IsBlank": false
     },
     {
-      "Duration": 7,
+      "Duration": 3,
       "Background": false,
-      "Multiplexes": 16,
+      "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "OnlySprite",
-      "SpriteType": "Channel_4_to_1",
-      "Path": "star_02.png",
-      "OnFrame": null,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "duck_star_02.png",
+      "OnFrame": "star_throw",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -40,22 +40,22 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -7,
-      "HandleY": -7,
+      "HandleX": -63,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "star_02",
+      "Name": "duck_star_02",
       "IsBlank": false
     }
   ],
-  "PreventMovement": false,
+  "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",
   "OnFinish": null,
-  "AutoFlip": null,
+  "AutoFlip": true,
   "Streamed": true,
   "PatternBuffer": 0
 }

@@ -30,12 +30,12 @@
   "Attacks": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "",
+    "UpRight": "joe_jump_star_r",
     "Left": "",
-    "Right": "",
+    "Right": "joe_standing_star_r",
     "DownLeft": "",
     "Down": "",
-    "DownRight": ""
+    "DownRight": "joe_standing_star_r"
   },
   "ProjectileOffsets": [
     {

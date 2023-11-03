@@ -16,4 +16,9 @@
       <property name="Name" value="jump_up_normal" type="string" />
     </properties>
   </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="jump_up_low" type="string" />
+    </properties>
+  </tile>
 </tileset>

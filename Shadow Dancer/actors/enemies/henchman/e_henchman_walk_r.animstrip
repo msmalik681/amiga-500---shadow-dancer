@@ -1,14 +1,14 @@
 {
   "Frames": [
     {
-      "Duration": 5,
+      "Duration": 3,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "knife_walk_01.png",
-      "OnFrame": null,
+      "OnFrame": "enemy_henchman_ai",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -25,7 +25,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 5,
+      "Duration": 3,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -49,7 +49,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 5,
+      "Duration": 3,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -73,7 +73,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 5,
+      "Duration": 3,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,

@@ -6,7 +6,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35154
 Music memory (): 0
 BP Buffer memory: 111600
-core sfx/gfx memory: 86614
+core sfx/gfx memory: 85786
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 12420
 Map background memory: 1396
 EXE memory: 209952
-vm memory: 9684
-project memory: 6688
+vm memory: 10226
+project memory: 6708
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 438168
-Accounted memory other: 254100
-Accounted memory total: 692268
+Accounted memory chip: 437340
+Accounted memory other: 254662
+Accounted memory total: 692002
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -41,12 +41,12 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 26
 Animations Data Size: 416
-AnimationFrame Count: 102
-AnimationFrame Data Size: 1632
+AnimationFrame Count: 105
+AnimationFrame Data Size: 1680
 ImageFrames: 61
 ImageFrame Data Size: 2684
-Sprites: 3
-Sprites Data Size: 42
+Sprites: 1
+Sprites Data Size: 14
 Attack Data: 5
 Attack Data Size: 330
 Misc data size: 30
@@ -55,11 +55,11 @@ Panel hud Original size 7116 Crunched size 1370
 Header data for map stage_1 Original size 7996 Crunched size 258
 Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1490
 Background for map stage_1 Original size 1396 Crunched size 94
-Asset bundle 0 (Core project asset bundle) Original size 86614 Crunched size 39610
+Asset bundle 0 (Core project asset bundle) Original size 85786 Crunched size 39672
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 8148
-Project Header Original size 4036 Crunched size 1196
-Project Data Original size 6688 Crunched size 1916
-Project virtual machine (codeblocks) Original size 9684 Crunched size 2858
+Project Header Original size 4036 Crunched size 1194
+Project Data Original size 6708 Crunched size 1942
+Project virtual machine (codeblocks) Original size 10226 Crunched size 2962
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -72,7 +72,8 @@ ninja_star
 
 === Codeblocks by compiled size ===
 load_level: 996
-jump_button: 574
+jump_button: 744
+high_jump_up: 560
 set_yresolution: 448 (Unused?)
 player_attack: 414
 star_throw: 410
@@ -81,7 +82,6 @@ flipscreen_smooth: 330 (Unused?)
 player_ontimer: 298
 pre_startup: 292
 flipxymove: 282 (Unused?)
-high_jump_up: 282
 pause: 252
 waitforframes: 190
 snap_to_screen: 182 (Unused?)
@@ -99,6 +99,7 @@ waitforfireup: 108
 waitforfiredown: 104
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
+enemy_henchman_ai: 94
 unload_panel: 92
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86

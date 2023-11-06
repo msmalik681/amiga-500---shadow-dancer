@@ -2145,7 +2145,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_jump_r + dir",
+      "Animation": "joe_jump_r + player_var4",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

@@ -7,31 +7,7 @@
       "PaletteLine": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
-      "Path": "knife_walk_01.png",
-      "OnFrame": "enemy_henchman_ai",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -64,
-      "HandleY": -60,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "knife_walk_01",
-      "IsBlank": false
-    },
-    {
-      "Duration": 2,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "Normal",
-      "SpriteType": "Attached_16colors",
-      "Path": "knife_walk_02.png",
+      "Path": "death_flame_01.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -45,7 +21,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "knife_walk_02",
+      "Name": "death_flame_01",
       "IsBlank": false
     },
     {
@@ -55,7 +31,7 @@
       "PaletteLine": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
-      "Path": "knife_walk_01.png",
+      "Path": "death_flame_02.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -69,7 +45,7 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "knife_walk_01",
+      "Name": "death_flame_02",
       "IsBlank": false
     },
     {
@@ -79,7 +55,7 @@
       "PaletteLine": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
-      "Path": "knife_walk_03.png",
+      "Path": "death_flame_03.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -93,16 +69,40 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "knife_walk_03",
+      "Name": "death_flame_03",
+      "IsBlank": false
+    },
+    {
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "death_flame_04.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": -64,
+      "HandleY": -60,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "death_flame_04",
       "IsBlank": false
     }
   ],
-  "PreventMovement": false,
-  "PreventCollision": false,
+  "PreventMovement": true,
+  "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",
-  "OnFinish": null,
+  "OnFinish": "destroy_actor",
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0

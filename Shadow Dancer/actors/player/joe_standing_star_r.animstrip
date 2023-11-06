@@ -1,7 +1,7 @@
 {
   "Frames": [
     {
-      "Duration": 2,
+      "Duration": 1,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -25,7 +25,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 2,
+      "Duration": 1,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -70,6 +70,30 @@
       "HighPriority": false,
       "ZeroIsTransparent": false,
       "Name": "standing_star_03",
+      "IsBlank": false
+    },
+    {
+      "Duration": 1,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "idle.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": -63,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "idle",
       "IsBlank": false
     }
   ],

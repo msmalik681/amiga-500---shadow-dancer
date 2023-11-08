@@ -6,7 +6,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35154
 Music memory (): 0
 BP Buffer memory: 111600
-core sfx/gfx memory: 97826
+core sfx/gfx memory: 101026
 Parallax memory: 57600
 OS/other estimated: 99328
 
@@ -14,17 +14,17 @@ For other:
 Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 12420
-Map background memory: 1416
+Map background memory: 1624
 EXE memory: 209952
-vm memory: 10688
-project memory: 7028
+vm memory: 11090
+project memory: 7180
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 506980
-Accounted memory other: 255464
-Accounted memory total: 762444
+Accounted memory chip: 510180
+Accounted memory other: 256226
+Accounted memory total: 766406
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -39,53 +39,57 @@ Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 27
-Animations Data Size: 432
-AnimationFrame Count: 113
-AnimationFrame Data Size: 1808
-ImageFrames: 65
-ImageFrame Data Size: 2860
+Animations Count: 29
+Animations Data Size: 464
+AnimationFrame Count: 115
+AnimationFrame Data Size: 1840
+ImageFrames: 67
+ImageFrame Data Size: 2948
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 5
 Attack Data Size: 330
 Misc data size: 30
 Panel scorpion_eng_splashscreen Original size 35154 Crunched size 3258
-Panel hud Original size 7116 Crunched size 1370
-Header data for map stage_1 Original size 7996 Crunched size 268
+Panel hud Original size 7116 Crunched size 1374
+Header data for map stage_1 Original size 7996 Crunched size 262
 Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1490
-Background for map stage_1 Original size 1416 Crunched size 342
+Background for map stage_1 Original size 1624 Crunched size 362
 Parallax for map stage_1 Original size 57600 Crunched size 11864
-Asset bundle 0 (Core project asset bundle) Original size 97826 Crunched size 42234
+Asset bundle 0 (Core project asset bundle) Original size 101026 Crunched size 43694
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 8148
 Project Header Original size 4036 Crunched size 1196
-Project Data Original size 7028 Crunched size 2092
-Project virtual machine (codeblocks) Original size 10688 Crunched size 3066
+Project Data Original size 7180 Crunched size 2180
+Project virtual machine (codeblocks) Original size 11090 Crunched size 3180
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
 e_henchman_fall_r
 e_henchman_fall_l
+joe_fall_r
+joe_fall_l
 
 === Possibly unused Actors ===
 ninja_star
 
 === Codeblocks by compiled size ===
 load_level: 996
-jump_button: 750
-high_jump_up: 560
+jump_button: 780
+high_jump_up: 466
 set_yresolution: 448 (Unused?)
 player_attack: 432
 star_throw: 428
 do_teleport: 382
 flipscreen_smooth: 330 (Unused?)
+player_ontimer: 298
 pre_startup: 292
 flipxymove: 282 (Unused?)
-player_ontimer: 256
+enemy_bump: 262
 pause: 252
-enemy_hit: 204
+enemy_henchman_ai: 248
 waitforframes: 190
 snap_to_screen: 182 (Unused?)
+enemy_hit: 172
 flipymove: 162 (Unused?)
 player_duck_control: 152
 flipxmove: 146 (Unused?)
@@ -102,7 +106,6 @@ waitforfiredown: 104
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 enemy_direction_gosub: 94
-enemy_henchman_ai: 94
 player_direction_gosub: 94
 unload_panel: 92
 pre_anim5: 86 (Unused?)
@@ -128,6 +131,7 @@ regenerate_screen: 52
 return: 52 (Unused?)
 destroy_block: 48 (Unused?)
 regenerate_screen_wait: 42
+block_jump_down: 36
 block_jump_up_low: 36
 block_jump_up_normal: 36
 block_stop_jump: 36

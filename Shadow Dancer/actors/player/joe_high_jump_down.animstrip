@@ -104,7 +104,7 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "high_jump_05.png",
-      "OnFrame": "high_jump_up",
+      "OnFrame": "",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,

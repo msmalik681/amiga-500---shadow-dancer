@@ -7,21 +7,21 @@
       "PaletteLine": 0,
       "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
-      "Path": "knife_fall.png",
+      "Path": "joe_fall.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
         "Y": 0,
-        "Width": 8,
-        "Height": 8
+        "Width": 0,
+        "Height": 0
       },
-      "HandleX": -64,
-      "HandleY": -60,
+      "HandleX": -63,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "knife_fall",
+      "Name": "joe_fall",
       "IsBlank": false
     }
   ],

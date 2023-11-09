@@ -1,13 +1,13 @@
 {
   "Frames": [
     {
-      "Duration": 30,
+      "Duration": 2,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Normal",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
-      "Path": "joe_fall.png",
+      "Path": "star_break.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -16,12 +16,12 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
-      "HandleY": -112,
+      "HandleX": -7,
+      "HandleY": -7,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "joe_fall",
+      "Name": "star_break",
       "IsBlank": false
     }
   ],
@@ -30,7 +30,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",
-  "OnFinish": null,
+  "OnFinish": "destroy_actor",
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0

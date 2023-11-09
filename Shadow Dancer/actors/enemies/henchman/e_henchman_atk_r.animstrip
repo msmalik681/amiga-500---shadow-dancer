@@ -50,7 +50,7 @@
     }
   ],
   "PreventMovement": true,
-  "PreventCollision": true,
+  "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",

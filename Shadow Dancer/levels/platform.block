@@ -6,7 +6,7 @@
   "Divert_PlayerCollision": "block_stop_jump",
   "Divert_PlayerHit": null,
   "Divert_PlayerOverlap": null,
-  "Divert_ProjectileCollision": null,
+  "Divert_ProjectileCollision": "block_projectile",
   "OnAnimationFrame": null,
   "FastBlit": false,
   "IsInvisible": true,

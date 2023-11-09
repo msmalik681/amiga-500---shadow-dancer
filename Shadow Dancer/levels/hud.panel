@@ -20,8 +20,8 @@
     {
       "PanelElementType": 0,
       "Variable": "temp",
-      "X": 222,
-      "Y": 4,
+      "X": 219,
+      "Y": 2,
       "NumberFont": "defaultnumberfont",
       "Font": null,
       "BarImage": null,
@@ -68,5 +68,6 @@
   ],
   "ParallaxOverlayPath": null,
   "Gap": 4,
-  "MarsRenderMode": "ForegroundAlpha16bit"
+  "MarsRenderMode": "ForegroundAlpha16bit",
+  "OnType": null
 }

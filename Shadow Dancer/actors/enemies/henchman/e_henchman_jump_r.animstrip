@@ -1,13 +1,13 @@
 {
   "Frames": [
     {
-      "Duration": 30,
+      "Duration": 50,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "joe_fall.png",
+      "Path": "knife_jump.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -16,17 +16,17 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
-      "HandleY": -112,
+      "HandleX": -64,
+      "HandleY": -60,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "joe_fall",
+      "Name": "knife_jump",
       "IsBlank": false
     }
   ],
-  "PreventMovement": true,
-  "PreventCollision": true,
+  "PreventMovement": false,
+  "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",

@@ -26,4 +26,14 @@
       <property name="Name" value="e_henchman_knife" type="string" />
     </properties>
   </tile>
+  <tile id="5">
+    <properties>
+      <property name="Name" value="e_gunman_stand" type="string" />
+    </properties>
+  </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="enemy_jump" type="string" />
+    </properties>
+  </tile>
 </tileset>

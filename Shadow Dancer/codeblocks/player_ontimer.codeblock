@@ -1286,11 +1286,11 @@
       "Goto": "",
       "Comment": "",
       "Variable": "temp",
-      "Expression": "player_var5",
+      "Expression": "player_var1",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
-      "Disabled": true,
+      "Disabled": false,
       "Breakpoint": false,
       "Conditions": [
         {

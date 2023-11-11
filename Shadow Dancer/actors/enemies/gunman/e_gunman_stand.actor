@@ -12,7 +12,7 @@
     "Up": "",
     "UpRight": "",
     "Left": "",
-    "Right": "e_henchman_walk_r",
+    "Right": "e_gunman_reload_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -20,12 +20,12 @@
   "Moves": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "e_henchman_jump_r",
+    "UpRight": "",
     "Left": "",
     "Right": "",
     "DownLeft": "",
     "Down": "",
-    "DownRight": "e_henchman_jump_r"
+    "DownRight": ""
   },
   "Attacks": {
     "UpLeft": "",
@@ -146,7 +146,7 @@
   "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
-  "DivertPlatformEdge": "",
+  "DivertPlatformEdge": null,
   "DivertPlatformLand": "enemy_on_land",
   "DivertTimer": null,
   "DivertTimerFrames": 0,
@@ -156,11 +156,11 @@
     "0",
     "0",
     "0",
-    "1"
+    "2"
   ],
   "ControlPort": 0,
   "DataVersion": 3,
   "AutoSpawn": null,
   "AutoNavigate": false,
-  "TileID": 4
+  "TileID": 5
 }

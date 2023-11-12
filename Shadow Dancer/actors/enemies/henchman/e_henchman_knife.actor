@@ -20,7 +20,7 @@
   "Moves": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "e_henchman_jump_r",
+    "UpRight": "e_henchman_fall_r",
     "Left": "",
     "Right": "",
     "DownLeft": "",
@@ -95,13 +95,13 @@
   ],
   "InvalidDirections": [
     false,
-    true,
     false,
     false,
     false,
     false,
     false,
-    true,
+    false,
+    false,
     false
   ],
   "CollBox": {
@@ -137,11 +137,11 @@
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "enemy_ani_update",
+  "DivertSpawn": "",
   "DivertPlayerCollision": "enemy_bump",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
-  "DivertProjectileCollision": "enemy_hit",
+  "DivertProjectileCollision": "enemy_hit_projectile",
   "DivertOutOfScreenLeft": "",
   "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": "",

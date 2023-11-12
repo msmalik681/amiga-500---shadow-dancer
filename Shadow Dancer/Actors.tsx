@@ -33,7 +33,22 @@
   </tile>
   <tile id="6">
     <properties>
-      <property name="Name" value="enemy_jump" type="string" />
+      <property name="Name" value="enemy_jump_left" type="string" />
+    </properties>
+  </tile>
+  <tile id="7">
+    <properties>
+      <property name="Name" value="e_gunman_reload" type="string" />
+    </properties>
+  </tile>
+  <tile id="8">
+    <properties>
+      <property name="Name" value="bullet_shot" type="string" />
+    </properties>
+  </tile>
+  <tile id="9">
+    <properties>
+      <property name="Name" value="enemy_jump_right" type="string" />
     </properties>
   </tile>
 </tileset>

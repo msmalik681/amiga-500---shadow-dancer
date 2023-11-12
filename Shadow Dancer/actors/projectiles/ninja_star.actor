@@ -31,8 +31,8 @@
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
-    "Left": "star_throw",
-    "Right": "star_throw",
+    "Left": "",
+    "Right": "",
     "DownLeft": "star_throw",
     "Down": "",
     "DownRight": "star_throw"
@@ -106,9 +106,9 @@
   ],
   "CollBox": {
     "X": -4,
-    "Y": -4,
+    "Y": -3,
     "Width": 8,
-    "Height": 8
+    "Height": 6
   },
   "AttackDelay": 0,
   "ZOrder": 0,

@@ -1,7 +1,7 @@
 {
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
-  "DefaultLookDir": "up",
+  "DefaultLookDir": "right",
   "Recycle": "Default",
   "MoveType": "cpu",
   "MaxEntities": 0,
@@ -9,10 +9,10 @@
   "NudgeY": 8,
   "Idles": {
     "UpLeft": "",
-    "Up": "blank",
+    "Up": "",
     "UpRight": "",
-    "Left": "",
-    "Right": "",
+    "Left": "bullet",
+    "Right": "bullet",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -33,9 +33,9 @@
     "UpRight": "",
     "Left": "",
     "Right": "",
-    "DownLeft": "",
+    "DownLeft": "star_throw",
     "Down": "",
-    "DownRight": ""
+    "DownRight": "star_throw"
   },
   "ProjectileOffsets": [
     {
@@ -95,25 +95,25 @@
   ],
   "InvalidDirections": [
     true,
-    false,
     true,
     true,
     false,
-    true,
+    false,
+    false,
     true,
     true,
     true
   ],
   "CollBox": {
-    "X": -8,
-    "Y": 5,
-    "Width": 16,
-    "Height": 3
+    "X": -4,
+    "Y": -2,
+    "Width": 8,
+    "Height": 4
   },
   "AttackDelay": 0,
   "ZOrder": 0,
-  "SpeedLeft": 0.0,
-  "SpeedRight": 0.0,
+  "SpeedLeft": 10.0,
+  "SpeedRight": 10.0,
   "SpeedUp": 0.0,
   "SpeedDown": 0.0,
   "AccelLeft": null,
@@ -123,12 +123,12 @@
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
-  "CollType_Left": "block",
-  "CollType_Right": "block",
+  "CollType_Left": "none",
+  "CollType_Right": "none",
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": false,
-  "CanRidePlatform": null,
+  "CanRidePlatform": false,
   "Camera": null,
   "AutoScroll": null,
   "Flags": "projectile",
@@ -142,8 +142,8 @@
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "",
-  "DivertOutOfScreenLeft": "",
-  "DivertOutOfScreenRight": "",
+  "DivertOutOfScreenLeft": "destroy_actor",
+  "DivertOutOfScreenRight": "destroy_actor",
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
@@ -162,5 +162,5 @@
   "DataVersion": 3,
   "AutoSpawn": null,
   "AutoNavigate": false,
-  "TileID": 6
+  "TileID": 8
 }

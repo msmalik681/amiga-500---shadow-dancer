@@ -1,14 +1,14 @@
 {
   "Frames": [
     {
-      "Duration": 7,
+      "Duration": 20,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "knife_atk_01.png",
-      "OnFrame": null,
+      "Path": "knife_search_01.png",
+      "OnFrame": "enemy_henchman_ai",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -21,42 +21,18 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "knife_atk_01",
+      "Name": "knife_search_01",
       "IsBlank": false
     },
     {
-      "Duration": 7,
+      "Duration": 20,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "knife_atk_02.png",
-      "OnFrame": "",
-      "HasHitBox": true,
-      "HitBox": {
-        "X": 18,
-        "Y": 12,
-        "Width": 24,
-        "Height": 11
-      },
-      "HandleX": -64,
-      "HandleY": -60,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "knife_atk_02",
-      "IsBlank": false
-    },
-    {
-      "Duration": 7,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "Sliced",
-      "SpriteType": "Attached_16colors",
-      "Path": "knife_atk_01.png",
-      "OnFrame": null,
+      "Path": "knife_search_02.png",
+      "OnFrame": "enemy_henchman_ai",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -69,7 +45,55 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "knife_atk_01",
+      "Name": "knife_search_02",
+      "IsBlank": false
+    },
+    {
+      "Duration": 20,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "knife_search_01.png",
+      "OnFrame": "enemy_henchman_ai",
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": -64,
+      "HandleY": -60,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "knife_search_01",
+      "IsBlank": false
+    },
+    {
+      "Duration": 20,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "knife_search_02.png",
+      "OnFrame": "enemy_henchman_ai",
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": -64,
+      "HandleY": -60,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "knife_search_02",
       "IsBlank": false
     }
   ],
@@ -78,7 +102,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",
-  "OnFinish": "",
+  "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0

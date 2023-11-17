@@ -3,22 +3,23 @@
   <image source="blocks.png" width="256" height="256" />
   <tile id="0">
     <properties>
-      <property name="Name" value="platform" type="string" />
+      <property name="Name" value="lower_block" type="string" />
     </properties>
   </tile>
   <tile id="1">
     <properties>
-      <property name="Name" value="upper_platform" type="string" />
+      <property name="Name" value="upper_block" type="string" />
     </properties>
   </tile>
   <tile id="2">
     <properties>
-      <property name="Name" value="jump_up_normal" type="string" />
+      <property name="Name" value="jump_up" type="string" />
     </properties>
   </tile>
-  <tile id="3">
+  <tile id="3" />
+  <tile id="4">
     <properties>
-      <property name="Name" value="jump_up_low" type="string" />
+      <property name="Name" value="jump_down" type="string" />
     </properties>
   </tile>
 </tileset>

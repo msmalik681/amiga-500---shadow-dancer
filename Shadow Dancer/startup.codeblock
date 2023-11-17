@@ -5,8 +5,6 @@
   "Commands": [
     {
       "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none",
         "JumpMask": "5120"
       },
       "DataVersion": 6,
@@ -87,8 +85,7 @@
     },
     {
       "Values": {
-        "PanelTop": "hud",
-        "PanelBottom": "none"
+        "PanelTop": "hud"
       },
       "DataVersion": 6,
       "Category": "Level",
@@ -167,10 +164,7 @@
       "SpeakDelay": 1
     },
     {
-      "Values": {
-        "PanelTop": "none",
-        "PanelBottom": "none"
-      },
+      "Values": {},
       "DataVersion": 6,
       "Category": "Base",
       "BasicOperationType": "CommentOnly",

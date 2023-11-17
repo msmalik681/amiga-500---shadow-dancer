@@ -1,9 +1,9 @@
 {
   "Divert_PlayerProjectileCollision": null,
   "BlockImagePath": "levels\\blocks.png",
-  "X": 16,
-  "Y": 0,
-  "Divert_PlayerCollision": "block_jump_down",
+  "X": 0,
+  "Y": 16,
+  "Divert_PlayerCollision": "block_jump_up",
   "Divert_PlayerHit": null,
   "Divert_PlayerOverlap": null,
   "Divert_ProjectileCollision": null,
@@ -12,7 +12,7 @@
   "IsInvisible": true,
   "ReplaceTileProperties": true,
   "LinkedMap": "",
-  "BlockSolidType": "Platform",
+  "BlockSolidType": "Solid",
   "PlayerCollisionOverride": "Default",
   "ProjectileCollisionOverride": "Default",
   "PaletteLines": [
@@ -35,5 +35,5 @@
       false
     ]
   ],
-  "TileID": 1
+  "TileID": 2
 }

@@ -35,7 +35,6 @@
   "GFXMode": "BP4",
   "PanelSlot": "Top",
   "PanelOptionSound": "none",
-  "PanelOptionSoundMD": null,
   "OverlapsGameView": false,
   "CenterAdjustments": {
     "0": 0,
@@ -60,10 +59,7 @@
       "Right": 0.5,
       "Pseudo3DDistance": 0.0,
       "Pseudo3DSpeed": 0.0,
-      "Top": 0,
-      "CalculatedLeft": -0.5,
-      "CalculatedIdle": 0.0,
-      "CalculatedRight": 0.5
+      "Top": 0
     }
   ],
   "ParallaxOverlayPath": null,

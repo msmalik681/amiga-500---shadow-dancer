@@ -94,7 +94,36 @@
   ],
   "AnimationMetaData": {},
   "Anim5MetaData": {},
-  "SoundMetaData": {},
+  "SoundMetaData": {
+    "bump": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "ho": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "jump_step": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "star_throw_sfx": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    }
+  },
   "MMLMetaData": {},
   "NumberFontMetaData": {
     "defaultnumberfont": {

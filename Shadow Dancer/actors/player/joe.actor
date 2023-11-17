@@ -107,11 +107,11 @@
   "CollBox": {
     "X": -10,
     "Y": -55,
-    "Width": 23,
+    "Width": 20,
     "Height": 55
   },
   "AttackDelay": 10,
-  "ZOrder": 0,
+  "ZOrder": 1,
   "SpeedLeft": 3.5,
   "SpeedRight": 3.5,
   "SpeedUp": 10.0,
@@ -128,11 +128,11 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": null,
-  "CanRidePlatform": false,
+  "CanRidePlatform": true,
   "Camera": null,
-  "AutoScroll": null,
-  "Flags": 0,
-  "AttackProjectile": "ninja_star",
+  "AutoScroll": false,
+  "Flags": "rideablePlatform",
+  "AttackProjectile": "",
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
@@ -152,7 +152,7 @@
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
-    "0",
+    "1",
     "0",
     "0",
     "0",
@@ -160,7 +160,7 @@
   ],
   "ControlPort": 0,
   "DataVersion": 3,
-  "AutoSpawn": null,
+  "AutoSpawn": true,
   "AutoNavigate": false,
   "TileID": 0
 }

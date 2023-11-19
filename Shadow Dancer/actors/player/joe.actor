@@ -39,10 +39,10 @@
   },
   "ProjectileOffsets": [
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": -22,
+      "y": -35,
+      "magnitude": 41.3400536,
+      "sqrMagnitude": 1709
     },
     {
       "x": 0,
@@ -51,10 +51,16 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": 22,
+      "y": -35,
+      "magnitude": 41.3400536,
+      "sqrMagnitude": 1709
+    },
+    {
+      "x": -22,
+      "y": -43,
+      "magnitude": 48.30114,
+      "sqrMagnitude": 2333
     },
     {
       "x": 0,
@@ -63,16 +69,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
-    },
-    {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": 22,
+      "y": -43,
+      "magnitude": 48.30114,
+      "sqrMagnitude": 2333
     },
     {
       "x": 0,
@@ -128,11 +128,11 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": null,
-  "CanRidePlatform": true,
+  "CanRidePlatform": false,
   "Camera": null,
   "AutoScroll": false,
-  "Flags": "rideablePlatform",
-  "AttackProjectile": "",
+  "Flags": 0,
+  "AttackProjectile": "ninja_star",
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,

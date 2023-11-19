@@ -1,0 +1,36 @@
+{
+    "activeFile": "levels/level1/stage_1/stage_1.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "levels",
+        "levels/level1",
+        "levels/level1/stage_1",
+        "templates"
+    ],
+    "fileStates": {
+        "Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "Blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "levels/level1/stage_1/stage_1.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "levels/level1/stage_1/stage_1.tmx": {
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 269.5,
+                "y": 258.5
+            }
+        }
+    },
+    "openFiles": [
+        "levels/level1/stage_1/stage_1.tmx"
+    ],
+    "project": "test_project.tiled-project",
+    "recentFiles": [
+        "levels/level1/stage_1/stage_1.tmx"
+    ]
+}

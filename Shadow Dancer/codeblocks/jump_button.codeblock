@@ -652,7 +652,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "none",
-      "Expression": "Note_C1",
+      "Expression": "0",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
@@ -1147,6 +1147,13 @@
           "LeftSide": "control1_y",
           "Comparison": "Equals",
           "RightSide": "1",
+          "ComparisonNext": "And",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "player_var1",
+          "Comparison": "Equals",
+          "RightSide": "10",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1422,7 +1429,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "none",
-      "Expression": "Note_C1",
+      "Expression": "0",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,

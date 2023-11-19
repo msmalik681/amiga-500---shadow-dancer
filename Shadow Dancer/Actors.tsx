@@ -51,4 +51,10 @@
       <property name="Name" value="enemy_jump_right" type="string" />
     </properties>
   </tile>
+  <tile id="10" />
+  <tile id="11">
+    <properties>
+      <property name="Name" value="npc_hostage" type="string" />
+    </properties>
+  </tile>
 </tileset>

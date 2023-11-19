@@ -57,10 +57,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": -23,
+      "y": -19,
+      "magnitude": 29.8328686,
+      "sqrMagnitude": 890
     },
     {
       "x": 0,
@@ -69,10 +69,16 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": 23,
+      "y": -19,
+      "magnitude": 29.8328686,
+      "sqrMagnitude": 890
+    },
+    {
+      "x": -23,
+      "y": -19,
+      "magnitude": 29.8328686,
+      "sqrMagnitude": 890
     },
     {
       "x": 0,
@@ -81,16 +87,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
-    },
-    {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": 23,
+      "y": -19,
+      "magnitude": 29.8328686,
+      "sqrMagnitude": 890
     }
   ],
   "InvalidDirections": [

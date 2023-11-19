@@ -56,7 +56,7 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "jump_star_03.png",
-      "OnFrame": "star_throw",
+      "OnFrame": "",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -78,7 +78,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",
-  "OnFinish": null,
+  "OnFinish": "star_throw",
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0

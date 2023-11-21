@@ -5,8 +5,8 @@
   "Recycle": "Always",
   "MoveType": "cpu_platform",
   "MaxEntities": 0,
-  "NudgeX": 8,
-  "NudgeY": -36,
+  "NudgeX": 9,
+  "NudgeY": 16,
   "Idles": {
     "UpLeft": "",
     "Up": "",
@@ -57,10 +57,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": -34,
+      "y": -20,
+      "magnitude": 39.446167,
+      "sqrMagnitude": 1556
     },
     {
       "x": 0,
@@ -69,10 +69,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 0,
-      "y": 0,
-      "magnitude": 0.0,
-      "sqrMagnitude": 0
+      "x": 34,
+      "y": -20,
+      "magnitude": 39.446167,
+      "sqrMagnitude": 1556
     },
     {
       "x": 0,
@@ -105,8 +105,8 @@
     true
   ],
   "CollBox": {
-    "X": -9,
-    "Y": 17,
+    "X": -10,
+    "Y": -35,
     "Width": 18,
     "Height": 35
   },
@@ -132,7 +132,7 @@
   "Camera": null,
   "AutoScroll": null,
   "Flags": 0,
-  "AttackProjectile": null,
+  "AttackProjectile": "bullet_shot",
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
@@ -153,7 +153,7 @@
   "Vars": [
     "1",
     "1",
-    "0",
+    "2",
     "0",
     "0",
     "2"

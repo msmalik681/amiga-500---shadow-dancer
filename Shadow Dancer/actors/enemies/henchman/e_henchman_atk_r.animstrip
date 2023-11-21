@@ -17,7 +17,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -35,13 +35,13 @@
       "OnFrame": "",
       "HasHitBox": true,
       "HitBox": {
-        "X": 18,
-        "Y": 12,
+        "X": 19,
+        "Y": -41,
         "Width": 24,
         "Height": 11
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -65,7 +65,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,

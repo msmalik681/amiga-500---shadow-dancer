@@ -6,7 +6,7 @@
   "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 7,
-  "NudgeY": -36,
+  "NudgeY": 16,
   "Idles": {
     "UpLeft": "",
     "Up": "hostage_ani",
@@ -105,9 +105,9 @@
     true
   ],
   "CollBox": {
-    "X": -7,
-    "Y": 3,
-    "Width": 16,
+    "X": -8,
+    "Y": -49,
+    "Width": 18,
     "Height": 49
   },
   "AttackDelay": 0,

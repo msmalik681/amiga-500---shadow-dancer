@@ -17,7 +17,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -41,7 +41,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -111,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -65,7 +65,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -89,7 +89,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -111,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,

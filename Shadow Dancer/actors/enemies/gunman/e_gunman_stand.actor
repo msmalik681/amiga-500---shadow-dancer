@@ -5,8 +5,8 @@
   "Recycle": "Always",
   "MoveType": "cpu_platform",
   "MaxEntities": 0,
-  "NudgeX": 8,
-  "NudgeY": -36,
+  "NudgeX": 7,
+  "NudgeY": 16,
   "Idles": {
     "UpLeft": "",
     "Up": "",
@@ -32,7 +32,7 @@
     "Up": "",
     "UpRight": "",
     "Left": "",
-    "Right": "e_henchman_atk_r",
+    "Right": "",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -58,9 +58,9 @@
     },
     {
       "x": -34,
-      "y": 16,
-      "magnitude": 37.5765877,
-      "sqrMagnitude": 1412
+      "y": -36,
+      "magnitude": 49.5176735,
+      "sqrMagnitude": 2452
     },
     {
       "x": 0,
@@ -70,9 +70,9 @@
     },
     {
       "x": 34,
-      "y": 16,
-      "magnitude": 37.5765877,
-      "sqrMagnitude": 1412
+      "y": -36,
+      "magnitude": 49.5176735,
+      "sqrMagnitude": 2452
     },
     {
       "x": 0,
@@ -105,15 +105,15 @@
     true
   ],
   "CollBox": {
-    "X": -9,
-    "Y": 1,
+    "X": -8,
+    "Y": -51,
     "Width": 18,
     "Height": 51
   },
   "AttackDelay": 0,
   "ZOrder": 0,
-  "SpeedLeft": 3.5,
-  "SpeedRight": 3.5,
+  "SpeedLeft": 0.0,
+  "SpeedRight": 0.0,
   "SpeedUp": 10.0,
   "SpeedDown": 10.0,
   "AccelLeft": 1.0,

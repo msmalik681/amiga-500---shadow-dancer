@@ -1,7 +1,7 @@
 {
   "Frames": [
     {
-      "Duration": 10,
+      "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -17,7 +17,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -25,7 +25,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 10,
+      "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -41,7 +41,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -49,7 +49,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 10,
+      "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -65,7 +65,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -73,14 +73,14 @@
       "IsBlank": false
     },
     {
-      "Duration": 10,
+      "Duration": 15,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_01.png",
-      "OnFrame": null,
+      "OnFrame": "enemy_gunman_ai",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -89,7 +89,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -97,7 +97,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 10,
+      "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -113,7 +113,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -121,7 +121,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 10,
+      "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -137,7 +137,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -145,7 +145,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 10,
+      "Duration": 15,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -161,7 +161,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -169,7 +169,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 10,
+      "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -185,7 +185,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -193,7 +193,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 10,
+      "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -209,7 +209,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -217,7 +217,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 10,
+      "Duration": 15,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -233,7 +233,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -241,7 +241,7 @@
       "IsBlank": false
     },
     {
-      "Duration": 10,
+      "Duration": 1,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
@@ -257,7 +257,7 @@
         "Height": 0
       },
       "HandleX": -64,
-      "HandleY": -60,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
@@ -270,7 +270,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",
-  "OnFinish": "enemy_gunman_ai",
+  "OnFinish": "",
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0

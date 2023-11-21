@@ -16,7 +16,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
+      "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
@@ -40,7 +40,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
+      "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
@@ -64,7 +64,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
+      "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
@@ -88,7 +88,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
+      "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
@@ -112,7 +112,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
+      "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
@@ -128,7 +128,7 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "duck_03.png",
-      "OnFrame": "player_duck_control",
+      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -136,7 +136,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
+      "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
@@ -152,7 +152,7 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "duck_02.png",
-      "OnFrame": "player_duck_control",
+      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -160,7 +160,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
+      "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
@@ -176,7 +176,7 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "duck_02.png",
-      "OnFrame": "player_duck_control",
+      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -184,7 +184,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
+      "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,

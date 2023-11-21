@@ -57,4 +57,9 @@
       <property name="Name" value="npc_hostage" type="string" />
     </properties>
   </tile>
+  <tile id="12">
+    <properties>
+      <property name="Name" value="e_gunman_lay" type="string" />
+    </properties>
+  </tile>
 </tileset>

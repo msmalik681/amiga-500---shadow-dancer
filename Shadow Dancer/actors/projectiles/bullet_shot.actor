@@ -6,7 +6,7 @@
   "MoveType": "cpu",
   "MaxEntities": 0,
   "NudgeX": 8,
-  "NudgeY": 8,
+  "NudgeY": 14,
   "Idles": {
     "UpLeft": "",
     "Up": "",

@@ -93,7 +93,7 @@
       "Values": {},
       "DataVersion": 6,
       "Category": "Base",
-      "BasicOperationType": "CommentOnly",
+      "BasicOperationType": "Return",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
       "ConditionType": "Condition",
@@ -112,9 +112,17 @@
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
-      "Disabled": false,
+      "Disabled": true,
       "Breakpoint": false,
-      "Conditions": [],
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",

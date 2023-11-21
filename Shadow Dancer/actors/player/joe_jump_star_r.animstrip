@@ -8,7 +8,7 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "jump_star_01.png",
-      "OnFrame": null,
+      "OnFrame": "star_throw",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -16,7 +16,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
+      "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
@@ -32,7 +32,7 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "jump_star_02.png",
-      "OnFrame": null,
+      "OnFrame": "",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -40,7 +40,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
+      "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
@@ -64,7 +64,7 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -63,
+      "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
@@ -78,7 +78,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",
-  "OnFinish": "star_throw",
+  "OnFinish": "",
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0

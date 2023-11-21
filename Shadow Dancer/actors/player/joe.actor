@@ -30,12 +30,12 @@
   "Attacks": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "joe_jump_star_r",
+    "UpRight": "",
     "Left": "",
-    "Right": "joe_standing_star_r",
+    "Right": "",
     "DownLeft": "",
     "Down": "",
-    "DownRight": "joe_jump_star_r"
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -132,7 +132,7 @@
   "Camera": null,
   "AutoScroll": false,
   "Flags": 0,
-  "AttackProjectile": "ninja_star",
+  "AttackProjectile": "",
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,

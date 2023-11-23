@@ -62,4 +62,14 @@
       <property name="Name" value="e_gunman_lay" type="string" />
     </properties>
   </tile>
+  <tile id="13">
+    <properties>
+      <property name="Name" value="shield_man" type="string" />
+    </properties>
+  </tile>
+  <tile id="14">
+    <properties>
+      <property name="Name" value="shield_shot" type="string" />
+    </properties>
+  </tile>
 </tileset>

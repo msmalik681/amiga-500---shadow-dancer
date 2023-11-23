@@ -20,8 +20,8 @@
     {
       "PanelElementType": 0,
       "Variable": "temp",
-      "X": 219,
-      "Y": 2,
+      "X": 268,
+      "Y": 4,
       "NumberFont": "defaultnumberfont",
       "Font": null,
       "BarImage": null,
@@ -34,7 +34,7 @@
     {
       "PanelElementType": 0,
       "Variable": "temp2",
-      "X": 210,
+      "X": 268,
       "Y": 14,
       "NumberFont": "defaultnumberfont",
       "Font": null,

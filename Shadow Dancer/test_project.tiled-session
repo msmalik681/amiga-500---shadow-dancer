@@ -1,9 +1,9 @@
 {
     "activeFile": "levels/level1/stage_1/stage_1.tmx",
     "expandedProjectPaths": [
+        "templates",
         ".",
         "levels/level1/stage_1",
-        "templates",
         "levels",
         "levels/level1"
     ],
@@ -19,10 +19,10 @@
         },
         "levels/level1/stage_1/stage_1.tmx": {
             "scale": 2,
-            "selectedLayer": 1,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 443.5,
-                "y": 256.5
+                "x": 1115.5,
+                "y": 253.5
             }
         }
     },

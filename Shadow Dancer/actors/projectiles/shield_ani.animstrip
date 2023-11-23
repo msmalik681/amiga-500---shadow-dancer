@@ -1,13 +1,13 @@
 {
   "Frames": [
     {
-      "Duration": 2,
+      "Duration": 16,
       "Background": false,
-      "Multiplexes": 16,
+      "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
-      "SpriteType": "Channel_4_to_1",
-      "Path": "star_01.png",
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "shield.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -16,23 +16,23 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -7,
-      "HandleY": -7,
+      "HandleX": -14,
+      "HandleY": -5,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "star_01",
+      "Name": "shield",
       "IsBlank": false
     },
     {
-      "Duration": 2,
+      "Duration": 17,
       "Background": false,
-      "Multiplexes": 16,
+      "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
-      "SpriteType": "Channel_4_to_1",
-      "Path": "star_02.png",
-      "OnFrame": null,
+      "RenderType": "Normal",
+      "SpriteType": "Attached_16colors",
+      "Path": "shield.png",
+      "OnFrame": "enemy_shieldman_ai",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -40,12 +40,12 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -7,
-      "HandleY": -7,
+      "HandleX": -14,
+      "HandleY": -5,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "star_02",
+      "Name": "shield",
       "IsBlank": false
     }
   ],
@@ -54,7 +54,7 @@
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",
-  "OnFinish": null,
+  "OnFinish": "destroy_actor",
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0

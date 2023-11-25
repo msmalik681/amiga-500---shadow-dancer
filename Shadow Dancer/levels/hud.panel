@@ -29,7 +29,7 @@
       "CounterDivisions": 1,
       "PaletteLine": 3,
       "IsHighPriority": true,
-      "MaxValue": 999
+      "MaxValue": 32767
     },
     {
       "PanelElementType": 0,

@@ -72,4 +72,14 @@
       <property name="Name" value="shield_shot" type="string" />
     </properties>
   </tile>
+  <tile id="15">
+    <properties>
+      <property name="Name" value="ninja_fire_star" type="string" />
+    </properties>
+  </tile>
+  <tile id="16">
+    <properties>
+      <property name="Name" value="joe_magica" type="string" />
+    </properties>
+  </tile>
 </tileset>

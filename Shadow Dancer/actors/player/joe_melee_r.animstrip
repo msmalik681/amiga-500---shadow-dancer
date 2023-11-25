@@ -1,13 +1,13 @@
 {
   "Frames": [
     {
-      "Duration": 16,
+      "Duration": 2,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "shield.png",
+      "Path": "melee_atk_01.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -16,23 +16,47 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -14,
-      "HandleY": -5,
+      "HandleX": -64,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "shield",
+      "Name": "melee_atk_01",
       "IsBlank": false
     },
     {
-      "Duration": 17,
+      "Duration": 2,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "shield.png",
-      "OnFrame": "enemy_shieldman_ai",
+      "Path": "melee_atk_02.png",
+      "OnFrame": null,
+      "HasHitBox": true,
+      "HitBox": {
+        "X": -1,
+        "Y": -72,
+        "Width": 60,
+        "Height": 72
+      },
+      "HandleX": -64,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "melee_atk_02",
+      "IsBlank": false
+    },
+    {
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "melee_atk_03.png",
+      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -40,21 +64,21 @@
         "Width": 0,
         "Height": 0
       },
-      "HandleX": -14,
-      "HandleY": -5,
+      "HandleX": -64,
+      "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "shield",
+      "Name": "melee_atk_03",
       "IsBlank": false
     }
   ],
-  "PreventMovement": false,
+  "PreventMovement": true,
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",
-  "OnFinish": "destroy_actor",
+  "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0

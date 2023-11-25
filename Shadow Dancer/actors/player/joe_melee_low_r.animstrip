@@ -1,0 +1,85 @@
+{
+  "Frames": [
+    {
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "melee_atk_low_01.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": -26,
+        "Y": -65,
+        "Width": 8,
+        "Height": 8
+      },
+      "HandleX": -64,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "melee_atk_low_01",
+      "IsBlank": false
+    },
+    {
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "melee_atk_low_02.png",
+      "OnFrame": null,
+      "HasHitBox": true,
+      "HitBox": {
+        "X": -11,
+        "Y": -57,
+        "Width": 59,
+        "Height": 57
+      },
+      "HandleX": -64,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "melee_atk_low_02",
+      "IsBlank": false
+    },
+    {
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "Sliced",
+      "SpriteType": "Attached_16colors",
+      "Path": "melee_atk_low_03.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": -64,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "melee_atk_low_03",
+      "IsBlank": false
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": "",
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0
+}

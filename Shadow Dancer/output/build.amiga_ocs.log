@@ -6,7 +6,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35158
 Music memory (): 0
 BP Buffer memory: 122320
-core sfx/gfx memory: 131590
+core sfx/gfx memory: 159330
 Parallax memory: 57600
 OS/other estimated: 99328
 
@@ -16,21 +16,21 @@ Map header cache memory: 0
 Map data memory: 12420
 Map background memory: 1624
 EXE memory: 210108
-vm memory: 14996
-project memory: 14518
+vm memory: 16454
+project memory: 16552
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 551468
-Accounted memory other: 267626
-Accounted memory total: 819094
+Accounted memory chip: 579208
+Accounted memory other: 271118
+Accounted memory total: 850326
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 15
-Actor Data Size: 2820
+Actor Count: 17
+Actor Data Size: 3196
 Block Count: 5
 Block Data Size: 340
 Anim5 Count: 0
@@ -39,28 +39,28 @@ Sound Count: 8
 Sound Data Size: 224
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 56
-Animations Data Size: 896
-AnimationFrame Count: 258
-AnimationFrame Data Size: 4128
-ImageFrames: 122
-ImageFrame Data Size: 5368
+Animations Count: 66
+Animations Data Size: 1056
+AnimationFrame Count: 283
+AnimationFrame Data Size: 4528
+ImageFrames: 146
+ImageFrame Data Size: 6424
 Sprites: 5
 Sprites Data Size: 70
 Attack Data: 8
 Attack Data Size: 528
-Misc data size: 86
+Misc data size: 128
 Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
-Panel hud Original size 7918 Crunched size 1386
-Header data for map stage_1 Original size 7992 Crunched size 398
+Panel hud Original size 7918 Crunched size 1394
+Header data for map stage_1 Original size 7992 Crunched size 422
 Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1486
 Background for map stage_1 Original size 1624 Crunched size 362
 Parallax for map stage_1 Original size 57600 Crunched size 11864
-Asset bundle 0 (Core project asset bundle) Original size 131590 Crunched size 76320
+Asset bundle 0 (Core project asset bundle) Original size 159330 Crunched size 88626
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 8148
-Project Header Original size 4036 Crunched size 1194
-Project Data Original size 14518 Crunched size 4040
-Project virtual machine (codeblocks) Original size 14996 Crunched size 4170
+Project Header Original size 4036 Crunched size 1196
+Project Data Original size 16552 Crunched size 4676
+Project virtual machine (codeblocks) Original size 16454 Crunched size 4542
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -71,48 +71,59 @@ e_shield_throw_low_r
 e_shield_throw_low_l
 e_shield_throw_r
 e_shield_throw_l
+joe_melee_air_r
+joe_melee_air_l
+joe_melee_low_r
+joe_melee_low_l
+joe_melee_r
+joe_melee_l
 
 === Possibly unused blocks ===
 upper_block
 
 === Possibly unused Actors ===
-bullet_shot
 e_henchman_knife
 enemy_jump_left
 enemy_jump_right
+joe_magica
 ninja_star
-npc_hostage
 shield_man
 
 === Codeblocks by compiled size ===
 load_level: 986
+enemy_hit_projectile: 842
 enemy_shieldman_ai: 798
 enemy_gunman_ai: 746
 jump_button: 746
 enemy_bump: 732
-enemy_hit_projectile: 652
 enemy_henchman_ai: 628
+player_attack: 626
 enemy_on_land: 516
-star_throw: 448
 set_yresolution: 446 (Unused?)
 high_jump_up: 438
-player_attack: 392
+star_throw: 432
 do_teleport: 320
 flipscreen_smooth: 306 (Unused?)
+ninja_magic: 296
 pre_startup: 290
 pause: 252
 flipxymove: 250 (Unused?)
 player_land: 246
 enemy_jump: 240
 player_ontimer: 236
+player_attack_melee: 228
 waitforframes: 186
 hostage_bonus: 184
+enemy_hit_melee: 174
+ninja_magic_gosub: 172 (Unused?)
 snap_to_screen: 158 (Unused?)
 flipymove: 146 (Unused?)
 load_panel: 146
 pre_quit: 144
 player_duck_control: 144
 flipxmove: 130 (Unused?)
+block_projectile: 126
+star_throw_gosub: 124
 enemy_ani_update: 122
 destroy_all_blocks: 120 (Unused?)
 load_music: 118 (Unused?)
@@ -132,7 +143,6 @@ fadeout: 84
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_None: 78
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
-block_projectile: 76
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 flipscreen: 70 (Unused?)

@@ -1,7 +1,7 @@
 {
   "ShootDirType": "actor_direction",
   "ClassType": "DefaultClass",
-  "DefaultLookDir": "up",
+  "DefaultLookDir": "right",
   "Recycle": "Always",
   "MoveType": "cpu",
   "MaxEntities": 0,
@@ -12,7 +12,7 @@
     "Up": "hostage_ani",
     "UpRight": "",
     "Left": "hostage_ani",
-    "Right": "",
+    "Right": "hostage_ani",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -97,9 +97,9 @@
     true,
     false,
     true,
-    true,
     false,
-    true,
+    false,
+    false,
     true,
     true,
     true
@@ -156,7 +156,7 @@
     "0",
     "0",
     "0",
-    "0"
+    "-1"
   ],
   "ControlPort": 0,
   "DataVersion": 3,

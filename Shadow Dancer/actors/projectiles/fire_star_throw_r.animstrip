@@ -1,0 +1,37 @@
+{
+  "Frames": [
+    {
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 16,
+      "PaletteLine": 0,
+      "RenderType": "SlicedFast",
+      "SpriteType": "Channel_2_to_1",
+      "Path": "fire_star_01.png",
+      "OnFrame": null,
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": -16,
+      "HandleY": -5,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "fire_star_01",
+      "IsBlank": false
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": "",
+  "OnFinish": null,
+  "AutoFlip": true,
+  "Streamed": true,
+  "PatternBuffer": 0
+}

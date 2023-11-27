@@ -143,6 +143,27 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "enemy_die_sfx": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "enemy_hit_sfx": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "save_hostage_sfx": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
@@ -164,7 +185,7 @@
     }
   },
   "SplashScreen": null,
-  "LogicSpeed": "PAL_25HZ",
+  "LogicSpeed": "NTSC_30HZ",
   "StartingPaletteLine": 0,
   "PaletteLines": 1,
   "ReadCD32Buttons": false,

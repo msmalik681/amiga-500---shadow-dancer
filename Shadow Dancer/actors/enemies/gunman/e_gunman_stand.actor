@@ -139,7 +139,7 @@
   "DivertAttack": "",
   "DivertSpawn": "",
   "DivertPlayerCollision": "enemy_bump",
-  "DivertPlayerHit": "",
+  "DivertPlayerHit": "enemy_hit_melee",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "enemy_hit_projectile",
   "DivertOutOfScreenLeft": "",

@@ -170,6 +170,9 @@
   "NumberFontMetaData": {
     "defaultnumberfont": {
       "Radix": 10
+    },
+    "stage_timer": {
+      "Radix": 10
     }
   },
   "FontMetaData": {
@@ -185,7 +188,7 @@
     }
   },
   "SplashScreen": null,
-  "LogicSpeed": "NTSC_30HZ",
+  "LogicSpeed": "PAL_25HZ",
   "StartingPaletteLine": 0,
   "PaletteLines": 1,
   "ReadCD32Buttons": false,

@@ -1,5 +1,5 @@
 {
-  "OutputSpeed": "NTSC_30HZ",
+  "OutputSpeed": "PAL_25HZ",
   "GFXMode": "BP5",
   "MemorySaver": "None",
   "EmulatedAmiga": "CD32",

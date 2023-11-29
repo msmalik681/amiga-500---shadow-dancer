@@ -7,7 +7,7 @@
       "PaletteLine": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
-      "Path": "hostage_01.png",
+      "Path": "bonus_smoke_1up.png",
       "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
@@ -21,18 +21,18 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "hostage_01",
+      "Name": "bonus_smoke_1up",
       "IsBlank": false
     },
     {
-      "Duration": 10,
+      "Duration": 50,
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
-      "Path": "hostage_02.png",
-      "OnFrame": null,
+      "Path": "bonus_smoke_1up.png",
+      "OnFrame": "hostage_bonus",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -45,16 +45,16 @@
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "hostage_02",
+      "Name": "bonus_smoke_1up",
       "IsBlank": false
     }
   ],
-  "PreventMovement": true,
-  "PreventCollision": false,
+  "PreventMovement": false,
+  "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
   "LinkedMap": "",
-  "OnFinish": null,
+  "OnFinish": "destroy_actor",
   "AutoFlip": null,
   "Streamed": true,
   "PatternBuffer": 0

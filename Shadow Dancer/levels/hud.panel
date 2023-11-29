@@ -19,31 +19,45 @@
   "Elements": [
     {
       "PanelElementType": 0,
-      "Variable": "temp",
-      "X": 268,
-      "Y": 4,
-      "NumberFont": "defaultnumberfont",
+      "Variable": "seconds",
+      "X": 296,
+      "Y": 3,
+      "NumberFont": "stage_timer",
       "Font": null,
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
       "PaletteLine": 3,
       "IsHighPriority": true,
-      "MaxValue": 32767
+      "MaxValue": 59
+    },
+    {
+      "PanelElementType": 1,
+      "Variable": "hostage_count",
+      "X": 214,
+      "Y": 13,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": "hostage_icon.png",
+      "CounterDivisions": 1,
+      "PaletteLine": 3,
+      "IsHighPriority": true,
+      "MaxValue": 7
     },
     {
       "PanelElementType": 0,
-      "Variable": "temp2",
-      "X": 268,
-      "Y": 14,
-      "NumberFont": "defaultnumberfont",
+      "Variable": "minutes",
+      "X": 284,
+      "Y": 3,
+      "NumberFont": "stage_timer",
       "Font": null,
       "BarImage": null,
       "CounterImage1": null,
       "CounterDivisions": 1,
       "PaletteLine": 3,
       "IsHighPriority": true,
-      "MaxValue": 999
+      "MaxValue": 3
     }
   ],
   "GFXMode": "BP4",

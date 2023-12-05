@@ -1,11 +1,11 @@
 {
     "activeFile": "levels/level1/stage_1/stage_1.tmx",
     "expandedProjectPaths": [
-        "templates",
         "levels",
         "levels/level1",
         ".",
-        "levels/level1/stage_1"
+        "levels/level1/stage_1",
+        "templates"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -41,8 +41,8 @@
             "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 121.5,
-                "y": 205.75
+                "x": 1874.5,
+                "y": 204.75
             }
         }
     },

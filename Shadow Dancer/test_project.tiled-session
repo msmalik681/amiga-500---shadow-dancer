@@ -39,10 +39,10 @@
                 6
             ],
             "scale": 4,
-            "selectedLayer": 2,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 229,
-                "y": 185.875
+                "x": 482,
+                "y": 184.625
             }
         }
     },

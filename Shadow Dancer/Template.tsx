@@ -31,11 +31,7 @@
       <property name="Name" value="e_gunman_stand" type="string" />
     </properties>
   </tile>
-  <tile id="6">
-    <properties>
-      <property name="Name" value="enemy_jump_left" type="string" />
-    </properties>
-  </tile>
+  <tile id="6" />
   <tile id="7">
     <properties>
       <property name="Name" value="e_gunman_reload" type="string" />
@@ -48,7 +44,7 @@
   </tile>
   <tile id="9">
     <properties>
-      <property name="Name" value="enemy_jump_right" type="string" />
+      <property name="Name" value="enemy_jump" type="string" />
     </properties>
   </tile>
   <tile id="10" />

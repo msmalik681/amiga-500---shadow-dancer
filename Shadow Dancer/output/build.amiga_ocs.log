@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 12420
 Map background memory: 1624
 EXE memory: 210108
-vm memory: 19502
-project memory: 17958
+vm memory: 19530
+project memory: 17944
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 658458
-Accounted memory other: 275572
-Accounted memory total: 934030
+Accounted memory other: 275586
+Accounted memory total: 934044
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -49,19 +49,19 @@ Sprites: 5
 Sprites Data Size: 70
 Attack Data: 9
 Attack Data Size: 594
-Misc data size: 128
+Misc data size: 114
 Music file shadowdancer_stage1 Original size 64380 Crunched size 50944
 Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
 Panel hud Original size 8962 Crunched size 1610
-Header data for map stage_1 Original size 7992 Crunched size 414
+Header data for map stage_1 Original size 7992 Crunched size 516
 Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1486
 Background for map stage_1 Original size 1624 Crunched size 294
 Parallax for map stage_1 Original size 28800 Crunched size 6812
 Asset bundle 0 (Core project asset bundle) Original size 203000 Crunched size 102912
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 8148
 Project Header Original size 4036 Crunched size 1196
-Project Data Original size 17958 Crunched size 5106
-Project virtual machine (codeblocks) Original size 19502 Crunched size 5382
+Project Data Original size 17944 Crunched size 5096
+Project virtual machine (codeblocks) Original size 19530 Crunched size 5382
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -118,9 +118,9 @@ enemy_jump: 240
 player_attack_melee: 228
 stage_timer_tick: 224
 hostage_bonus_gosub: 216
+enemy_hit_melee: 202
 startup: 200
 waitforframes: 186
-enemy_hit_melee: 174
 block_projectile: 160
 player_duck_control: 160
 snap_to_screen: 158 (Unused?)

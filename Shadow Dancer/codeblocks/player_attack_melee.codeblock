@@ -633,7 +633,7 @@
         {
           "LeftSide": "actor_x",
           "Comparison": "LessThan",
-          "RightSide": "player_x + 60",
+          "RightSide": "player_x + 55",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -976,7 +976,7 @@
         {
           "LeftSide": "actor_x",
           "Comparison": "GreaterThan",
-          "RightSide": "player_x - 56",
+          "RightSide": "player_x - 55",
           "ComparisonNext": "End",
           "IsValid": true
         }

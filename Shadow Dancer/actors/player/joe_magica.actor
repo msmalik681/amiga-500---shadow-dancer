@@ -3,7 +3,7 @@
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Default",
-  "MoveType": "cpu",
+  "MoveType": "none",
   "MaxEntities": 0,
   "NudgeX": 9,
   "NudgeY": 16,

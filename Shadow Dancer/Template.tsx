@@ -83,4 +83,9 @@
       <property name="Name" value="e_behind" type="string" />
     </properties>
   </tile>
+  <tile id="18">
+    <properties>
+      <property name="Name" value="stage_exit" type="string" />
+    </properties>
+  </tile>
 </tileset>

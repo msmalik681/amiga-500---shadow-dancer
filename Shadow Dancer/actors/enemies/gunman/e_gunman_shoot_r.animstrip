@@ -80,7 +80,7 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_01.png",
-      "OnFrame": "enemy_gunman_ai",
+      "OnFrame": "",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,

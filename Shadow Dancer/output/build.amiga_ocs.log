@@ -16,21 +16,21 @@ Map header cache memory: 0
 Map data memory: 12420
 Map background memory: 1624
 EXE memory: 210108
-vm memory: 19298
-project memory: 17690
+vm memory: 19424
+project memory: 17958
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 658458
-Accounted memory other: 275100
-Accounted memory total: 933558
+Accounted memory other: 275494
+Accounted memory total: 933952
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 16
-Actor Data Size: 3008
+Actor Count: 17
+Actor Data Size: 3196
 Block Count: 5
 Block Data Size: 340
 Anim5 Count: 0
@@ -47,21 +47,21 @@ ImageFrames: 163
 ImageFrame Data Size: 7172
 Sprites: 5
 Sprites Data Size: 70
-Attack Data: 8
-Attack Data Size: 528
-Misc data size: 114
+Attack Data: 9
+Attack Data Size: 594
+Misc data size: 128
 Music file shadowdancer_stage1 Original size 64380 Crunched size 50944
 Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
 Panel hud Original size 8084 Crunched size 1322
-Header data for map stage_1 Original size 7992 Crunched size 390
+Header data for map stage_1 Original size 7992 Crunched size 418
 Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1486
 Background for map stage_1 Original size 1624 Crunched size 294
 Parallax for map stage_1 Original size 28800 Crunched size 6812
 Asset bundle 0 (Core project asset bundle) Original size 203000 Crunched size 102912
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 8148
-Project Header Original size 4036 Crunched size 1198
-Project Data Original size 17690 Crunched size 5062
-Project virtual machine (codeblocks) Original size 19298 Crunched size 5300
+Project Header Original size 4036 Crunched size 1196
+Project Data Original size 17958 Crunched size 5108
+Project virtual machine (codeblocks) Original size 19424 Crunched size 5340
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -86,20 +86,19 @@ joe_melee_l
 upper_block
 
 === Possibly unused Actors ===
-e_henchman_knife
+e_behind
 joe_magica
-shield_man
 
 === Codeblocks by compiled size ===
 load_level: 986
 hostage_bonus: 942
-enemy_on_land: 814
+enemy_on_land: 816
 enemy_hit_projectile: 802
 enemy_shieldman_ai: 798
 player_attack: 766
 enemy_gunman_ai: 746
 jump_button: 746
-enemy_bump: 732
+enemy_bump: 676
 enemy_henchman_ai: 536
 set_yresolution: 446 (Unused?)
 high_jump_up: 438
@@ -128,13 +127,14 @@ snap_to_screen: 158 (Unused?)
 flipymove: 146 (Unused?)
 load_panel: 146
 pre_quit: 144
+enemy_ani_update: 140
 flipxmove: 130 (Unused?)
 star_throw_gosub: 124
-enemy_ani_update: 122
 destroy_all_blocks: 120 (Unused?)
 load_music: 118
 pre_load_level: 118
 unload_level: 114
+enemy_behind: 110
 waitforfireup: 106
 waitforfiredown: 102
 load_panel_bottom: 96 (Unused?)
@@ -165,6 +165,7 @@ load_panel_finish: 56
 destroy_actor: 54
 regenerate_screen: 52
 return: 52 (Unused?)
+AUTOGEN_OUTOFSCREEN_enemy_behind_None_None_None: 50
 destroy_block: 48 (Unused?)
 regenerate_screen_wait: 42
 projectile_on_spawn: 42

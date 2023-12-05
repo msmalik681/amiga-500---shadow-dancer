@@ -46,14 +46,7 @@
         {
           "LeftSide": "projectile_type",
           "Comparison": "Equals",
-          "RightSide": "enemy_jump_left",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "projectile_type",
-          "Comparison": "Equals",
-          "RightSide": "enemy_jump_right",
+          "RightSide": "enemy_jump",
           "ComparisonNext": "End",
           "IsValid": true
         }

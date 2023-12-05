@@ -16,21 +16,21 @@ Map header cache memory: 0
 Map data memory: 12420
 Map background memory: 1624
 EXE memory: 210108
-vm memory: 19348
-project memory: 17892
+vm memory: 19298
+project memory: 17690
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 658458
-Accounted memory other: 275352
-Accounted memory total: 933810
+Accounted memory other: 275100
+Accounted memory total: 933558
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 17
-Actor Data Size: 3196
+Actor Count: 16
+Actor Data Size: 3008
 Block Count: 5
 Block Data Size: 340
 Anim5 Count: 0
@@ -49,19 +49,19 @@ Sprites: 5
 Sprites Data Size: 70
 Attack Data: 8
 Attack Data Size: 528
-Misc data size: 128
+Misc data size: 114
 Music file shadowdancer_stage1 Original size 64380 Crunched size 50944
 Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
 Panel hud Original size 8084 Crunched size 1322
-Header data for map stage_1 Original size 7992 Crunched size 400
+Header data for map stage_1 Original size 7992 Crunched size 390
 Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1486
 Background for map stage_1 Original size 1624 Crunched size 294
 Parallax for map stage_1 Original size 28800 Crunched size 6812
 Asset bundle 0 (Core project asset bundle) Original size 203000 Crunched size 102912
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 8148
-Project Header Original size 4036 Crunched size 1196
-Project Data Original size 17892 Crunched size 5092
-Project virtual machine (codeblocks) Original size 19348 Crunched size 5314
+Project Header Original size 4036 Crunched size 1198
+Project Data Original size 17690 Crunched size 5062
+Project virtual machine (codeblocks) Original size 19298 Crunched size 5300
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -93,8 +93,8 @@ shield_man
 === Codeblocks by compiled size ===
 load_level: 986
 hostage_bonus: 942
-enemy_hit_projectile: 842
 enemy_on_land: 814
+enemy_hit_projectile: 802
 enemy_shieldman_ai: 798
 player_attack: 766
 enemy_gunman_ai: 746
@@ -105,13 +105,13 @@ set_yresolution: 446 (Unused?)
 high_jump_up: 438
 star_throw: 426
 ninja_magic_gosub: 390
-player_hit: 370
 ninja_magic: 360
+player_hit: 354
 player_land: 330
 do_teleport: 320
 flipscreen_smooth: 306 (Unused?)
 pre_startup: 290
-stage_reset: 264
+stage_reset: 270
 pause: 252
 flipxymove: 250 (Unused?)
 player_ontimer: 242

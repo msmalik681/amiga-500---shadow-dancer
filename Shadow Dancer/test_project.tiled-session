@@ -31,6 +31,14 @@
                 "y": 118
             }
         },
+        "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/levels/level1.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 44.727272727272734,
+                "y": 137
+            }
+        },
         "levels/level1/stage_1/stage_1.tileset.tsx": {
             "scaleInDock": 1
         },
@@ -41,8 +49,8 @@
             "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1874.5,
-                "y": 204.75
+                "x": 960,
+                "y": 143.75
             }
         }
     },
@@ -51,6 +59,7 @@
     ],
     "project": "test_project.tiled-project",
     "recentFiles": [
+        "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/levels/level1.tmx",
         "levels/level1/stage_1/stage_1.tmx",
         "C:/users/malik/Documents/street fighter amiga/Game Projects/Testing/levels/Imported map.tmx"
     ]

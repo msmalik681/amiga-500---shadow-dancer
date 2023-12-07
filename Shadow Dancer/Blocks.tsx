@@ -22,4 +22,9 @@
       <property name="Name" value="jump_down" type="string" />
     </properties>
   </tile>
+  <tile id="5">
+    <properties>
+      <property name="Name" value="jump_up_and_down" type="string" />
+    </properties>
+  </tile>
 </tileset>

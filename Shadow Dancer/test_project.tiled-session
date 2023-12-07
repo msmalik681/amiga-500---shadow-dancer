@@ -1,11 +1,11 @@
 {
-    "activeFile": "levels/level1/stage_1/stage_1.tmx",
+    "activeFile": "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/levels/level1.tmx",
     "expandedProjectPaths": [
-        "levels",
         "levels/level1",
+        "templates",
+        "levels",
         ".",
-        "levels/level1/stage_1",
-        "templates"
+        "levels/level1/stage_1"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -31,13 +31,22 @@
                 "y": 118
             }
         },
+        "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/Blocks.tsx": {
+            "scaleInDock": 1
+        },
         "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/levels/level1.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 44.727272727272734,
-                "y": 137
+                "y": 136.8181818181818
             }
+        },
+        "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/levels/newtileset.tileset.tsx": {
+            "scaleInDock": 1
         },
         "levels/level1/stage_1/stage_1.tileset.tsx": {
             "scaleInDock": 1
@@ -55,7 +64,7 @@
         }
     },
     "openFiles": [
-        "levels/level1/stage_1/stage_1.tmx"
+        "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/levels/level1.tmx"
     ],
     "project": "test_project.tiled-project",
     "recentFiles": [

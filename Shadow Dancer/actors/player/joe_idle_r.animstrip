@@ -1,6 +1,14 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "player_duck_control"
+          }
+        ]
+      },
       "Duration": 1,
       "Background": false,
       "Multiplexes": 0,
@@ -8,7 +16,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "idle.png",
-      "OnFrame": "player_duck_control",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,

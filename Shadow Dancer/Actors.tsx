@@ -88,4 +88,9 @@
       <property name="Name" value="stage_exit" type="string" />
     </properties>
   </tile>
+  <tile id="19">
+    <properties>
+      <property name="Name" value="e_roller" type="string" />
+    </properties>
+  </tile>
 </tileset>

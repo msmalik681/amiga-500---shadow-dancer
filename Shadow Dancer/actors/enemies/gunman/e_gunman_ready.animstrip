@@ -1,6 +1,14 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "enemy_gunman_ai"
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -8,7 +16,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_ready_01.png",
-      "OnFrame": "enemy_gunman_ai",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,

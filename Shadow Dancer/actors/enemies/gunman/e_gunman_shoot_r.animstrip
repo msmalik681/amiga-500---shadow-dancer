@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -8,7 +11,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_01.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -25,6 +27,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -32,7 +37,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_02.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -49,6 +53,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "enemy_gunman_ai"
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -56,7 +68,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_03.png",
-      "OnFrame": "enemy_gunman_ai",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -73,6 +84,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 15,
       "Background": false,
       "Multiplexes": 0,
@@ -80,7 +94,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_01.png",
-      "OnFrame": "",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -97,6 +110,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -104,7 +120,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_02.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -121,6 +136,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "enemy_gunman_ai"
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -128,7 +151,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_03.png",
-      "OnFrame": "enemy_gunman_ai",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -145,6 +167,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 15,
       "Background": false,
       "Multiplexes": 0,
@@ -152,7 +177,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_01.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -169,6 +193,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -176,7 +203,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_02.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -193,6 +219,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "enemy_gunman_ai"
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -200,7 +234,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_03.png",
-      "OnFrame": "enemy_gunman_ai",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -217,6 +250,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 15,
       "Background": false,
       "Multiplexes": 0,
@@ -224,7 +260,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_01.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -241,6 +276,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "enemy_gunman_ai"
+          }
+        ]
+      },
       "Duration": 1,
       "Background": false,
       "Multiplexes": 0,
@@ -248,7 +291,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_01.png",
-      "OnFrame": "enemy_gunman_ai",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,

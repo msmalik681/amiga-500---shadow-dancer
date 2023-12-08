@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 6,
       "Background": false,
       "Multiplexes": 0,
@@ -8,7 +11,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_01.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -25,6 +27,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -32,7 +37,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_02.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -49,6 +53,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -56,7 +63,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_03.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -73,6 +79,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -80,7 +89,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_04.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -97,6 +105,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "hostage_bonus"
+          }
+        ]
+      },
       "Duration": 1,
       "Background": false,
       "Multiplexes": 0,
@@ -104,7 +120,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": null,
-      "OnFrame": "hostage_bonus",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -121,6 +136,9 @@
       "IsBlank": true
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 9,
       "Background": false,
       "Multiplexes": 0,
@@ -128,7 +146,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_2000.png",
-      "OnFrame": "",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -145,6 +162,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "hostage_bonus"
+          }
+        ]
+      },
       "Duration": 50,
       "Background": false,
       "Multiplexes": 0,
@@ -152,7 +177,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_2000.png",
-      "OnFrame": "hostage_bonus",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -169,6 +193,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "destroy_actor"
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -176,7 +208,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": null,
-      "OnFrame": "destroy_actor",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -193,6 +224,9 @@
       "IsBlank": true
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 10,
       "Background": false,
       "Multiplexes": 0,
@@ -200,7 +234,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_1000.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -217,6 +250,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "hostage_bonus_gosub"
+          }
+        ]
+      },
       "Duration": 50,
       "Background": false,
       "Multiplexes": 0,
@@ -224,7 +265,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_1000.png",
-      "OnFrame": "hostage_bonus_gosub",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -241,6 +281,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "destroy_actor"
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -248,7 +296,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": null,
-      "OnFrame": "destroy_actor",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -265,6 +312,9 @@
       "IsBlank": true
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 10,
       "Background": false,
       "Multiplexes": 0,
@@ -272,7 +322,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_500.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -289,6 +338,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "hostage_bonus"
+          }
+        ]
+      },
       "Duration": 50,
       "Background": false,
       "Multiplexes": 0,
@@ -296,7 +353,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_500.png",
-      "OnFrame": "hostage_bonus",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -313,6 +369,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "destroy_actor"
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -320,7 +384,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": null,
-      "OnFrame": "destroy_actor",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -337,6 +400,9 @@
       "IsBlank": true
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 10,
       "Background": false,
       "Multiplexes": 0,
@@ -344,7 +410,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_power_up.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -361,6 +426,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "hostage_bonus"
+          }
+        ]
+      },
       "Duration": 50,
       "Background": false,
       "Multiplexes": 0,
@@ -368,7 +441,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_power_up.png",
-      "OnFrame": "hostage_bonus",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -385,6 +457,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "destroy_actor"
+          }
+        ]
+      },
       "Duration": 5,
       "Background": false,
       "Multiplexes": 0,
@@ -392,7 +472,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": null,
-      "OnFrame": "destroy_actor",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -409,6 +488,9 @@
       "IsBlank": true
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 10,
       "Background": false,
       "Multiplexes": 0,
@@ -416,7 +498,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_1up.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -433,6 +514,14 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "Trigger",
+            "Codeblock": "hostage_bonus"
+          }
+        ]
+      },
       "Duration": 50,
       "Background": false,
       "Multiplexes": 0,
@@ -440,7 +529,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_1up.png",
-      "OnFrame": "hostage_bonus",
       "HasHitBox": false,
       "HitBox": {
         "X": 0,

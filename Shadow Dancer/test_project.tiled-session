@@ -43,6 +43,14 @@
                 "y": 320.375
             }
         },
+        "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx": {
+            "scale": 2.648125,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 159.35803634647158,
+                "y": 159.16922350719852
+            }
+        },
         "C:/users/malik/Documents/street fighter amiga/Game Projects/Testing/Actors.tsx": {
             "scaleInDock": 1
         },
@@ -124,6 +132,7 @@
     ],
     "project": "test_project.tiled-project",
     "recentFiles": [
+        "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",
         "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level1/stage_1/stage_1.tmx",
         "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tmx",
         "Z:/home/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",

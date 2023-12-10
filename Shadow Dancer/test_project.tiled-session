@@ -1,12 +1,12 @@
 {
     "activeFile": "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",
     "expandedProjectPaths": [
-        "levels/level2",
         "levels",
+        "templates",
         "levels/level1/stage_1",
         ".",
-        "templates",
-        "levels/level1"
+        "levels/level1",
+        "levels/level2"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -56,8 +56,8 @@
             "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 148,
-                "y": 80.75
+                "x": 147.5,
+                "y": 80.25
             }
         },
         "C:/users/malik/Documents/street fighter amiga/Game Projects/Testing/Actors.tsx": {

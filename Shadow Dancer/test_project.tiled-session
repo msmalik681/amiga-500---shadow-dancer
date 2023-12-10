@@ -1,11 +1,11 @@
 {
     "activeFile": "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",
     "expandedProjectPaths": [
+        "levels/level2",
+        "levels",
         "levels/level1/stage_1",
         ".",
         "templates",
-        "levels/level2",
-        "levels",
         "levels/level1"
     ],
     "fileStates": {
@@ -53,11 +53,11 @@
             "scaleInDock": 1
         },
         "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx": {
-            "scale": 2.648125,
+            "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 158.22515931083313,
-                "y": 159.16922350719852
+                "x": 148,
+                "y": 80.75
             }
         },
         "C:/users/malik/Documents/street fighter amiga/Game Projects/Testing/Actors.tsx": {

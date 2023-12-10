@@ -5,7 +5,9 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "enemy_shieldman_ai"
+            "Codeblock": "enemy_shieldman_ai",
+            "Sound": null,
+            "Expression": null
           }
         ]
       },
@@ -36,7 +38,9 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "enemy_shieldman_ai"
+            "Codeblock": "enemy_shieldman_ai",
+            "Sound": null,
+            "Expression": null
           }
         ]
       },
@@ -67,7 +71,9 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "enemy_shieldman_ai"
+            "Codeblock": "enemy_shieldman_ai",
+            "Sound": null,
+            "Expression": null
           }
         ]
       },
@@ -98,7 +104,9 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "enemy_shieldman_ai"
+            "Codeblock": "enemy_shieldman_ai",
+            "Sound": null,
+            "Expression": null
           }
         ]
       },

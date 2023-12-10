@@ -31,7 +31,9 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "star_throw"
+            "Codeblock": "star_throw",
+            "Sound": null,
+            "Expression": null
           }
         ]
       },
@@ -114,7 +116,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "joe_base",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

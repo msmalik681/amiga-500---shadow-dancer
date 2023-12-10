@@ -11331,13 +11331,13 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 16,
       "MemoryOffset": 19316,
-      "Description": "GOTO '00019414'"
+      "Description": "GOTO '00019470'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 16,
       "MemoryOffset": 19322,
-      "Description": "If current_stage == 2 ELSE GOTO 00019414"
+      "Description": "If current_stage == 2 ELSE GOTO 00019470"
     },
     {
       "CodeBlock": "startup",
@@ -11359,45 +11359,107 @@
     },
     {
       "CodeBlock": "startup",
-      "CodeBlockLine": 20,
+      "CodeBlockLine": 22,
       "MemoryOffset": 19352,
+      "Description": "Raw expression 'True'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19358,
+      "Description": "Raw expression 'enemy_roller'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19364,
+      "Description": "Raw expression 'True'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19370,
+      "Description": "Raw expression 'False'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19376,
+      "Description": "Core operation'AssetBundle'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19380,
+      "Description": "Raw expression 'True'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19386,
+      "Description": "Raw expression 'joe_base'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19392,
+      "Description": "Raw expression 'False'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19398,
+      "Description": "Raw expression 'True'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19404,
+      "Description": "Core operation'AssetBundle'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19408,
       "Description": "Set 'panel_top' to 'hud'"
     },
     {
       "CodeBlock": "startup",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 19358,
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19414,
       "Description": "Set 'newvalue' to 'stage2'"
     },
     {
       "CodeBlock": "startup",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 19364,
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19420,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 19368,
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19424,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 19388,
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19444,
       "Description": "Set 'newvalue' to 'stage2'"
     },
     {
       "CodeBlock": "startup",
-      "CodeBlockLine": 20,
-      "MemoryOffset": 19394,
+      "CodeBlockLine": 22,
+      "MemoryOffset": 19450,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     }
   ],
   "Levels": {
     "0": "No level loaded",
     "1": "stage_1",
-    "2": "stage2"
+    "2": "stage2",
+    "3": "enemy_roller",
+    "4": "joe_base"
   },
   "Music": {
     "0": "No music loaded",

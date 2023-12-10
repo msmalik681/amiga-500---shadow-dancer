@@ -31,7 +31,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "enemy_roller",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

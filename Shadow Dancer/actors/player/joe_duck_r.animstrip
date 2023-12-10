@@ -5,7 +5,9 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "player_duck_control"
+            "Codeblock": "player_duck_control",
+            "Sound": null,
+            "Expression": null
           }
         ]
       },
@@ -36,7 +38,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "joe_base",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

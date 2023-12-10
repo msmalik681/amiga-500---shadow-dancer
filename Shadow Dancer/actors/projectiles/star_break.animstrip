@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 2,
       "Background": false,
       "Multiplexes": 0,
@@ -8,7 +11,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "star_break.png",
-      "OnFrame": null,
       "HasHitBox": false,
       "HitBox": {
         "X": 0,
@@ -29,7 +31,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "joe_base",
   "OnFinish": "destroy_actor",
   "AutoFlip": null,
   "Streamed": true,

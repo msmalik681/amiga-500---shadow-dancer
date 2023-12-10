@@ -5,7 +5,9 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "enemy_roller_ai"
+            "Codeblock": "enemy_roller_ai",
+            "Sound": null,
+            "Expression": null
           }
         ]
       },
@@ -62,7 +64,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "enemy_roller",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

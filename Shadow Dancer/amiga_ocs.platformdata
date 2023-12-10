@@ -1,9 +1,9 @@
 {
   "OutputSpeed": "PAL_25HZ",
   "GFXMode": "BP5",
-  "MemorySaver": "None",
-  "EmulatedAmiga": "CD32",
-  "EmulatedFastRam": 0,
+  "MemorySaver": "EndRun",
+  "EmulatedAmiga": "A600",
+  "EmulatedFastRam": 1,
   "WinUAEConfiguration": "",
   "SpriteMode": "Mode_0_16_Wide",
   "Uses24BitColor": null,
@@ -16,7 +16,7 @@
   "YFillSize": 17,
   "MapCache": false,
   "DoubleCopper": false,
-  "AllocateMemoryUpfront": true,
+  "AllocateMemoryUpfront": false,
   "NTSC": false,
   "CrunchMode": "Implode",
   "MaxActiveActors": 32

@@ -3,32 +3,32 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 35158
-Music memory (shadowdancer_stage1): 64380
+Map gfx (level gfx bundle 4): 0
+Music memory (shadowdancer_stage1): 0
 BP Buffer memory: 122320
-core sfx/gfx memory: 232004
-Parallax memory: 32896
+core sfx/gfx memory: 112146
+Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 16518
-Map background memory: 1616
+Map data memory: 0
+Map background memory: 0
 EXE memory: 210108
-vm memory: 20298
-project memory: 19750
+vm memory: 20354
+project memory: 19774
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 691558
-Accounted memory other: 282250
-Accounted memory total: 973808
+Accounted memory chip: 439266
+Accounted memory other: 264196
+Accounted memory total: 703462
 
 === Misc ===
-Maps and Asset Bundles Count: 3
-Maps and Asset Bundles Data Size: 36
+Maps and Asset Bundles Count: 5
+Maps and Asset Bundles Data Size: 60
 Actor Count: 19
 Actor Data Size: 3572
 Block Count: 6
@@ -59,15 +59,17 @@ Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched s
 Background for map stage_1 Original size 1616 Crunched size 290
 Parallax for map stage_1 Original size 28800 Crunched size 6812
 Header data for map stage2 Original size 7992 Crunched size 264
-Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched size 2552
+Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched size 2550
 Background for map stage2 Original size 1448 Crunched size 262
 Parallax for map stage2 Original size 32896 Crunched size 5246
-Asset bundle 0 (Core project asset bundle) Original size 232004 Crunched size 108648
+Asset bundle 0 (Core project asset bundle) Original size 112146 Crunched size 54978
+Asset bundle 3 (enemy_roller) Original size 30290 Crunched size 12748
+Asset bundle 4 (joe_base) Original size 91802 Crunched size 42382
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 7872
 Asset bundle 2 (stage2) Original size 26880 Crunched size 11428
-Project Header Original size 4036 Crunched size 1200
-Project Data Original size 19750 Crunched size 5584
-Project virtual machine (codeblocks) Original size 20298 Crunched size 5566
+Project Header Original size 4036 Crunched size 1188
+Project Data Original size 19774 Crunched size 5610
+Project virtual machine (codeblocks) Original size 20354 Crunched size 5594
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -110,10 +112,10 @@ set_yresolution: 446 (Unused?)
 star_throw: 426
 high_jump_up: 398
 ninja_magic_gosub: 390
+startup: 378
 player_land: 364
 ninja_magic: 360
 player_hit: 354
-startup: 322
 do_teleport: 320
 flipscreen_smooth: 306 (Unused?)
 enemy_roller_ai: 296

@@ -117,7 +117,7 @@
   "Anim5MetaData": {},
   "SoundMetaData": {
     "bump": {
-      "LinkedMap": "",
+      "LinkedMap": "joe_base",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
@@ -131,14 +131,14 @@
       "Channel": null
     },
     "jump_step": {
-      "LinkedMap": "",
+      "LinkedMap": "joe_base",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "star_throw_sfx": {
-      "LinkedMap": "",
+      "LinkedMap": "joe_base",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,

@@ -1,10 +1,10 @@
 {
-    "activeFile": "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",
+    "activeFile": "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tmx",
     "expandedProjectPaths": [
-        "levels",
+        ".",
         "templates",
         "levels/level1/stage_1",
-        ".",
+        "levels",
         "levels/level1",
         "levels/level2"
     ],
@@ -37,10 +37,10 @@
         },
         "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tmx": {
             "scale": 4,
-            "selectedLayer": 0,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 165.75,
-                "y": 320.375
+                "x": 85,
+                "y": 319.875
             }
         },
         "C:/users/malik/Documents/Amiga/test/Actors.tsx": {
@@ -56,8 +56,8 @@
             "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 147.5,
-                "y": 80.25
+                "x": 145.5,
+                "y": 78.25
             }
         },
         "C:/users/malik/Documents/street fighter amiga/Game Projects/Testing/Actors.tsx": {
@@ -138,13 +138,13 @@
         }
     },
     "openFiles": [
-        "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx"
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tmx"
     ],
     "project": "test_project.tiled-project",
     "recentFiles": [
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tmx",
         "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",
         "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level1/stage_1/stage_1.tmx",
-        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tmx",
         "Z:/home/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",
         "levels/level2/stage2.tmx",
         "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/levels/level1.tmx",

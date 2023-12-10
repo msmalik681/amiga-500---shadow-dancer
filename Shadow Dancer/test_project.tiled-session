@@ -1,12 +1,12 @@
 {
-    "activeFile": "",
+    "activeFile": "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",
     "expandedProjectPaths": [
-        "levels",
         "templates",
-        "levels/level2",
+        "levels/level1/stage_1",
         ".",
-        "levels/level1",
-        "levels/level1/stage_1"
+        "levels",
+        "levels/level2",
+        "levels/level1"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -43,11 +43,20 @@
                 "y": 320.375
             }
         },
+        "C:/users/malik/Documents/Amiga/test/Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/test/Blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tileset.tsx": {
+            "scaleInDock": 1
+        },
         "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx": {
             "scale": 2.648125,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 159.35803634647158,
+                "x": 158.9804106679254,
                 "y": 159.16922350719852
             }
         },
@@ -129,6 +138,7 @@
         }
     },
     "openFiles": [
+        "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx"
     ],
     "project": "test_project.tiled-project",
     "recentFiles": [

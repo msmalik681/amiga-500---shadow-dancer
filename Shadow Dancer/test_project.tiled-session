@@ -1,11 +1,11 @@
 {
     "activeFile": "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",
     "expandedProjectPaths": [
-        "templates",
         "levels/level1/stage_1",
         ".",
-        "levels",
+        "templates",
         "levels/level2",
+        "levels",
         "levels/level1"
     ],
     "fileStates": {
@@ -56,7 +56,7 @@
             "scale": 2.648125,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 158.60278498937927,
+                "x": 158.22515931083313,
                 "y": 159.16922350719852
             }
         },

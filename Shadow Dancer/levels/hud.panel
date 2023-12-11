@@ -71,7 +71,7 @@
       "CounterDivisions": 1,
       "PaletteLine": 3,
       "IsHighPriority": true,
-      "MaxValue": 9
+      "MaxValue": 999
     }
   ],
   "GFXMode": "BP4",

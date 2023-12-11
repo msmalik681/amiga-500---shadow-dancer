@@ -1,11 +1,11 @@
 {
-    "activeFile": "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tmx",
+    "activeFile": "",
     "expandedProjectPaths": [
         "levels/level1",
-        "templates",
-        "levels/level2",
         ".",
+        "templates",
         "levels/level1/stage_1",
+        "levels/level2",
         "levels"
     ],
     "fileStates": {
@@ -39,8 +39,8 @@
             "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 66,
-                "y": 293.25
+                "x": 65,
+                "y": 292.25
             }
         },
         "C:/users/malik/Documents/Amiga/test/Actors.tsx": {
@@ -138,7 +138,6 @@
         }
     },
     "openFiles": [
-        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tmx"
     ],
     "project": "test_project.tiled-project",
     "recentFiles": [

@@ -3,7 +3,7 @@
   "GFXMode": "BP5",
   "MemorySaver": "EndRun",
   "EmulatedAmiga": "A600",
-  "EmulatedFastRam": 1,
+  "EmulatedFastRam": 0,
   "WinUAEConfiguration": "",
   "SpriteMode": "Mode_0_16_Wide",
   "Uses24BitColor": null,

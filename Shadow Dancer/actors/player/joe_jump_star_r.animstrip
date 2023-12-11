@@ -7,7 +7,26 @@
             "FrameEventType": "Trigger",
             "Codeblock": "star_throw",
             "Sound": null,
-            "Expression": null
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -15,16 +34,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "jump_star_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -41,16 +53,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "jump_star_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -67,16 +72,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "jump_star_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -93,16 +91,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "jump_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,

@@ -8,16 +8,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "high_jump_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -31,7 +24,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "high_jump_up"
+            "Codeblock": "high_jump_up",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -39,16 +53,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "high_jump_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -65,16 +72,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "high_jump_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -91,16 +91,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "high_jump_06.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -117,16 +110,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "high_jump_05.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -143,16 +129,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "high_jump_04.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -169,16 +148,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "high_jump_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -195,16 +167,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "high_jump_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -218,7 +183,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "high_jump_up"
+            "Codeblock": "high_jump_up",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -226,16 +212,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "high_jump_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -249,7 +228,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "joe_stage",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

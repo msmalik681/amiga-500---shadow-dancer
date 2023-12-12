@@ -11,13 +11,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -37,13 +30,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -63,13 +49,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -89,13 +68,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_04.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -109,7 +81,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "hostage_bonus"
+            "Codeblock": "hostage_bonus",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -120,13 +113,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
@@ -146,13 +132,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_2000.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -166,7 +145,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "hostage_bonus"
+            "Codeblock": "hostage_bonus",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -177,13 +177,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_2000.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -197,7 +190,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "destroy_actor"
+            "Codeblock": "destroy_actor",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -208,13 +222,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
@@ -234,13 +241,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_1000.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -254,7 +254,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "hostage_bonus_gosub"
+            "Codeblock": "hostage_bonus_gosub",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -265,13 +286,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_1000.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -285,7 +299,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "destroy_actor"
+            "Codeblock": "destroy_actor",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -296,13 +331,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
@@ -322,13 +350,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_500.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -342,7 +363,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "hostage_bonus"
+            "Codeblock": "hostage_bonus",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -353,13 +395,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_500.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -373,7 +408,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "destroy_actor"
+            "Codeblock": "destroy_actor",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -384,13 +440,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
@@ -410,13 +459,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_power_up.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -430,7 +472,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "hostage_bonus"
+            "Codeblock": "hostage_bonus",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -441,13 +504,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_power_up.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -461,7 +517,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "destroy_actor"
+            "Codeblock": "destroy_actor",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -472,13 +549,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
@@ -498,13 +568,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_1up.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -518,7 +581,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "hostage_bonus"
+            "Codeblock": "hostage_bonus",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -529,13 +613,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "bonus_smoke_1up.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -549,7 +626,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "stage_bonus",
   "OnFinish": "destroy_actor",
   "AutoFlip": null,
   "Streamed": true,

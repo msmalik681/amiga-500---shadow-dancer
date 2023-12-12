@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 1,
       "Background": false,
       "Multiplexes": 0,
@@ -8,14 +11,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Channel_2_to_1",
       "Path": "fire_break_03.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -13,
       "HandleY": -13,
       "XFlipped": false,
@@ -25,6 +20,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 1,
       "Background": false,
       "Multiplexes": 0,
@@ -32,14 +30,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Channel_2_to_1",
       "Path": "fire_break_02.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -13,
       "HandleY": -13,
       "XFlipped": false,
@@ -49,6 +39,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 1,
       "Background": false,
       "Multiplexes": 0,
@@ -56,14 +49,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Channel_2_to_1",
       "Path": "fire_break_01.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -13,
       "HandleY": -13,
       "XFlipped": false,
@@ -77,7 +62,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "stage_bonus",
   "OnFinish": "destroy_actor",
   "AutoFlip": null,
   "Streamed": true,

@@ -107,7 +107,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 2,
-  "LinkedMap": "joe_base",
+  "LinkedMap": "joe_stage",
   "OnFinish": "",
   "AutoFlip": null,
   "Streamed": true,

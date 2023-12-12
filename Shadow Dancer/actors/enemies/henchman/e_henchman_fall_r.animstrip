@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": -1,
       "Background": false,
       "Multiplexes": 0,
@@ -8,14 +11,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "knife_fall.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 8,
-        "Height": 8
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -29,7 +24,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "henchmen",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

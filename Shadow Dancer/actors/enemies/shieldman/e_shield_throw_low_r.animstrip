@@ -11,13 +11,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "shield_idle_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -37,13 +30,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "shield_idle_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -63,13 +49,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "shield_idle_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -89,13 +68,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "shield_idle_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -115,13 +87,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "shield_throw_low_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -141,13 +106,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "shield_throw_low_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -161,7 +119,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "enemy_shieldman_ai"
+            "Codeblock": "enemy_shieldman_ai",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -172,13 +151,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "shield_throw_low_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -198,13 +170,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "shield_throw_low_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -224,13 +189,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "shield_throw_low_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -244,7 +202,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "enemy_shieldman",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

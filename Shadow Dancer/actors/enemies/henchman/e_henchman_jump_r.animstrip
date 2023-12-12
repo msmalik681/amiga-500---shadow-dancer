@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 50,
       "Background": false,
       "Multiplexes": 0,
@@ -8,14 +11,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "knife_jump.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -29,7 +24,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "henchmen",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

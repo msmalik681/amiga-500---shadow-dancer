@@ -11,13 +11,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "shield_fall_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -31,7 +24,7 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "enemy_shieldman",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,

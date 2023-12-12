@@ -93,4 +93,9 @@
       <property name="Name" value="e_roller" type="string" />
     </properties>
   </tile>
+  <tile id="20">
+    <properties>
+      <property name="Name" value="joe_upper" type="string" />
+    </properties>
+  </tile>
 </tileset>

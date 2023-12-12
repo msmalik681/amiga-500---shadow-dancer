@@ -11,13 +11,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -37,13 +30,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -57,7 +43,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "enemy_gunman_ai"
+            "Codeblock": "enemy_gunman_ai",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -68,13 +75,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -94,13 +94,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -120,13 +113,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -140,7 +126,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "enemy_gunman_ai"
+            "Codeblock": "enemy_gunman_ai",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -151,13 +158,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -177,13 +177,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -203,13 +196,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -223,7 +209,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "enemy_gunman_ai"
+            "Codeblock": "enemy_gunman_ai",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -234,13 +241,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -260,13 +260,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -280,7 +273,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
-            "Codeblock": "enemy_gunman_ai"
+            "Codeblock": "enemy_gunman_ai",
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -291,13 +305,6 @@
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -311,7 +318,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "enemy_gunman",
   "OnFinish": "",
   "AutoFlip": null,
   "Streamed": true,

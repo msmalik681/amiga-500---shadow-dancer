@@ -1,6 +1,9 @@
 {
   "Frames": [
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 7,
       "Background": false,
       "Multiplexes": 0,
@@ -8,14 +11,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "knife_atk_01.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -25,6 +20,35 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": [
+          {
+            "FrameEventType": "MeleeBox",
+            "Codeblock": null,
+            "Sound": null,
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": 19,
+              "Y": -41,
+              "Width": 24,
+              "Height": 11
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
+          }
+        ]
+      },
       "Duration": 7,
       "Background": false,
       "Multiplexes": 0,
@@ -32,14 +56,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "knife_atk_02.png",
-      "OnFrame": "",
-      "HasHitBox": true,
-      "HitBox": {
-        "X": 19,
-        "Y": -41,
-        "Width": 24,
-        "Height": 11
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -49,6 +65,9 @@
       "IsBlank": false
     },
     {
+      "EventContainer": {
+        "Events": []
+      },
       "Duration": 7,
       "Background": false,
       "Multiplexes": 0,
@@ -56,14 +75,6 @@
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "knife_atk_01.png",
-      "OnFrame": null,
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -77,7 +88,7 @@
   "PreventCollision": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
+  "LinkedMap": "henchmen",
   "OnFinish": "",
   "AutoFlip": null,
   "Streamed": true,

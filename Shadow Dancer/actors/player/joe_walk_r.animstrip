@@ -7,7 +7,26 @@
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
             "Sound": null,
-            "Expression": null
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -15,82 +34,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
-      "SpriteType": "Attached_16colors",
-      "Path": "walk_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -64,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "walk_01",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": [
-          {
-            "FrameEventType": "Trigger",
-            "Codeblock": "player_duck_control",
-            "Sound": null,
-            "Expression": null
-          }
-        ]
-      },
-      "Duration": 2,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "SlicedFast",
-      "SpriteType": "Attached_16colors",
-      "Path": "walk_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -64,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "walk_01",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": [
-          {
-            "FrameEventType": "Trigger",
-            "Codeblock": "player_duck_control",
-            "Sound": null,
-            "Expression": null
-          }
-        ]
-      },
-      "Duration": 2,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "SlicedFast",
+      "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "walk_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -106,7 +52,26 @@
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
             "Sound": null,
-            "Expression": null
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -114,16 +79,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
+      "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "walk_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -139,7 +97,26 @@
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
             "Sound": null,
-            "Expression": null
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -147,16 +124,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
+      "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "walk_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -172,7 +142,26 @@
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
             "Sound": null,
-            "Expression": null
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -180,16 +169,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
+      "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "walk_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -205,7 +187,26 @@
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
             "Sound": null,
-            "Expression": null
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -213,82 +214,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
-      "SpriteType": "Attached_16colors",
-      "Path": "walk_04.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -64,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "walk_04",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": [
-          {
-            "FrameEventType": "Trigger",
-            "Codeblock": "player_duck_control",
-            "Sound": null,
-            "Expression": null
-          }
-        ]
-      },
-      "Duration": 2,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "SlicedFast",
-      "SpriteType": "Attached_16colors",
-      "Path": "walk_04.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
-      "HandleX": -64,
-      "HandleY": -112,
-      "XFlipped": false,
-      "HighPriority": false,
-      "ZeroIsTransparent": false,
-      "Name": "walk_04",
-      "IsBlank": false
-    },
-    {
-      "EventContainer": {
-        "Events": [
-          {
-            "FrameEventType": "Trigger",
-            "Codeblock": "player_duck_control",
-            "Sound": null,
-            "Expression": null
-          }
-        ]
-      },
-      "Duration": 2,
-      "Background": false,
-      "Multiplexes": 0,
-      "PaletteLine": 0,
-      "RenderType": "SlicedFast",
+      "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "walk_05.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -304,7 +232,26 @@
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
             "Sound": null,
-            "Expression": null
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -312,16 +259,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
+      "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "walk_05.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -337,7 +277,26 @@
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
             "Sound": null,
-            "Expression": null
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -345,16 +304,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
+      "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "walk_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
@@ -370,7 +322,26 @@
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
             "Sound": null,
-            "Expression": null
+            "Expression": null,
+            "Tag": "none",
+            "IsConditional": false,
+            "ColorR": 0,
+            "ColorG": 0,
+            "ColorB": 255,
+            "Box": {
+              "X": -4,
+              "Y": -4,
+              "Width": 8,
+              "Height": 8
+            },
+            "HasTag": true,
+            "Color": {
+              "r": 0,
+              "g": 0,
+              "b": 255,
+              "a": 128
+            },
+            "Conditions": []
           }
         ]
       },
@@ -378,16 +349,9 @@
       "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
+      "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
       "Path": "walk_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,

@@ -12,11 +12,11 @@
   "FMode": 0,
   "Width": 288,
   "XOffset": 32,
-  "XFillSize": 20,
+  "XFillSize": 22,
   "YFillSize": 17,
   "MapCache": false,
   "DoubleCopper": false,
-  "AllocateMemoryUpfront": false,
+  "AllocateMemoryUpfront": true,
   "NTSC": false,
   "CrunchMode": "Implode",
   "MaxActiveActors": 32

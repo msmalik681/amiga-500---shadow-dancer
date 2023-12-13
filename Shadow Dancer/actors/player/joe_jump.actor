@@ -3,7 +3,7 @@
   "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Default",
-  "MoveType": "control_platform_maryo",
+  "MoveType": "control_platform",
   "MaxEntities": 0,
   "NudgeX": 7,
   "NudgeY": 16,

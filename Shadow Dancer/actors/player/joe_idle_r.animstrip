@@ -37,13 +37,13 @@
       "PaletteLine": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
-      "Path": "idle_base.png",
+      "Path": "idle.png",
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "idle_base",
+      "Name": "idle",
       "IsBlank": false
     }
   ],

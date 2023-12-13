@@ -3,9 +3,9 @@
   "ClassType": "DefaultClass",
   "DefaultLookDir": "left",
   "Recycle": "Default",
-  "MoveType": "cpu",
+  "MoveType": "cpu_platform",
   "MaxEntities": 0,
-  "NudgeX": 6,
+  "NudgeX": 8,
   "NudgeY": 16,
   "Idles": {
     "UpLeft": "",
@@ -20,12 +20,12 @@
   "Moves": {
     "UpLeft": "",
     "Up": "e_roller_roll_r",
-    "UpRight": "",
+    "UpRight": "e_roller_roll_r",
     "Left": "",
     "Right": "e_roller_idle_r",
     "DownLeft": "",
     "Down": "",
-    "DownRight": ""
+    "DownRight": "e_roller_roll_r"
   },
   "Attacks": {
     "UpLeft": "",
@@ -94,15 +94,15 @@
     }
   ],
   "InvalidDirections": [
-    true,
-    true,
-    true,
     false,
     false,
     false,
+    false,
+    false,
+    false,
+    false,
     true,
-    true,
-    true
+    false
   ],
   "CollBox": {
     "X": -11,
@@ -114,11 +114,11 @@
   "ZOrder": 0,
   "SpeedLeft": 7.0,
   "SpeedRight": 7.0,
-  "SpeedUp": 7.0,
-  "SpeedDown": 7.0,
+  "SpeedUp": 10.0,
+  "SpeedDown": 10.0,
   "AccelLeft": 1.0,
   "AccelRight": 1.0,
-  "AccelUp": 1.0,
+  "AccelUp": 0.01,
   "AccelDown": 1.0,
   "AccelLeftAir": 1.0,
   "AccelRightAir": 1.0,

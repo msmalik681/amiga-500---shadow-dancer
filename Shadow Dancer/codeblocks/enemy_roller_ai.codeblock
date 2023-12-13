@@ -2075,7 +2075,7 @@
         {
           "LeftSide": "enemy_range",
           "Comparison": "LessThan",
-          "RightSide": "45",
+          "RightSide": "100",
           "ComparisonNext": "End",
           "IsValid": true
         }

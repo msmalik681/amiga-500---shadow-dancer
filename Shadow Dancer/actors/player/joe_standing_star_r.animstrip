@@ -10,13 +10,13 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "idle_base.png",
+      "Path": "standing_star_01.png",
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "idle_base",
+      "Name": "standing_star_01",
       "IsBlank": false
     },
     {
@@ -56,13 +56,13 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "idle_base.png",
+      "Path": "standing_star_03.png",
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "idle_base",
+      "Name": "standing_star_03",
       "IsBlank": false
     },
     {
@@ -75,13 +75,13 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "idle_base.png",
+      "Path": "standing_star_03.png",
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "idle_base",
+      "Name": "standing_star_03",
       "IsBlank": false
     },
     {
@@ -94,13 +94,13 @@
       "PaletteLine": 0,
       "RenderType": "Sliced",
       "SpriteType": "Attached_16colors",
-      "Path": "idle_base.png",
+      "Path": "idle.png",
       "HandleX": -64,
       "HandleY": -112,
       "XFlipped": false,
       "HighPriority": false,
       "ZeroIsTransparent": false,
-      "Name": "idle_base",
+      "Name": "idle",
       "IsBlank": false
     }
   ],

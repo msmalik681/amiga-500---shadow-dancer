@@ -5,7 +5,7 @@
 For chip:
 Map gfx (level gfx bundle 7): 0
 Music memory (shadowdancer_stage1): 0
-BP Buffer memory: 88920
+BP Buffer memory: 111600
 core sfx/gfx memory: 15462
 Parallax memory: 0
 OS/other estimated: 99328
@@ -15,22 +15,22 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 210460
-vm memory: 26080
-project memory: 18682
+EXE memory: 210556
+vm memory: 26266
+project memory: 19692
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 309182
-Accounted memory other: 269182
-Accounted memory total: 578364
+Accounted memory chip: 331862
+Accounted memory other: 270474
+Accounted memory total: 602336
 
 === Misc ===
 Maps and Asset Bundles Count: 10
 Maps and Asset Bundles Data Size: 120
-Actor Count: 20
-Actor Data Size: 3760
+Actor Count: 22
+Actor Data Size: 4136
 Block Count: 6
 Block Data Size: 408
 Anim5 Count: 0
@@ -39,22 +39,22 @@ Sound Count: 8
 Sound Data Size: 224
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 89
-Animations Data Size: 1424
-AnimationFrame Count: 337
-AnimationFrame Data Size: 4044
-ImageFrames: 179
-ImageFrame Data Size: 7876
+Animations Count: 93
+Animations Data Size: 1488
+AnimationFrame Count: 359
+AnimationFrame Data Size: 4308
+ImageFrames: 185
+ImageFrame Data Size: 8140
 Sprites: 5
 Sprites Data Size: 70
 Attack Data: 9
 Attack Data Size: 594
-Misc data size: 128
+Misc data size: 170
 Music file shadowdancer_stage1 Original size 64380 Crunched size 50944
 Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
 Panel hud Original size 8962 Crunched size 1614
 Panel thanks Original size 9858 Crunched size 930
-Header data for map stage_1 Original size 7992 Crunched size 526
+Header data for map stage_1 Original size 7992 Crunched size 528
 Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1486
 Background for map stage_1 Original size 1616 Crunched size 290
 Parallax for map stage_1 Original size 28800 Crunched size 6812
@@ -62,19 +62,19 @@ Header data for map stage2 Original size 7992 Crunched size 286
 Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched size 2544
 Background for map stage2 Original size 1448 Crunched size 262
 Parallax for map stage2 Original size 32896 Crunched size 5246
-Asset bundle 0 (Core project asset bundle) Original size 15462 Crunched size 10122
+Asset bundle 0 (Core project asset bundle) Original size 15462 Crunched size 10126
 Asset bundle 9 (stage_bonus) Original size 12158 Crunched size 4990
 Asset bundle 3 (enemy_gunman) Original size 26092 Crunched size 10926
 Asset bundle 6 (henchmen) Original size 18414 Crunched size 9156
 Asset bundle 4 (enemy_roller) Original size 30290 Crunched size 12748
 Asset bundle 5 (enemy_shieldman) Original size 38822 Crunched size 19304
 Asset bundle 8 (joe_stage) Original size 17600 Crunched size 7818
-Asset bundle 7 (joe_base) Original size 72752 Crunched size 33470
+Asset bundle 7 (joe_base) Original size 69108 Crunched size 32366
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 7872
 Asset bundle 2 (stage2) Original size 26880 Crunched size 11428
 Project Header Original size 4036 Crunched size 1196
-Project Data Original size 18682 Crunched size 5800
-Project virtual machine (codeblocks) Original size 26080 Crunched size 6452
+Project Data Original size 19692 Crunched size 5982
+Project virtual machine (codeblocks) Original size 26266 Crunched size 6514
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -89,29 +89,33 @@ e_shield_throw_r
 e_shield_throw_l
 joe_death_r
 joe_death_l
-joe_idle_left_r
-joe_idle_left_l
-joe_idle_right_r
-joe_idle_right_l
 joe_melee_air_r
 joe_melee_air_l
 joe_melee_low_r
 joe_melee_low_l
 joe_melee_r
 joe_melee_l
+joe_standing_star_left_r
+joe_standing_star_left_l
+joe_standing_star_right_r
+joe_standing_star_right_l
+joe_standing_star_upper_r
+joe_standing_star_upper_l
 
 === Possibly unused Actors ===
 e_behind
+joe_left
 joe_magica
+joe_right
 
 === Codeblocks by compiled size ===
 load_level: 986
 enemy_hit_projectile: 960
 hostage_bonus: 942
 enemy_on_land: 852
+player_attack: 814
 enemy_shieldman_ai: 798
-player_attack: 782
-jump_button: 758
+jump_button: 780
 enemy_gunman_ai: 746
 enemy_bump: 718
 startup: 602
@@ -129,6 +133,7 @@ flipscreen_smooth: 306 (Unused?)
 pre_startup: 290
 stage_reset: 270
 pause: 252
+player_animations: 252
 flipxymove: 250 (Unused?)
 player_ontimer: 248
 enemy_jump: 240
@@ -144,8 +149,6 @@ player_duck_control: 160
 snap_to_screen: 158 (Unused?)
 flipymove: 146 (Unused?)
 load_panel: 146
-autogen_e_roller_atk_l_2: 146
-autogen_e_roller_atk_l_4: 146
 pre_quit: 144
 flipxmove: 130 (Unused?)
 enemy_range_check_gosub: 130
@@ -168,6 +171,8 @@ autogen_e_henchman_atk_r_1: 86
 autogen_e_henchman_atk_l_1: 86
 autogen_e_roller_atk_r_2: 86
 autogen_e_roller_atk_r_4: 86
+autogen_e_roller_atk_l_2: 86
+autogen_e_roller_atk_l_4: 86
 autogen_joe_melee_air_l_1: 86
 autogen_joe_melee_low_r_1: 86
 autogen_joe_melee_low_l_1: 86

@@ -6,6 +6,7 @@
           {
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
+            "Actor": "none",
             "Sound": null,
             "Expression": null,
             "Tag": "none",
@@ -51,6 +52,7 @@
           {
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
+            "Actor": "none",
             "Sound": null,
             "Expression": null,
             "Tag": "none",
@@ -96,6 +98,7 @@
           {
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
+            "Actor": "none",
             "Sound": null,
             "Expression": null,
             "Tag": "none",
@@ -141,6 +144,7 @@
           {
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
+            "Actor": "none",
             "Sound": null,
             "Expression": null,
             "Tag": "none",
@@ -186,6 +190,7 @@
           {
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
+            "Actor": "none",
             "Sound": null,
             "Expression": null,
             "Tag": "none",
@@ -231,6 +236,7 @@
           {
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
+            "Actor": "none",
             "Sound": null,
             "Expression": null,
             "Tag": "none",
@@ -276,6 +282,7 @@
           {
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
+            "Actor": "none",
             "Sound": null,
             "Expression": null,
             "Tag": "none",
@@ -321,6 +328,7 @@
           {
             "FrameEventType": "Trigger",
             "Codeblock": "player_duck_control",
+            "Actor": "none",
             "Sound": null,
             "Expression": null,
             "Tag": "none",
@@ -363,7 +371,7 @@
   ],
   "PreventMovement": false,
   "PreventCollision": false,
-  "HideChildren": false,
+  "HideChildren": true,
   "LoopFrame": 0,
   "LinkedMap": "joe_base",
   "OnFinish": null,

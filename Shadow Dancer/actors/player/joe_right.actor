@@ -12,7 +12,7 @@
     "Up": "",
     "UpRight": "",
     "Left": "",
-    "Right": "joe_idle_upper_r",
+    "Right": "joe_idle_right_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -156,11 +156,11 @@
     "0",
     "0",
     "0",
-    "-10"
+    "-11"
   ],
   "ControlPort": 0,
   "DataVersion": 3,
   "AutoSpawn": null,
   "AutoNavigate": false,
-  "TileID": 20
+  "TileID": 22
 }

@@ -98,7 +98,7 @@
   ],
   "PreventMovement": false,
   "PreventCollision": false,
-  "HideChildren": false,
+  "HideChildren": true,
   "LoopFrame": 0,
   "LinkedMap": "joe_base",
   "OnFinish": null,

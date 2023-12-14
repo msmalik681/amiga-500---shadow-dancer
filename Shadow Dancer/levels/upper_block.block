@@ -12,7 +12,7 @@
   "IsInvisible": true,
   "ReplaceTileProperties": true,
   "LinkedMap": "",
-  "BlockSolidType": "Solid",
+  "BlockSolidType": "Platform",
   "PlayerCollisionOverride": "Default",
   "ProjectileCollisionOverride": "Default",
   "PaletteLines": [

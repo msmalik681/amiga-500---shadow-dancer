@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 210532
-vm memory: 26390
+vm memory: 26668
 project memory: 19826
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 342644
-Accounted memory other: 270708
-Accounted memory total: 613352
+Accounted memory other: 270986
+Accounted memory total: 613630
 
 === Misc ===
 Maps and Asset Bundles Count: 11
@@ -59,7 +59,7 @@ Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched s
 Background for map stage_1 Original size 1616 Crunched size 290
 Parallax for map stage_1 Original size 28800 Crunched size 6812
 Header data for map stage2 Original size 7992 Crunched size 280
-Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched size 2550
+Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched size 2554
 Background for map stage2 Original size 1448 Crunched size 262
 Parallax for map stage2 Original size 32896 Crunched size 5246
 Asset bundle 0 (Core project asset bundle) Original size 15524 Crunched size 10168
@@ -68,14 +68,14 @@ Asset bundle 3 (enemy_gunman) Original size 26092 Crunched size 10926
 Asset bundle 7 (henchmen) Original size 18414 Crunched size 9156
 Asset bundle 4 (enemy_roller) Original size 30290 Crunched size 12748
 Asset bundle 5 (enemy_shieldman) Original size 38822 Crunched size 19304
-Asset bundle 6 (gfx_falling_rocks) Original size 2750 Crunched size 1220
+Asset bundle 6 (gfx_falling_rocks) Original size 2750 Crunched size 1322
 Asset bundle 9 (joe_stage) Original size 17600 Crunched size 7818
 Asset bundle 8 (joe_base) Original size 72752 Crunched size 33488
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 7872
 Asset bundle 2 (stage2) Original size 26880 Crunched size 11428
 Project Header Original size 4036 Crunched size 1194
-Project Data Original size 19826 Crunched size 6008
-Project virtual machine (codeblocks) Original size 26390 Crunched size 6520
+Project Data Original size 19826 Crunched size 6014
+Project virtual machine (codeblocks) Original size 26668 Crunched size 6606
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -88,7 +88,6 @@ e_shield_throw_low_r
 e_shield_throw_low_l
 e_shield_throw_r
 e_shield_throw_l
-falling_rock_b
 joe_death_r
 joe_death_l
 joe_melee_air_r
@@ -100,6 +99,7 @@ joe_melee_l
 
 === Possibly unused Actors ===
 e_behind
+falling_rocks_actor
 joe_magica
 
 === Codeblocks by compiled size ===
@@ -107,7 +107,7 @@ load_level: 986
 enemy_hit_projectile: 978
 hostage_bonus: 942
 enemy_on_land: 852
-player_attack: 810
+player_attack: 832
 enemy_shieldman_ai: 798
 jump_button: 780
 startup: 770
@@ -119,13 +119,13 @@ high_jump_up: 452
 set_yresolution: 446 (Unused?)
 star_throw: 426
 ninja_magic_gosub: 390
+player_ontimer: 388
 player_land: 364
 ninja_magic: 360
 player_hit: 354
 do_teleport: 320
 flipscreen_smooth: 306 (Unused?)
 pre_startup: 290
-player_ontimer: 270
 stage_reset: 270
 pause: 252
 flipxymove: 250 (Unused?)
@@ -134,6 +134,7 @@ player_attack_melee: 228
 stage_timer_tick: 224
 hostage_bonus_gosub: 216
 stage_exit: 206
+stage_falling_rocks_onland: 204
 enemy_hit_melee: 202
 waitforframes: 186
 enemy_ani_update: 174
@@ -155,7 +156,6 @@ waitforfireup: 106
 waitforfiredown: 102
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96
-stage_falling_rocks_onland: 96
 unload_panel: 92
 enemy_direction_gosub: 90
 player_direction_gosub: 90
@@ -311,3 +311,4 @@ vm_constants_notes: 26 (Unused?)
 vm_constants_platform: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
 enemy_on_spawn: 26 (Unused?)
+spawn_falling_rocks: 26 (Unused?)

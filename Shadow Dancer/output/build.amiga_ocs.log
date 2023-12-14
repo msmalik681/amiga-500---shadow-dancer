@@ -3,7 +3,7 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 7): 0
+Map gfx (level gfx bundle 8): 0
 Music memory (shadowdancer_stage1): 0
 BP Buffer memory: 122320
 core sfx/gfx memory: 15524
@@ -16,21 +16,21 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 210532
-vm memory: 26088
-project memory: 19322
+vm memory: 26390
+project memory: 19826
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 342644
-Accounted memory other: 269902
-Accounted memory total: 612546
+Accounted memory other: 270708
+Accounted memory total: 613352
 
 === Misc ===
-Maps and Asset Bundles Count: 10
-Maps and Asset Bundles Data Size: 120
-Actor Count: 19
-Actor Data Size: 3572
+Maps and Asset Bundles Count: 11
+Maps and Asset Bundles Data Size: 132
+Actor Count: 20
+Actor Data Size: 3760
 Block Count: 6
 Block Data Size: 408
 Anim5 Count: 0
@@ -39,12 +39,12 @@ Sound Count: 8
 Sound Data Size: 224
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 81
-Animations Data Size: 1296
-AnimationFrame Count: 329
-AnimationFrame Data Size: 5264
-ImageFrames: 173
-ImageFrame Data Size: 7612
+Animations Count: 84
+Animations Data Size: 1344
+AnimationFrame Count: 334
+AnimationFrame Data Size: 5344
+ImageFrames: 177
+ImageFrame Data Size: 7788
 Sprites: 5
 Sprites Data Size: 70
 Attack Data: 9
@@ -63,18 +63,19 @@ Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched si
 Background for map stage2 Original size 1448 Crunched size 262
 Parallax for map stage2 Original size 32896 Crunched size 5246
 Asset bundle 0 (Core project asset bundle) Original size 15524 Crunched size 10168
-Asset bundle 9 (stage_bonus) Original size 12158 Crunched size 4990
+Asset bundle 10 (stage_bonus) Original size 12158 Crunched size 4990
 Asset bundle 3 (enemy_gunman) Original size 26092 Crunched size 10926
-Asset bundle 6 (henchmen) Original size 18414 Crunched size 9156
+Asset bundle 7 (henchmen) Original size 18414 Crunched size 9156
 Asset bundle 4 (enemy_roller) Original size 30290 Crunched size 12748
 Asset bundle 5 (enemy_shieldman) Original size 38822 Crunched size 19304
-Asset bundle 8 (joe_stage) Original size 17600 Crunched size 7818
-Asset bundle 7 (joe_base) Original size 72752 Crunched size 33488
+Asset bundle 6 (gfx_falling_rocks) Original size 2750 Crunched size 1220
+Asset bundle 9 (joe_stage) Original size 17600 Crunched size 7818
+Asset bundle 8 (joe_base) Original size 72752 Crunched size 33488
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 7872
 Asset bundle 2 (stage2) Original size 26880 Crunched size 11428
-Project Header Original size 4036 Crunched size 1196
-Project Data Original size 19322 Crunched size 5832
-Project virtual machine (codeblocks) Original size 26088 Crunched size 6464
+Project Header Original size 4036 Crunched size 1194
+Project Data Original size 19826 Crunched size 6008
+Project virtual machine (codeblocks) Original size 26390 Crunched size 6520
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -87,6 +88,7 @@ e_shield_throw_low_r
 e_shield_throw_low_l
 e_shield_throw_r
 e_shield_throw_l
+falling_rock_b
 joe_death_r
 joe_death_l
 joe_melee_air_r
@@ -105,12 +107,12 @@ load_level: 986
 enemy_hit_projectile: 978
 hostage_bonus: 942
 enemy_on_land: 852
+player_attack: 810
 enemy_shieldman_ai: 798
-player_attack: 782
 jump_button: 780
+startup: 770
 enemy_gunman_ai: 746
 enemy_bump: 718
-startup: 630
 enemy_roller_ai: 558
 enemy_henchman_ai: 452
 high_jump_up: 452
@@ -153,6 +155,7 @@ waitforfireup: 106
 waitforfiredown: 102
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96
+stage_falling_rocks_onland: 96
 unload_panel: 92
 enemy_direction_gosub: 90
 player_direction_gosub: 90
@@ -253,6 +256,7 @@ autogen_e_shield_throw_low_r_6: 38
 autogen_e_shield_throw_low_l_6: 38
 autogen_e_shield_throw_r_6: 38
 autogen_e_shield_throw_l_6: 38
+autogen_falling_rock_break_2: 38
 autogen_joe_death_r_3: 38
 autogen_joe_death_l_3: 38
 autogen_joe_duck_r_0: 38

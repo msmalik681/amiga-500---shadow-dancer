@@ -93,4 +93,9 @@
       <property name="Name" value="e_roller" type="string" />
     </properties>
   </tile>
+  <tile id="20">
+    <properties>
+      <property name="Name" value="falling_rocks_actor" type="string" />
+    </properties>
+  </tile>
 </tileset>

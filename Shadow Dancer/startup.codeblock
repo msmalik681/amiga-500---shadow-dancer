@@ -2239,7 +2239,7 @@
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
-      "ResetMovement": true,
+      "ResetMovement": false,
       "ResetAnimations": true,
       "ShootDirType": "actor_direction",
       "Panel": "none",

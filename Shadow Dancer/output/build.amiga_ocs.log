@@ -3,28 +3,28 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 7): 72752
-Music memory (shadowdancer_stage1): 64380
+Map gfx (level gfx bundle 7): 0
+Music memory (shadowdancer_stage1): 0
 BP Buffer memory: 122320
 core sfx/gfx memory: 15524
-Parallax memory: 32896
+Parallax memory: 0
 OS/other estimated: 99328
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 16518
-Map background memory: 1616
-EXE memory: 210556
+Map data memory: 0
+Map background memory: 0
+EXE memory: 210532
 vm memory: 26088
-project memory: 18006
+project memory: 19322
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 512672
-Accounted memory other: 286744
-Accounted memory total: 799416
+Accounted memory chip: 342644
+Accounted memory other: 269902
+Accounted memory total: 612546
 
 === Misc ===
 Maps and Asset Bundles Count: 10
@@ -42,7 +42,7 @@ Teleporter Data Size: 8
 Animations Count: 81
 Animations Data Size: 1296
 AnimationFrame Count: 329
-AnimationFrame Data Size: 3948
+AnimationFrame Data Size: 5264
 ImageFrames: 173
 ImageFrame Data Size: 7612
 Sprites: 5
@@ -72,9 +72,9 @@ Asset bundle 8 (joe_stage) Original size 17600 Crunched size 7818
 Asset bundle 7 (joe_base) Original size 72752 Crunched size 33488
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 7872
 Asset bundle 2 (stage2) Original size 26880 Crunched size 11428
-Project Header Original size 4036 Crunched size 1208
-Project Data Original size 18006 Crunched size 5582
-Project virtual machine (codeblocks) Original size 26088 Crunched size 6472
+Project Header Original size 4036 Crunched size 1196
+Project Data Original size 19322 Crunched size 5832
+Project virtual machine (codeblocks) Original size 26088 Crunched size 6464
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===

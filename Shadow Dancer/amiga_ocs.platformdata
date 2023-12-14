@@ -16,7 +16,7 @@
   "YFillSize": 17,
   "MapCache": false,
   "DoubleCopper": false,
-  "AllocateMemoryUpfront": true,
+  "AllocateMemoryUpfront": false,
   "NTSC": false,
   "CrunchMode": "Implode",
   "MaxActiveActors": 32

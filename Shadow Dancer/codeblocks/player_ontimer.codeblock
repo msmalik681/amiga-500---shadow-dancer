@@ -1331,7 +1331,7 @@
         {
           "LeftSide": "falling_rocks",
           "Comparison": "LessThan",
-          "RightSide": "115",
+          "RightSide": "131",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -3559,7 +3559,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "temp",
-      "Expression": "player_x",
+      "Expression": "falling_rocks",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,

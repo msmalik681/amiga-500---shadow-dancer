@@ -27,4 +27,9 @@
       <property name="Name" value="jump_up_and_down" type="string" />
     </properties>
   </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="block_pitfall" type="string" />
+    </properties>
+  </tile>
 </tileset>

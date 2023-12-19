@@ -98,4 +98,9 @@
       <property name="Name" value="falling_rocks_actor" type="string" />
     </properties>
   </tile>
+  <tile id="21">
+    <properties>
+      <property name="Name" value="e_roller_move" type="string" />
+    </properties>
+  </tile>
 </tileset>

@@ -2,7 +2,7 @@
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "left",
   "Recycle": "Default",
-  "MoveType": "none",
+  "MoveType": "cpu_platform",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 16,
@@ -161,5 +161,5 @@
   "DataVersion": 3,
   "AutoSpawn": false,
   "AutoNavigate": false,
-  "TileID": 19
+  "TileID": 21
 }

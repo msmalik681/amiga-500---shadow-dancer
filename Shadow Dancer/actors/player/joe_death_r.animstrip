@@ -62,11 +62,14 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
+            "Dir": "move_right",
             "Codeblock": "stage_reset",
+            "Actor": "none",
             "Sound": null,
             "Expression": null,
             "Tag": "none",
             "IsConditional": false,
+            "OverrideDirection": false,
             "ColorR": 0,
             "ColorG": 0,
             "ColorB": 255,
@@ -107,9 +110,9 @@
   "PreventCollision": true,
   "HideChildren": false,
   "LoopFrame": 2,
-  "LinkedMap": "joe_stage",
   "OnFinish": "",
-  "AutoFlip": null,
+  "AutoFlip": true,
   "Streamed": true,
-  "PatternBuffer": 0
+  "PatternBuffer": 0,
+  "LinkedMap": "joe_stage"
 }

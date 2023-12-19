@@ -1,6 +1,5 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Always",
   "MoveType": "none",
@@ -139,7 +138,7 @@
   "DivertAttack": "",
   "DivertSpawn": "enemy_on_land",
   "DivertPlayerCollision": "enemy_bump",
-  "DivertPlayerHit": "",
+  "DivertPlayerHit": "enemy_hit_melee",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "enemy_hit_projectile",
   "DivertOutOfScreenLeft": "",

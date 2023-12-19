@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="123" height="24" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="3">
+<map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="123" height="24" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="21">
   <properties>
+    <property name="divert_timer" value="stage_timer_tick" />
     <property name="override_palette" type="file" value="stage2.palette.png" />
     <property name="parallax_path" type="file" value="stage_2_plx.png" />
-    <property name="divert_timer" type="string" value="stage_timer_tick" />
+    <property name="rainbow_palette" type="file" value="" />
   </properties>
   <tileset firstgid="1" source="..\..\Actors.tsx" />
   <tileset firstgid="257" source="..\..\Blocks.tsx" />
@@ -65,7 +66,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,257,259,259,259,259,259,257,257,259,259,259,259,0,0,0,0,0,0,259,259,259,259,259,259,257,257,0,0,0,0,0,0,0,0,0,0,259,259,259,259,0,0,0,0,0,0,0,0,0,0,0,259,259,0,0,0,0,0,0,257,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,259,259,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,257,257,257,257,257,257,257,257,257,257,257,257,0,0,0,0,0,0,257,257,257,257,257,257,257,257,0,0,0,0,0,0,0,0,0,0,257,257,257,257,0,0,0,0,0,0,0,0,0,0,0,257,257,0,0,0,0,0,0,257,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,257,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 257,257,257,257,257,257,257,257,257,257,257,257,257,257,259,259,259,259,259,259,257,257,257,257,257,257,257,257,257,257,257,257,257,257,259,259,259,259,257,257,257,257,257,257,257,257,257,257,259,259,259,0,0,0,257,257,257,257,257,257,257,257,259,259,259,259,257,257,257,257,259,259,259,257,257,259,259,259,259,259,259,257,257,257,257,0,0,0,0,257,257,257,257,257,257,257,257,257,259,259,259,259,259,257,257,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,257,257,
-257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,0,0,0,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,0,0,0,0,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257
+257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,263,263,263,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,263,263,263,263,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257,257
 </data>
     <properties>
       <property name="amiga_ocs" type="bool" value="true" />
@@ -88,14 +89,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
@@ -137,9 +138,89 @@
     </properties>
   </layer>
   <objectgroup id="6" name="events">
-    <object id="1" gid="0" x="336" y="352" width="16" height="16" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/enemy_jump.tx">
+    <object id="1" gid="0" x="623.25" y="352" width="16" height="16" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/enemy_jump.tx">
       <properties>
         <property name="var5" value="1" />
+      </properties>
+    </object>
+    <object id="3" gid="0" x="402.5" y="320" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/shield_man.tx">
+      <properties>
+        <property name="var1" value="11" />
+      </properties>
+    </object>
+    <object id="7" gid="0" x="547" y="144" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/shield_man.tx">
+      <properties>
+        <property name="var1" value="13" />
+      </properties>
+    </object>
+    <object id="14" gid="0" x="1055.5" y="352" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/shield_man.tx">
+      <properties>
+        <property name="var1" value="15" />
+      </properties>
+    </object>
+    <object id="16" gid="0" x="1777.5" y="352" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/shield_man.tx">
+      <properties>
+        <property name="var1" value="16" />
+      </properties>
+    </object>
+    <object id="4" gid="0" x="371.545" y="320" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/npc_hostage.tx">
+      <properties>
+        <property name="var1" value="1" />
+      </properties>
+    </object>
+    <object id="5" gid="0" x="509.045" y="240" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/npc_hostage.tx">
+      <properties>
+        <property name="var1" value="2" />
+      </properties>
+    </object>
+    <object id="6" gid="0" x="495.295" y="144" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/npc_hostage.tx">
+      <properties>
+        <property name="var1" value="3" />
+      </properties>
+    </object>
+    <object id="10" gid="0" x="698.795" y="320" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/npc_hostage.tx">
+      <properties>
+        <property name="var1" value="4" />
+      </properties>
+    </object>
+    <object id="15" gid="0" x="1109.8" y="352" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/npc_hostage.tx">
+      <properties>
+        <property name="var1" value="5" />
+      </properties>
+    </object>
+    <object id="17" gid="0" x="1840.3" y="352" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/npc_hostage.tx">
+      <properties>
+        <property name="var1" value="6" />
+      </properties>
+    </object>
+    <object id="18" gid="0" x="1735.8" y="240" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/npc_hostage.tx">
+      <properties>
+        <property name="var1" value="7" />
+      </properties>
+    </object>
+    <object id="8" gid="0" x="549.136" y="240" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/e_gunman_reload.tx">
+      <properties>
+        <property name="var3" value="1" />
+      </properties>
+    </object>
+    <object id="9" gid="0" x="641.136" y="320" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/e_gunman_reload.tx">
+      <properties>
+        <property name="var3" value="1" />
+      </properties>
+    </object>
+    <object id="12" gid="0" x="1870.14" y="352" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/e_gunman_reload.tx">
+      <properties>
+        <property name="var3" value="1" />
+      </properties>
+    </object>
+    <object id="20" gid="0" x="1583.14" y="240" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/e_gunman_reload.tx">
+      <properties>
+        <property name="var3" value="2" />
+      </properties>
+    </object>
+    <object id="13" gid="0" x="592.136" y="352" width="0" height="0" template="Z:/home/malik/Documents/Amiga/Link to Shadow Dancer/templates/e_gunman_reload.tx">
+      <properties>
+        <property name="var3" value="1" />
       </properties>
     </object>
   </objectgroup>

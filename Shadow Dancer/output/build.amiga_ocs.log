@@ -15,24 +15,24 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 210584
-vm memory: 27402
-project memory: 19826
+EXE memory: 210780
+vm memory: 27974
+project memory: 20082
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 342644
-Accounted memory other: 271772
-Accounted memory total: 614416
+Accounted memory other: 272796
+Accounted memory total: 615440
 
 === Misc ===
 Maps and Asset Bundles Count: 11
 Maps and Asset Bundles Data Size: 132
-Actor Count: 20
-Actor Data Size: 3760
-Block Count: 6
-Block Data Size: 408
+Actor Count: 21
+Actor Data Size: 3948
+Block Count: 7
+Block Data Size: 476
 Anim5 Count: 0
 Anim5 Data Size: 0
 Sound Count: 8
@@ -58,8 +58,8 @@ Header data for map stage_1 Original size 7992 Crunched size 528
 Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1486
 Background for map stage_1 Original size 1616 Crunched size 290
 Parallax for map stage_1 Original size 28800 Crunched size 6812
-Header data for map stage2 Original size 7992 Crunched size 282
-Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched size 2550
+Header data for map stage2 Original size 7992 Crunched size 468
+Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched size 2556
 Background for map stage2 Original size 1448 Crunched size 262
 Parallax for map stage2 Original size 32896 Crunched size 5246
 Asset bundle 0 (Core project asset bundle) Original size 15524 Crunched size 10168
@@ -73,9 +73,9 @@ Asset bundle 9 (joe_stage) Original size 17600 Crunched size 7818
 Asset bundle 8 (joe_base) Original size 72752 Crunched size 33488
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 7872
 Asset bundle 2 (stage2) Original size 26880 Crunched size 11428
-Project Header Original size 4036 Crunched size 1194
-Project Data Original size 19826 Crunched size 6026
-Project virtual machine (codeblocks) Original size 27402 Crunched size 6866
+Project Header Original size 4032 Crunched size 1192
+Project Data Original size 20082 Crunched size 6046
+Project virtual machine (codeblocks) Original size 27974 Crunched size 6966
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -102,31 +102,31 @@ e_behind
 joe_magica
 
 === Codeblocks by compiled size ===
-load_level: 986
-enemy_hit_projectile: 978
-hostage_bonus: 942
+enemy_hit_projectile: 1208
+hostage_bonus: 976
+load_level: 922
+startup: 880
 enemy_on_land: 852
-player_attack: 832
 enemy_shieldman_ai: 798
+player_attack: 782
 jump_button: 780
-startup: 776
 enemy_gunman_ai: 746
 player_land: 728
 enemy_bump: 718
-player_ontimer: 660
-enemy_roller_ai: 558
+player_ontimer: 652
+enemy_roller_ai: 562
 enemy_henchman_ai: 452
 high_jump_up: 452
 set_yresolution: 446 (Unused?)
+stage_reset: 428
 star_throw: 426
 ninja_magic_gosub: 390
 ninja_magic: 360
 player_hit: 354
-do_teleport: 320
+do_teleport: 340
 stage_timer_tick: 314
 flipscreen_smooth: 306 (Unused?)
 pre_startup: 290
-stage_reset: 270
 pause: 252
 flipxymove: 250 (Unused?)
 enemy_jump: 240
@@ -152,7 +152,9 @@ pre_load_level: 118
 unload_level: 114
 enemy_behind: 110
 waitforfireup: 106
+fadein: 102
 waitforfiredown: 102
+block_pitfall: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96
 unload_panel: 92
@@ -188,7 +190,6 @@ load_music_finish: 64
 jump_actor: 62 (Unused?)
 unload_panel_bottom: 62
 unload_panel_top: 62
-fadein: 58
 destroy_all_actors: 56 (Unused?)
 load_panel_finish: 56
 destroy_actor: 54

@@ -2058,8 +2058,8 @@
       "Conditions": [
         {
           "LeftSide": "player_frame",
-          "Comparison": "LessThan",
-          "RightSide": "3",
+          "Comparison": "GreaterThan",
+          "RightSide": "2",
           "ComparisonNext": "End",
           "IsValid": true
         }

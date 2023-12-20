@@ -103,4 +103,14 @@
       <property name="Name" value="e_roller_move" type="string" />
     </properties>
   </tile>
+  <tile id="22">
+    <properties>
+      <property name="Name" value="stomper_lower_body" type="string" />
+    </properties>
+  </tile>
+  <tile id="23">
+    <properties>
+      <property name="Name" value="stomper_upper_body" type="string" />
+    </properties>
+  </tile>
 </tileset>

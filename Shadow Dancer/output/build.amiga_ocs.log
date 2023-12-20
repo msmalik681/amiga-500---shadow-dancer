@@ -3,7 +3,7 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 8): 0
+Map gfx (level gfx bundle 9): 0
 Music memory (shadowdancer_stage1): 0
 BP Buffer memory: 122320
 core sfx/gfx memory: 15524
@@ -16,21 +16,21 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 210780
-vm memory: 27974
-project memory: 20082
+vm memory: 28274
+project memory: 20998
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
 Accounted memory chip: 342644
-Accounted memory other: 272796
-Accounted memory total: 615440
+Accounted memory other: 274012
+Accounted memory total: 616656
 
 === Misc ===
-Maps and Asset Bundles Count: 11
-Maps and Asset Bundles Data Size: 132
-Actor Count: 21
-Actor Data Size: 3948
+Maps and Asset Bundles Count: 12
+Maps and Asset Bundles Data Size: 144
+Actor Count: 23
+Actor Data Size: 4324
 Block Count: 7
 Block Data Size: 476
 Anim5 Count: 0
@@ -39,17 +39,17 @@ Sound Count: 8
 Sound Data Size: 224
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 84
-Animations Data Size: 1344
-AnimationFrame Count: 334
-AnimationFrame Data Size: 5344
-ImageFrames: 177
-ImageFrame Data Size: 7788
+Animations Count: 86
+Animations Data Size: 1376
+AnimationFrame Count: 344
+AnimationFrame Data Size: 5504
+ImageFrames: 184
+ImageFrame Data Size: 8096
 Sprites: 5
 Sprites Data Size: 70
 Attack Data: 9
 Attack Data Size: 594
-Misc data size: 128
+Misc data size: 156
 Music file shadowdancer_stage1 Original size 64380 Crunched size 50944
 Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
 Panel hud Original size 8992 Crunched size 1630
@@ -58,24 +58,28 @@ Header data for map stage_1 Original size 7992 Crunched size 528
 Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1486
 Background for map stage_1 Original size 1616 Crunched size 290
 Parallax for map stage_1 Original size 28800 Crunched size 6812
+Header data for map stage_3 Original size 7992 Crunched size 266
+Tile data for map stage_3 (mem restrictions:None) Original size 2748 Crunched size 402
+Background for map stage_3 Original size 1396 Crunched size 80
 Header data for map stage2 Original size 7992 Crunched size 468
 Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched size 2556
 Background for map stage2 Original size 1448 Crunched size 262
 Parallax for map stage2 Original size 32896 Crunched size 5246
 Asset bundle 0 (Core project asset bundle) Original size 15524 Crunched size 10168
-Asset bundle 10 (stage_bonus) Original size 12158 Crunched size 4990
-Asset bundle 3 (enemy_gunman) Original size 26092 Crunched size 10926
-Asset bundle 7 (henchmen) Original size 18414 Crunched size 9156
-Asset bundle 4 (enemy_roller) Original size 30290 Crunched size 12748
-Asset bundle 5 (enemy_shieldman) Original size 38822 Crunched size 19304
-Asset bundle 6 (gfx_falling_rocks) Original size 2804 Crunched size 1292
-Asset bundle 9 (joe_stage) Original size 17600 Crunched size 7818
-Asset bundle 8 (joe_base) Original size 72752 Crunched size 33488
+Asset bundle 11 (stage_bonus) Original size 12158 Crunched size 4990
+Asset bundle 4 (enemy_gunman) Original size 26092 Crunched size 10926
+Asset bundle 8 (henchmen) Original size 18414 Crunched size 9156
+Asset bundle 5 (enemy_roller) Original size 30290 Crunched size 12748
+Asset bundle 6 (enemy_shieldman) Original size 38822 Crunched size 19304
+Asset bundle 7 (gfx_falling_rocks) Original size 2804 Crunched size 1292
+Asset bundle 10 (joe_stage) Original size 17600 Crunched size 7818
+Asset bundle 9 (joe_base) Original size 72752 Crunched size 33488
+Asset bundle 2 (stage_3) Original size 23264 Crunched size 8556
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 7872
-Asset bundle 2 (stage2) Original size 26880 Crunched size 11428
-Project Header Original size 4032 Crunched size 1192
-Project Data Original size 20082 Crunched size 6046
-Project virtual machine (codeblocks) Original size 27974 Crunched size 6966
+Asset bundle 3 (stage2) Original size 26880 Crunched size 11428
+Project Header Original size 4032 Crunched size 1190
+Project Data Original size 20998 Crunched size 6386
+Project virtual machine (codeblocks) Original size 28274 Crunched size 7050
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -100,12 +104,13 @@ joe_melee_l
 === Possibly unused Actors ===
 e_behind
 joe_magica
+stomper_lower_body
 
 === Codeblocks by compiled size ===
 enemy_hit_projectile: 1208
+startup: 1096
 hostage_bonus: 976
 load_level: 922
-startup: 880
 enemy_on_land: 852
 enemy_shieldman_ai: 798
 player_attack: 782
@@ -117,7 +122,7 @@ player_ontimer: 652
 enemy_roller_ai: 562
 enemy_henchman_ai: 452
 high_jump_up: 452
-set_yresolution: 446 (Unused?)
+set_yresolution: 446
 stage_reset: 428
 star_throw: 426
 ninja_magic_gosub: 390
@@ -174,6 +179,7 @@ autogen_joe_melee_low_l_1: 86
 autogen_joe_melee_r_1: 86
 autogen_joe_melee_l_1: 86
 fadeout: 84
+boss_stomper_on_timer: 84
 autogen_joe_melee_air_r_1: 82
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_None: 78
 block_jump_down: 78

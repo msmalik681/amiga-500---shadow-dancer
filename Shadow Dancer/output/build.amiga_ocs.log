@@ -3,10 +3,10 @@
 === Estimated memory usages ===
 
 For chip:
-Map gfx (level gfx bundle 9): 0
+Map gfx (level gfx bundle 10): 0
 Music memory (shadowdancer_stage1): 0
 BP Buffer memory: 122320
-core sfx/gfx memory: 17372
+core sfx/gfx memory: 15524
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -16,19 +16,19 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 210780
-vm memory: 28992
-project memory: 21302
+vm memory: 28986
+project memory: 21422
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 344492
-Accounted memory other: 275034
-Accounted memory total: 619526
+Accounted memory chip: 342644
+Accounted memory other: 275148
+Accounted memory total: 617792
 
 === Misc ===
-Maps and Asset Bundles Count: 12
-Maps and Asset Bundles Data Size: 144
+Maps and Asset Bundles Count: 13
+Maps and Asset Bundles Data Size: 156
 Actor Count: 23
 Actor Data Size: 4324
 Block Count: 7
@@ -41,10 +41,10 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 89
 Animations Data Size: 1424
-AnimationFrame Count: 349
-AnimationFrame Data Size: 5584
-ImageFrames: 188
-ImageFrame Data Size: 8272
+AnimationFrame Count: 353
+AnimationFrame Data Size: 5648
+ImageFrames: 189
+ImageFrame Data Size: 8316
 Sprites: 5
 Sprites Data Size: 70
 Attack Data: 9
@@ -58,28 +58,29 @@ Header data for map stage_1 Original size 7992 Crunched size 528
 Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1486
 Background for map stage_1 Original size 1616 Crunched size 290
 Parallax for map stage_1 Original size 28800 Crunched size 6812
-Header data for map stage_3 Original size 7992 Crunched size 268
+Header data for map stage_3 Original size 7992 Crunched size 266
 Tile data for map stage_3 (mem restrictions:None) Original size 2748 Crunched size 402
 Background for map stage_3 Original size 1396 Crunched size 80
 Header data for map stage2 Original size 7992 Crunched size 468
 Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched size 2556
 Background for map stage2 Original size 1448 Crunched size 262
 Parallax for map stage2 Original size 32896 Crunched size 5246
-Asset bundle 0 (Core project asset bundle) Original size 17372 Crunched size 11014
-Asset bundle 11 (stage_bonus) Original size 12158 Crunched size 4990
-Asset bundle 4 (enemy_gunman) Original size 26092 Crunched size 10926
-Asset bundle 8 (henchmen) Original size 18414 Crunched size 9156
-Asset bundle 5 (enemy_roller) Original size 30290 Crunched size 12748
-Asset bundle 6 (enemy_shieldman) Original size 38822 Crunched size 19304
-Asset bundle 7 (gfx_falling_rocks) Original size 2804 Crunched size 1292
-Asset bundle 10 (joe_stage) Original size 17600 Crunched size 7818
-Asset bundle 9 (joe_base) Original size 72752 Crunched size 33488
+Asset bundle 0 (Core project asset bundle) Original size 15524 Crunched size 10168
+Asset bundle 12 (stage_bonus) Original size 12158 Crunched size 4990
+Asset bundle 4 (boss_gfx) Original size 6278 Crunched size 2276
+Asset bundle 5 (enemy_gunman) Original size 26092 Crunched size 10926
+Asset bundle 9 (henchmen) Original size 18414 Crunched size 9156
+Asset bundle 6 (enemy_roller) Original size 30290 Crunched size 12748
+Asset bundle 7 (enemy_shieldman) Original size 38822 Crunched size 19304
+Asset bundle 8 (gfx_falling_rocks) Original size 2804 Crunched size 1292
+Asset bundle 11 (joe_stage) Original size 17600 Crunched size 7818
+Asset bundle 10 (joe_base) Original size 72752 Crunched size 33488
 Asset bundle 2 (stage_3) Original size 23264 Crunched size 8556
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 7872
 Asset bundle 3 (stage2) Original size 26880 Crunched size 11428
 Project Header Original size 4032 Crunched size 1190
-Project Data Original size 21302 Crunched size 6498
-Project virtual machine (codeblocks) Original size 28992 Crunched size 7180
+Project Data Original size 21422 Crunched size 6550
+Project virtual machine (codeblocks) Original size 28986 Crunched size 7190
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -108,7 +109,7 @@ stomper_upper_body
 
 === Codeblocks by compiled size ===
 enemy_hit_projectile: 1208
-startup: 1120
+startup: 1148
 hostage_bonus: 976
 load_level: 922
 enemy_on_land: 852
@@ -119,7 +120,7 @@ enemy_gunman_ai: 746
 player_land: 728
 enemy_bump: 718
 player_ontimer: 652
-boss_stomper_on_timer: 640
+boss_stomper_on_timer: 606
 enemy_roller_ai: 562
 enemy_henchman_ai: 452
 high_jump_up: 452

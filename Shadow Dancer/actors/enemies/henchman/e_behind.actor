@@ -1,6 +1,5 @@
 {
   "ShootDirType": "actor_direction",
-  "ClassType": "DefaultClass",
   "DefaultLookDir": "right",
   "Recycle": "Always",
   "MoveType": "none",
@@ -32,7 +31,7 @@
     "Up": "",
     "UpRight": "",
     "Left": "",
-    "Right": "e_henchman_atk_r",
+    "Right": "blank",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""

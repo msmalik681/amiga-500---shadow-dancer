@@ -150,7 +150,7 @@
   "DivertTimer": "boss_stomper_on_timer",
   "DivertTimerFrames": 0,
   "Vars": [
-    "-1",
+    "-50",
     "0",
     "0",
     "0",

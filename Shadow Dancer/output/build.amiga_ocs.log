@@ -6,7 +6,7 @@ For chip:
 Map gfx (level gfx bundle 9): 0
 Music memory (shadowdancer_stage1): 0
 BP Buffer memory: 122320
-core sfx/gfx memory: 15524
+core sfx/gfx memory: 17372
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -16,15 +16,15 @@ Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 210780
-vm memory: 28274
-project memory: 20998
+vm memory: 28992
+project memory: 21302
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 342644
-Accounted memory other: 274012
-Accounted memory total: 616656
+Accounted memory chip: 344492
+Accounted memory other: 275034
+Accounted memory total: 619526
 
 === Misc ===
 Maps and Asset Bundles Count: 12
@@ -39,12 +39,12 @@ Sound Count: 8
 Sound Data Size: 224
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 86
-Animations Data Size: 1376
-AnimationFrame Count: 344
-AnimationFrame Data Size: 5504
-ImageFrames: 184
-ImageFrame Data Size: 8096
+Animations Count: 89
+Animations Data Size: 1424
+AnimationFrame Count: 349
+AnimationFrame Data Size: 5584
+ImageFrames: 188
+ImageFrame Data Size: 8272
 Sprites: 5
 Sprites Data Size: 70
 Attack Data: 9
@@ -58,14 +58,14 @@ Header data for map stage_1 Original size 7992 Crunched size 528
 Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1486
 Background for map stage_1 Original size 1616 Crunched size 290
 Parallax for map stage_1 Original size 28800 Crunched size 6812
-Header data for map stage_3 Original size 7992 Crunched size 266
+Header data for map stage_3 Original size 7992 Crunched size 268
 Tile data for map stage_3 (mem restrictions:None) Original size 2748 Crunched size 402
 Background for map stage_3 Original size 1396 Crunched size 80
 Header data for map stage2 Original size 7992 Crunched size 468
 Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched size 2556
 Background for map stage2 Original size 1448 Crunched size 262
 Parallax for map stage2 Original size 32896 Crunched size 5246
-Asset bundle 0 (Core project asset bundle) Original size 15524 Crunched size 10168
+Asset bundle 0 (Core project asset bundle) Original size 17372 Crunched size 11014
 Asset bundle 11 (stage_bonus) Original size 12158 Crunched size 4990
 Asset bundle 4 (enemy_gunman) Original size 26092 Crunched size 10926
 Asset bundle 8 (henchmen) Original size 18414 Crunched size 9156
@@ -78,8 +78,8 @@ Asset bundle 2 (stage_3) Original size 23264 Crunched size 8556
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 7872
 Asset bundle 3 (stage2) Original size 26880 Crunched size 11428
 Project Header Original size 4032 Crunched size 1190
-Project Data Original size 20998 Crunched size 6386
-Project virtual machine (codeblocks) Original size 28274 Crunched size 7050
+Project Data Original size 21302 Crunched size 6498
+Project virtual machine (codeblocks) Original size 28992 Crunched size 7180
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -102,13 +102,13 @@ joe_melee_r
 joe_melee_l
 
 === Possibly unused Actors ===
-e_behind
 joe_magica
 stomper_lower_body
+stomper_upper_body
 
 === Codeblocks by compiled size ===
 enemy_hit_projectile: 1208
-startup: 1096
+startup: 1120
 hostage_bonus: 976
 load_level: 922
 enemy_on_land: 852
@@ -119,14 +119,15 @@ enemy_gunman_ai: 746
 player_land: 728
 enemy_bump: 718
 player_ontimer: 652
+boss_stomper_on_timer: 640
 enemy_roller_ai: 562
 enemy_henchman_ai: 452
 high_jump_up: 452
 set_yresolution: 446
-stage_reset: 428
+stage_reset: 434
 star_throw: 426
+ninja_magic: 400
 ninja_magic_gosub: 390
-ninja_magic: 360
 player_hit: 354
 do_teleport: 340
 stage_timer_tick: 314
@@ -163,6 +164,7 @@ block_pitfall: 98
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96
 unload_panel: 92
+destroy_child_actors: 90 (Unused?)
 enemy_direction_gosub: 90
 player_direction_gosub: 90
 pre_anim5: 86 (Unused?)
@@ -179,7 +181,6 @@ autogen_joe_melee_low_l_1: 86
 autogen_joe_melee_r_1: 86
 autogen_joe_melee_l_1: 86
 fadeout: 84
-boss_stomper_on_timer: 84
 autogen_joe_melee_air_r_1: 82
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_None: 78
 block_jump_down: 78

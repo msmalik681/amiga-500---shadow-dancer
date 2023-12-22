@@ -79,15 +79,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
-      "Conditions": [
-        {
-          "LeftSide": "",
-          "Comparison": "NotZero",
-          "RightSide": "",
-          "ComparisonNext": "End",
-          "IsValid": false
-        }
-      ]
+      "Conditions": []
     },
     {
       "Values": {},

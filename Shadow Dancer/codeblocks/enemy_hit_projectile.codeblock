@@ -88,6 +88,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -174,6 +175,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -260,6 +262,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -346,6 +349,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "actor_var2",
@@ -432,6 +436,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -518,6 +523,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -596,6 +602,434 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
+    },
+    {
+      "Values": {},
+      "DataVersion": 6,
+      "Category": "Conditional",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "stomper boss",
+      "Variable": "none",
+      "Expression": "0",
+      "Index": "0",
+      "Label": "",
+      "DiceSides": 2,
+      "Disabled": false,
+      "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "actor_tag",
+          "Comparison": "Equals",
+          "RightSide": "10",
+          "ComparisonNext": "End",
+          "IsValid": true
+        }
+      ]
+    },
+    {
+      "Values": {},
+      "DataVersion": 6,
+      "Category": "Projectile",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetAnimation",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "0",
+      "Index": "0",
+      "Label": "",
+      "DiceSides": 2,
+      "Disabled": false,
+      "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "star_break",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
+    },
+    {
+      "Values": {},
+      "DataVersion": 6,
+      "Category": "Conditional",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "EndCondition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "0",
+      "Index": "0",
+      "Label": "",
+      "DiceSides": 2,
+      "Disabled": false,
+      "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
+    },
+    {
+      "Values": {},
+      "DataVersion": 6,
+      "Category": "Base",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "0",
+      "Index": "0",
+      "Label": "",
+      "DiceSides": 2,
+      "Disabled": false,
+      "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
+      "Conditions": []
+    },
+    {
+      "Values": {},
+      "DataVersion": 6,
+      "Category": "Base",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "LoadLevel",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "PaletteOperationType": "SetColor",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "0",
+      "Index": "0",
+      "Label": "",
+      "DiceSides": 2,
+      "Disabled": false,
+      "Breakpoint": false,
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "",
+      "YPosition": "",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "LookAhead": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -674,6 +1108,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "projectile_animation",
@@ -767,6 +1202,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -853,6 +1289,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -939,6 +1376,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -1017,6 +1455,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -1095,6 +1534,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "projectile_animation",
@@ -1188,6 +1628,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1274,6 +1715,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "actor_tag",
@@ -1360,6 +1802,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "projectile_animation",
@@ -1446,6 +1889,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1532,6 +1976,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1618,6 +2063,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "projectile_type",
@@ -1704,6 +2150,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "power_kill",
@@ -1790,6 +2237,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -1876,6 +2324,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "projectile_type",
@@ -1962,6 +2411,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2048,6 +2498,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2134,6 +2585,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -2212,6 +2664,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2298,6 +2751,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2384,6 +2838,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -2462,6 +2917,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -2540,6 +2996,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2626,6 +3083,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -2704,6 +3162,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "actor_tag",
@@ -2790,6 +3249,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "actor_frame",
@@ -2890,6 +3350,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -2976,6 +3437,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "actor_frame",
@@ -3076,6 +3538,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3162,6 +3625,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -3240,6 +3704,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "power_kill",
@@ -3333,6 +3798,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3419,6 +3885,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "projectile_type",
@@ -3505,6 +3972,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3591,6 +4059,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3677,6 +4146,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -3755,6 +4225,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3841,6 +4312,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -3927,6 +4399,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -4005,6 +4478,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4091,6 +4565,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4177,6 +4652,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -4255,6 +4731,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -4333,6 +4810,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4419,6 +4897,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4505,6 +4984,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4591,6 +5071,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4677,6 +5158,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -4755,6 +5237,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -4833,6 +5316,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": []
     },
     {
@@ -4913,6 +5397,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -4999,6 +5484,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "actor_tag",
@@ -5092,6 +5578,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -5178,6 +5665,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "actor_tag",
@@ -5271,6 +5759,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "actor_animation",
@@ -5364,6 +5853,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -5450,6 +5940,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -5536,6 +6027,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -5622,6 +6114,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",
@@ -5708,6 +6201,7 @@
       "Music": "",
       "MusicPos": "0",
       "SpeakDelay": 1,
+      "Platform": "all",
       "Conditions": [
         {
           "LeftSide": "",

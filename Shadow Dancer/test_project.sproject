@@ -183,6 +183,13 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "lightning": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},

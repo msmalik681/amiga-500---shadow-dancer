@@ -10,14 +10,17 @@
   "SpriteColorBank": 1,
   "SScan2": false,
   "FMode": 0,
-  "Width": 288,
-  "XOffset": 32,
-  "XFillSize": 22,
+  "Width": 304,
+  "XOffset": 16,
+  "XFillSize": 23,
   "YFillSize": 17,
+  "XFillSizeMD": 21,
+  "YFillSizeMD": 16,
   "MapCache": false,
   "DoubleCopper": false,
   "AllocateMemoryUpfront": false,
   "NTSC": false,
   "CrunchMode": "Implode",
-  "MaxActiveActors": 32
+  "MaxActiveActors": 32,
+  "DynamicPatterns": 0
 }

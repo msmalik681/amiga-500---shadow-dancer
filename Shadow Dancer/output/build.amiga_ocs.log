@@ -5,7 +5,7 @@
 For chip:
 Map gfx (level gfx bundle 10): 0
 Music memory (shadowdancer_stage1): 0
-BP Buffer memory: 122320
+BP Buffer memory: 127880
 core sfx/gfx memory: 28816
 Parallax memory: 0
 OS/other estimated: 99328
@@ -15,16 +15,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 210956
-vm memory: 34898
+EXE memory: 211316
+vm memory: 34942
 project memory: 21450
 memory reserved for active actors on screen (32): 4744
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 355936
-Accounted memory other: 281264
-Accounted memory total: 637200
+Accounted memory chip: 361496
+Accounted memory other: 281668
+Accounted memory total: 643164
 
 === Misc ===
 Maps and Asset Bundles Count: 13
@@ -54,14 +54,14 @@ Music file shadowdancer_stage1 Original size 64380 Crunched size 50944
 Panel scorpion_eng_splashscreen Original size 35158 Crunched size 3258
 Panel hud Original size 8992 Crunched size 1630
 Panel thanks Original size 9858 Crunched size 930
-Header data for map stage_1 Original size 7992 Crunched size 532
-Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1486
+Header data for map stage_1 Original size 7992 Crunched size 530
+Tile data for map stage_1 (mem restrictions:None) Original size 12420 Crunched size 1490
 Background for map stage_1 Original size 1616 Crunched size 290
 Parallax for map stage_1 Original size 28800 Crunched size 6812
 Header data for map stage_3 Original size 7992 Crunched size 266
-Tile data for map stage_3 (mem restrictions:None) Original size 2748 Crunched size 402
+Tile data for map stage_3 (mem restrictions:None) Original size 2748 Crunched size 406
 Background for map stage_3 Original size 1396 Crunched size 80
-Header data for map stage2 Original size 7992 Crunched size 468
+Header data for map stage2 Original size 7992 Crunched size 470
 Tile data for map stage2 (mem restrictions:None) Original size 16518 Crunched size 2556
 Background for map stage2 Original size 1448 Crunched size 262
 Parallax for map stage2 Original size 32896 Crunched size 5246
@@ -79,9 +79,9 @@ Asset bundle 2 (stage_3) Original size 23264 Crunched size 8556
 Asset bundle 1 (stage_1) Original size 20160 Crunched size 7872
 Asset bundle 3 (stage2) Original size 26880 Crunched size 11428
 Project Header Original size 4032 Crunched size 1190
-Project Data Original size 21450 Crunched size 6554
-Project virtual machine (codeblocks) Original size 34898 Crunched size 7876
-Project virtual machine redirects Original size 24 Crunched size 24
+Project Data Original size 21450 Crunched size 6568
+Project virtual machine (codeblocks) Original size 34942 Crunched size 7884
+Project virtual machine redirects Original size 28 Crunched size 28
 
 === Possibly unused animations ===
 bonus_coin
@@ -107,9 +107,9 @@ joe_magica
 stomper_lower_body
 
 === Codeblocks by compiled size ===
-boss_stomper_on_timer: 6170
+boss_stomper_ai: 6170
+enemy_hit_projectile: 1252
 startup: 1232
-enemy_hit_projectile: 1208
 hostage_bonus: 976
 load_level: 958
 enemy_on_land: 852

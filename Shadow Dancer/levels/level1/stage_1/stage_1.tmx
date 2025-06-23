@@ -2,12 +2,13 @@
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="120" height="18" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="13">
   <properties>
     <property name="divert_timer" value="stage_timer_tick" />
-    <property name="parallax_path" type="file" value="stage1.plx.png" />
-    <property name="rainbow_palette" type="file" value="" />
+    <property name="parallax_path" type="file" />
     <property name="startup" value="" />
+    <property name="amiga_panel" type="string" value="" />
+    <property name="skip_transparent" type="bool" value="True" />
   </properties>
-  <tileset firstgid="1" source="..\..\..\Actors.tsx" />
-  <tileset firstgid="257" source="..\..\..\Blocks.tsx" />
+  <tileset firstgid="1" source="../../../Actors.tsx" />
+  <tileset firstgid="257" source="../../../Blocks.tsx" />
   <tileset firstgid="513" source="stage_1.tileset.tsx" />
   <layer id="1" name="map" width="120" height="18">
     <data encoding="csv">

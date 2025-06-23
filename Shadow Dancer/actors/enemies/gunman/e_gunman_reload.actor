@@ -127,6 +127,7 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": null,
+  "BlockCollider": null,
   "CanRidePlatform": false,
   "Camera": null,
   "AutoScroll": null,
@@ -155,11 +156,25 @@
     "0",
     "0",
     "0",
-    "2"
+    "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 3,
+  "DataVersion": 6,
+  "ActorTag": "2",
   "AutoSpawn": null,
   "AutoNavigate": false,
-  "TileID": 7
+  "ActorTimeline": {
+    "TimelineFrames": null,
+    "TimelineEvents": {},
+    "PingPong": false
+  },
+  "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
+  "DivertMeleeByProjectile": null,
+  "DivertMeleeAgainstProjectile": null,
+  "IsAttacker": null,
+  "PreviewParent": null,
+  "RotationEnabled": false,
+  "TileID": 7,
+  "MaxTimelineFrames": 50
 }

@@ -156,11 +156,25 @@
     "0",
     "0",
     "0",
-    "10"
+    "0"
   ],
   "ControlPort": 0,
-  "DataVersion": 3,
+  "DataVersion": 6,
+  "ActorTag": "10",
   "AutoSpawn": null,
   "AutoNavigate": false,
-  "TileID": 22
+  "ActorTimeline": {
+    "TimelineFrames": null,
+    "TimelineEvents": {},
+    "PingPong": false
+  },
+  "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
+  "DivertMeleeByProjectile": null,
+  "DivertMeleeAgainstProjectile": null,
+  "IsAttacker": null,
+  "PreviewParent": null,
+  "RotationEnabled": false,
+  "TileID": 22,
+  "MaxTimelineFrames": 50
 }

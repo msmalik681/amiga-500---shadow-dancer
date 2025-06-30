@@ -273,13 +273,13 @@
     }
   },
   "SplashScreen": null,
-  "LogicSpeed": "PAL_25HZ",
+  "LogicSpeed": "PAL_50HZ",
   "ReadCD32Buttons": false,
   "ReadMD6Buttons": false,
   "MDRegion": "Universal",
   "MDSoundDriver": "MDSDRV",
   "SplashScreenFrames": 50,
   "TestLevel": null,
-  "SafetyRails": true,
+  "SafetyRails": false,
   "NGH": 21317
 }

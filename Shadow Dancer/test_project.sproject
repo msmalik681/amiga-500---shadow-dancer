@@ -249,6 +249,13 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "boss_alarm": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
@@ -280,6 +287,6 @@
   "MDSoundDriver": "MDSDRV",
   "SplashScreenFrames": 50,
   "TestLevel": null,
-  "SafetyRails": false,
+  "SafetyRails": true,
   "NGH": 21317
 }

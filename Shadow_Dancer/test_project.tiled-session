@@ -3,8 +3,8 @@
     "expandedProjectPaths": [
         "levels/level2",
         "levels/level1",
-        "levels/level1/stage_1",
-        "."
+        ".",
+        "levels/level1/stage_1"
     ],
     "fileStates": {
         "Actors.tsx": {

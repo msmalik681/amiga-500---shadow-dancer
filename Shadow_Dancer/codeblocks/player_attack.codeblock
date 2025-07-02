@@ -873,30 +873,16 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_animation",
+          "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_idle_r",
+          "RightSide": "joe_main_idle",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
-          "LeftSide": "player_animation",
+          "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_idle_l",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "player_animation",
-          "Comparison": "Equals",
-          "RightSide": "joe_walk_r",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "player_animation",
-          "Comparison": "Equals",
-          "RightSide": "joe_walk_l",
+          "RightSide": "joe_main_walk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -992,7 +978,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -1023,7 +1011,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_melee_r + player_var4",
+      "Animation": "joe_melee_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -1170,7 +1158,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -1201,7 +1191,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_standing_star_r + player_var4",
+      "Animation": "joe_standing_star_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -1517,30 +1507,16 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_animation",
+          "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_duck_r",
+          "RightSide": "joe_duck",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
-          "LeftSide": "player_animation",
+          "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_duck_l",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "player_animation",
-          "Comparison": "Equals",
-          "RightSide": "joe_duck_walk_r",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "player_animation",
-          "Comparison": "Equals",
-          "RightSide": "joe_duck_walk_l",
+          "RightSide": "joe_duck_walk",
           "ComparisonNext": "End",
           "IsValid": true
         }

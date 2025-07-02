@@ -1,10 +1,10 @@
 {
     "activeFile": "",
     "expandedProjectPaths": [
-        "levels/level2",
+        "levels/level1/stage_1",
         "levels/level1",
-        ".",
-        "levels/level1/stage_1"
+        "levels/level2",
+        "."
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -57,6 +57,17 @@
         },
         "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/Blocks.tsx": {
             "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 306,
+                "y": 190.83333333333331
+            }
         },
         "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1/stage_1.tileset.tsx": {
             "scaleInDock": 1
@@ -178,6 +189,7 @@
     ],
     "project": "test_project.tiled-project",
     "recentFiles": [
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1.tmx",
         "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1/stage_1.tmx",
         "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level3/stage_3.tmx",
         "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level3/stage_3.tmx",

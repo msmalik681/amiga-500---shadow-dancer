@@ -2639,7 +2639,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -2670,7 +2672,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_main_idle_r + player_var4",
+      "Animation": "joe_main_idle_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

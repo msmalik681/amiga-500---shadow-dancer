@@ -98,9 +98,9 @@
           "Properties": {}
         },
         {
-          "FramePath": "idle_sword.png",
-          "HandleX": -63,
-          "HandleY": -110,
+          "FramePath": "idle_head.png",
+          "HandleX": -64,
+          "HandleY": -111,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -110,6 +110,15 @@
           "FramePath": "walk_01_body.png",
           "HandleX": -64,
           "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -63,
+          "HandleY": -110,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -128,6 +137,57 @@
           "FramePath": "walk_02_arm_r.png",
           "HandleX": -64,
           "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_01": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_01_legs.png",
+          "HandleX": -12,
+          "HandleY": -37,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_01_body.png",
+          "HandleX": -64,
+          "HandleY": -113,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_01_arm.png",
+          "HandleX": -9,
+          "HandleY": -50,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -62,
+          "HandleY": -111,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,

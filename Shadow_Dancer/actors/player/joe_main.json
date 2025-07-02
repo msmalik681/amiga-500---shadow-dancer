@@ -12,7 +12,28 @@
       "Properties": {}
     },
     "walk_r": {
-      "FrameData": [],
+      "FrameData": [
+        {
+          "FrameID": "walk_01",
+          "Duration": 4,
+          "Properties": {}
+        },
+        {
+          "FrameID": "walk_02",
+          "Duration": 4,
+          "Properties": {}
+        },
+        {
+          "FrameID": "walk_01",
+          "Duration": 4,
+          "Properties": {}
+        },
+        {
+          "FrameID": "walk_03",
+          "Duration": 4,
+          "Properties": {}
+        }
+      ],
       "Properties": {}
     }
   },
@@ -188,6 +209,57 @@
           "FramePath": "idle_sword.png",
           "HandleX": -62,
           "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_03": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -64,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -62,
+          "HandleY": -110,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_01_body.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_03_legs.png",
+          "HandleX": -16,
+          "HandleY": -35,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_03_arm.png",
+          "HandleX": -8,
+          "HandleY": -46,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,

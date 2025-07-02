@@ -11,7 +11,7 @@
     "Up": "",
     "UpRight": "",
     "Left": "",
-    "Right": "joe_idle_r",
+    "Right": "joe_main_idle_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -21,7 +21,7 @@
     "Up": "",
     "UpRight": "joe_jump_r",
     "Left": "",
-    "Right": "joe_walk_r",
+    "Right": "joe_main_walk_r",
     "DownLeft": "joe_jump_l",
     "Down": "",
     "DownRight": "joe_jump_r"

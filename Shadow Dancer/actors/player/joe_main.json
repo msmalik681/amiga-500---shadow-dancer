@@ -1,0 +1,142 @@
+{
+  "ProjectType": "RetroAnimator",
+  "Animations": {
+    "idle_r": {
+      "FrameData": [
+        {
+          "FrameID": "idle",
+          "Duration": 1,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "walk_r": {
+      "FrameData": [],
+      "Properties": {}
+    }
+  },
+  "Frames": {
+    "idle": {
+      "Sprites": [
+        {
+          "FramePath": "idle_legs.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_body.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_arm_l.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_arm_r.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_02": {
+      "Sprites": [
+        {
+          "FramePath": "walk_02.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_02_legs.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -63,
+          "HandleY": -110,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_01_body.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_02_arm_l.png",
+          "HandleX": -63,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_02_arm_r.png",
+          "HandleX": -64,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    }
+  },
+  "Properties": {}
+}

@@ -2700,7 +2700,7 @@
     {
       "CodeBlock": "startup",
       "Name": "current_stage",
-      "DefaultValue": "3",
+      "DefaultValue": "1",
       "Index": 200,
       "MemoryOffset": 353
     },
@@ -19021,7 +19021,7 @@
       "CodeBlock": "player_land",
       "CodeBlockLine": 31,
       "MemoryOffset": 28868,
-      "Description": "Raw expression 'joe_idle_r + player_var4'"
+      "Description": "Raw expression 'joe_main_idle_r + player_var4'"
     },
     {
       "CodeBlock": "player_land",

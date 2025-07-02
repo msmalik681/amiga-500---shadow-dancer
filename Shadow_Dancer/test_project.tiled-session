@@ -1,12 +1,10 @@
 {
-    "activeFile": "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level3/stage_3.tmx",
+    "activeFile": "",
     "expandedProjectPaths": [
-        "levels",
-        ".",
-        "templates",
-        "levels/level1",
         "levels/level2",
-        "levels/level1/stage_1"
+        "levels/level1",
+        "levels/level1/stage_1",
+        "."
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -52,6 +50,34 @@
             "viewCenter": {
                 "x": 238.47061600188815,
                 "y": 111.87160726929434
+            }
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/Blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1/stage_1.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1/stage_1.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 415.3333333333333,
+                "y": 218.16666666666669
+            }
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level3/stage_3.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level3/stage_3.tmx": {
+            "scale": 1.6070833333333332,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.18667358050297,
+                "y": 112.31527093596061
             }
         },
         "C:/users/malik/Documents/Amiga/test/Actors.tsx": {
@@ -149,10 +175,11 @@
         }
     },
     "openFiles": [
-        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level3/stage_3.tmx"
     ],
     "project": "test_project.tiled-project",
     "recentFiles": [
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1/stage_1.tmx",
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level3/stage_3.tmx",
         "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level3/stage_3.tmx",
         "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tmx",
         "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",

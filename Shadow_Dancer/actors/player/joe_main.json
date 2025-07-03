@@ -19,28 +19,56 @@
       "FrameData": [
         {
           "FrameID": "walk_01",
-          "Duration": 4,
-          "Properties": {
-            "RenderType": "OnlySprite"
-          }
-        },
-        {
-          "FrameID": "walk_02",
-          "Duration": 4,
+          "Duration": 2,
           "Properties": {
             "RenderType": "OnlySprite"
           }
         },
         {
           "FrameID": "walk_01",
-          "Duration": 4,
+          "Duration": 2,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "walk_02",
+          "Duration": 2,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "walk_02",
+          "Duration": 2,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "walk_01",
+          "Duration": 2,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "walk_01",
+          "Duration": 2,
           "Properties": {
             "RenderType": "OnlySprite"
           }
         },
         {
           "FrameID": "walk_03",
-          "Duration": 4,
+          "Duration": 2,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "walk_03",
+          "Duration": 2,
           "Properties": {
             "RenderType": "OnlySprite"
           }
@@ -117,36 +145,9 @@
     "walk_02": {
       "Sprites": [
         {
-          "FramePath": "walk_02.png",
-          "HandleX": -64,
-          "HandleY": -112,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
-          "FramePath": "walk_02_legs.png",
-          "HandleX": -64,
-          "HandleY": -112,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
           "FramePath": "idle_head.png",
           "HandleX": -64,
           "HandleY": -111,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
-          "FramePath": "walk_01_body.png",
-          "HandleX": -64,
-          "HandleY": -112,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -162,16 +163,7 @@
           "Properties": {}
         },
         {
-          "FramePath": "walk_02_arm_l.png",
-          "HandleX": -63,
-          "HandleY": -112,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
-          "FramePath": "walk_02_arm_r.png",
+          "FramePath": "walk_002.png",
           "HandleX": -64,
           "HandleY": -112,
           "XFlip": false,
@@ -197,36 +189,18 @@
           "Properties": {}
         },
         {
-          "FramePath": "walk_01_legs.png",
-          "HandleX": -12,
-          "HandleY": -37,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
-          "FramePath": "walk_01_body.png",
-          "HandleX": -64,
-          "HandleY": -113,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
-          "FramePath": "walk_01_arm.png",
-          "HandleX": -9,
-          "HandleY": -50,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
           "FramePath": "idle_sword.png",
           "HandleX": -62,
           "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_003.png",
+          "HandleX": -64,
+          "HandleY": -112,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -251,7 +225,7 @@
         },
         {
           "FramePath": "idle_sword.png",
-          "HandleX": -62,
+          "HandleX": -61,
           "HandleY": -110,
           "XFlip": false,
           "NoFlip": false,
@@ -259,27 +233,9 @@
           "Properties": {}
         },
         {
-          "FramePath": "walk_01_body.png",
+          "FramePath": "walk_005.png",
           "HandleX": -64,
           "HandleY": -112,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
-          "FramePath": "walk_03_legs.png",
-          "HandleX": -16,
-          "HandleY": -35,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
-          "FramePath": "walk_03_arm.png",
-          "HandleX": -8,
-          "HandleY": -46,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,

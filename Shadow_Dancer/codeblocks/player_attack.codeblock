@@ -1255,95 +1255,6 @@
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
-      "ConditionType": "ForeachActor",
-      "LevelOperationType": "LoadLevel",
-      "ActorOperationType": "SetType",
-      "DialogueOperationType": "Speak",
-      "DataOperationType": "Load",
-      "ControlOperationType": "JumpControls",
-      "PaletteOperationType": "SetColor",
-      "CoreType": "ActorSetType",
-      "ControlMode": "Joys_1",
-      "Goto": "player_animations",
-      "Comment": "",
-      "Variable": "none",
-      "Expression": "0",
-      "Index": "0",
-      "Label": "",
-      "Disabled": true,
-      "Breakpoint": false,
-      "Level": "none",
-      "NewBlock": "none",
-      "XPosition": "",
-      "YPosition": "",
-      "TeleportName": "none",
-      "XFloat": null,
-      "YFloat": null,
-      "ActorType": "none",
-      "Animation": "none",
-      "PushXPixels": "",
-      "PushYPixels": "",
-      "LookDirection": "look_upleft",
-      "ResetMovement": true,
-      "ResetAnimations": true,
-      "ShootDirType": "actor_direction",
-      "Panel": "none",
-      "WaitForFireHit": false,
-      "Frames": "0",
-      "CameraX": "",
-      "CameraY": "",
-      "CameraBox": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "LookAhead": {
-        "Left": "0",
-        "Right": "0",
-        "Up": "0",
-        "Down": "0"
-      },
-      "YRes": "",
-      "FrameWait": "",
-      "CameraFollowLeft": true,
-      "CameraFollowRight": true,
-      "CameraFollowUp": true,
-      "CameraFollowDown": true,
-      "CameraFollowInterpolateCamera": false,
-      "CameraFollowInterpolateSprites": false,
-      "ColorIndex": "0",
-      "Color": {
-        "r": 0,
-        "g": 0,
-        "b": 0,
-        "a": 255
-      },
-      "Sound": "",
-      "Music": "",
-      "MusicPos": "0",
-      "SpeakDelay": 1,
-      "Platform": "all",
-      "VariableType": "Variable",
-      "VariableExpansionMode": "Word",
-      "DiceSides": "2",
-      "Conditions": [
-        {
-          "LeftSide": "actor_tag",
-          "Comparison": "LessThan",
-          "RightSide": "-9",
-          "ComparisonNext": "End",
-          "IsValid": true
-        }
-      ]
-    },
-    {
-      "Values": {},
-      "DataVersion": 6,
-      "Category": "Conditional",
-      "BasicOperationType": "CommentOnly",
-      "DisplayOperationType": "SetPanel",
-      "AudioOperationType": "PlaySound",
       "ConditionType": "EndCondition",
       "LevelOperationType": "LoadLevel",
       "ActorOperationType": "SetType",
@@ -1612,7 +1523,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -1643,7 +1556,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_melee_low_r + player_var4",
+      "Animation": "joe_melee_low_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -1790,7 +1703,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -1821,7 +1736,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_ducking_star_r + player_var4",
+      "Animation": "joe_ducking_star_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -2040,30 +1955,16 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_animation",
+          "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_jump_r",
+          "RightSide": "joe_jump",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
-          "LeftSide": "player_animation",
+          "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_jump_l",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "player_animation",
-          "Comparison": "Equals",
-          "RightSide": "joe_jump_star_r",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "player_animation",
-          "Comparison": "Equals",
-          "RightSide": "joe_jump_star_l",
+          "RightSide": "joe_jump_star",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2150,16 +2051,9 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_animation",
+          "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_jump_star_r",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "player_animation",
-          "Comparison": "Equals",
-          "RightSide": "joe_jump_star_l",
+          "RightSide": "joe_jump_star",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2595,7 +2489,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -2626,7 +2522,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_melee_air_r + actor_var4",
+      "Animation": "joe_melee_air_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -2773,7 +2669,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -2804,7 +2702,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_jump_star_r + player_var4",
+      "Animation": "joe_jump_star_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

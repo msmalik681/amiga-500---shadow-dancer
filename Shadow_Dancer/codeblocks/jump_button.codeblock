@@ -1585,30 +1585,16 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_animation",
+          "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_duck_r",
+          "RightSide": "joe_duck",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
-          "LeftSide": "player_animation",
+          "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_duck_l",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "player_animation",
-          "Comparison": "Equals",
-          "RightSide": "joe_duck_walk_r",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "player_animation",
-          "Comparison": "Equals",
-          "RightSide": "joe_duck_walk_l",
+          "RightSide": "joe_duck_walk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2769,7 +2755,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -2800,7 +2788,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_jump_r + player_var4",
+      "Animation": "joe_jump_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

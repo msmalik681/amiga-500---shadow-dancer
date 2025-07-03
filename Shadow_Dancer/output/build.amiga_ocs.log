@@ -1,9 +1,9 @@
-Compiled on 03 July 2025 00:12:08
-Version string: SE2025.0.250702.21.08.EX
+Compiled on 03 July 2025 17:37:17
+Version string: SE2025.0.250703.20.27.EX
 
 === Misc ===
-ImageFrames: 352
-ImageFrame Data Size: 15488
+ImageFrames: 360
+ImageFrame Data Size: 15840
 Maps and Asset Bundles Count: 13
 Maps and Asset Bundles Data Size: 0
 Actor Count: 23
@@ -18,24 +18,24 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 91
 Animations Data Size: 1456
-AnimationFrame Count: 353
-AnimationFrame Data Size: 5648
-Sprites: 13
-Sprites Data Size: 182
+AnimationFrame Count: 361
+AnimationFrame Data Size: 5776
+Sprites: 19
+Sprites Data Size: 266
 Attack Data: 10
 Attack Data Size: 880
 Misc data size: 302
 
 === Data Sizes ===
     Size | Crunch | Detail
-   73642 |        | Asset bundle 10 (joe_base)
+   74502 |        | Asset bundle 10 (joe_base)
    64380 |        | Music file shadowdancer_stage1
    39250 |        | Asset bundle 7 (enemy_shieldman)
    34748 |        | Asset bundle 0 (Core project asset bundle)
-   33278 |        | Project virtual machine (codeblocks)
+   33196 |        | Project virtual machine (codeblocks)
    32896 |        | Parallax for background stage2_plx
    30464 |        | Asset bundle 6 (enemy_roller)
-   28886 |        | Project Data
+   29450 |        | Project Data
    28800 |        | Parallax for background stage_1_plx
    26678 |        | Asset bundle 5 (enemy_gunman)
    26562 |        | Asset bundle 3 (stage2)
@@ -80,16 +80,16 @@ OS/other estimated: 99328
 For other:
 Map data memory: 16530
 Map background memory: 1640
-EXE memory: 204752
-vm memory: 33278
-project memory: 28886
+EXE memory: 204544
+vm memory: 33196
+project memory: 29450
 memory reserved for active actors on screen (16): 2312
 memory reserved for dormant actors in map (32): 1152
 OS/other estimated: 105472
 
 Accounted memory chip: 396016
-Accounted memory other: 394022
-Accounted memory total: 790038
+Accounted memory other: 394296
+Accounted memory total: 790312
 
 === Possibly unused animations ===
 e_gunman_fall_l
@@ -103,9 +103,7 @@ e_shield_throw_r
 joe_death_l
 joe_death_r
 joe_melee_air_l
-joe_melee_air_r
 joe_melee_low_l
-joe_melee_low_r
 joe_melee_l
 
 === Possibly unused Actors ===
@@ -122,17 +120,17 @@ enemy_gunman_ai: 790
 enemy_bump: 774
 player_land: 750
 player_ontimer: 712
-player_attack: 702
-jump_button: 698
+jump_button: 688
 load_level: 650
 enemy_roller_ai: 598
+player_attack: 590
 stage_reset: 534
 high_jump_up: 486
 enemy_henchman_ai: 472
+pre_startup: 446
 ninja_magic: 440
 star_throw: 426
 ninja_magic_gosub: 408
-pre_startup: 406
 player_hit: 374
 stage_timer_tick: 354
 flipscreen_smooth: 310 (Unused?)

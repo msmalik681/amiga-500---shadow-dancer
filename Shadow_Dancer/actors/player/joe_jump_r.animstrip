@@ -5,10 +5,10 @@
         "Events": []
       },
       "Duration": 4,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "jump_01.png",
       "HandleX": -64,
@@ -24,10 +24,10 @@
         "Events": []
       },
       "Duration": 4,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "jump_02.png",
       "HandleX": -64,
@@ -43,10 +43,10 @@
         "Events": []
       },
       "Duration": 25,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "jump_03.png",
       "HandleX": -64,
@@ -62,10 +62,10 @@
         "Events": []
       },
       "Duration": 4,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "jump_02.png",
       "HandleX": -64,
@@ -81,10 +81,10 @@
         "Events": []
       },
       "Duration": 50,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "Sliced",
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "jump_01.png",
       "HandleX": -64,
@@ -96,13 +96,15 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": false,
   "PreventCollision": false,
+  "PreventJump": false,
   "HideChildren": true,
   "LoopFrame": 0,
-  "LinkedMap": "joe_base",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0
+  "AnimationTag": null,
+  "LinkedMap": "joe_base"
 }

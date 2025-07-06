@@ -250,6 +250,90 @@
       "Properties": {
         "Events": "{\r\n  \"Events\": []\r\n}"
       }
+    },
+    "duck_01": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -58,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -57,
+          "HandleY": -91,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_legs.png",
+          "HandleX": -19,
+          "HandleY": -20,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_body.png",
+          "HandleX": -12,
+          "HandleY": -28,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_arm.png",
+          "HandleX": 5,
+          "HandleY": -27,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_02": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -58,
+          "HandleY": -88,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -57,
+          "HandleY": -92,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_body_02.png",
+          "HandleX": -16,
+          "HandleY": -30,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
     }
   },
   "Properties": {}

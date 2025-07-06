@@ -77,6 +77,10 @@
       "Properties": {
         "LinkedMap": "joe_base"
       }
+    },
+    "duck_r": {
+      "FrameData": [],
+      "Properties": {}
     }
   },
   "Frames": {

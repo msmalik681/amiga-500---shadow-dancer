@@ -5,10 +5,10 @@
         "Events": []
       },
       "Duration": 30,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
       "SpriteType": "Attached_16colors",
       "Path": "joe_fall.png",
       "HandleX": -64,
@@ -20,13 +20,15 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": true,
+  "PreventJump": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "joe_base",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0
+  "AnimationTag": null,
+  "LinkedMap": "joe_base"
 }

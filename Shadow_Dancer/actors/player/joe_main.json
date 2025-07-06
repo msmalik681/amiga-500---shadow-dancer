@@ -79,7 +79,138 @@
       }
     },
     "duck_r": {
-      "FrameData": [],
+      "FrameData": [
+        {
+          "FrameID": "duck_01",
+          "Duration": 1,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "duck_walk_r": {
+      "FrameData": [
+        {
+          "FrameID": "duck_01",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "duck_01",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "duck_02",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "duck_02",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "duck_03",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "duck_03",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "duck_02",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "duck_02",
+          "Duration": 2,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "duck_star_r": {
+      "FrameData": [
+        {
+          "FrameID": "duck_star_01",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "duck_star_02",
+          "Duration": 1,
+          "Properties": {}
+        },
+        {
+          "FrameID": "duck_01",
+          "Duration": 1,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "jump_r": {
+      "FrameData": [
+        {
+          "FrameID": "jump_01",
+          "Duration": 4,
+          "Properties": {}
+        },
+        {
+          "FrameID": "jump_02",
+          "Duration": 4,
+          "Properties": {}
+        },
+        {
+          "FrameID": "jump_03",
+          "Duration": 25,
+          "Properties": {}
+        },
+        {
+          "FrameID": "jump_02",
+          "Duration": 4,
+          "Properties": {}
+        },
+        {
+          "FrameID": "jump_01_b",
+          "Duration": 50,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "jump_star_r": {
+      "FrameData": [
+        {
+          "FrameID": "jump_star_01",
+          "Duration": 1,
+          "Properties": {}
+        },
+        {
+          "FrameID": "jump_star_02",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "jump_03",
+          "Duration": 0,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "fall_r": {
+      "FrameData": [
+        {
+          "FrameID": "fall",
+          "Duration": 0,
+          "Properties": {}
+        }
+      ],
       "Properties": {}
     }
   },
@@ -326,6 +457,606 @@
           "FramePath": "duck_body_02.png",
           "HandleX": -16,
           "HandleY": -30,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_03": {
+      "Sprites": [
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -57,
+          "HandleY": -91,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -58,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_body_03.png",
+          "HandleX": -18,
+          "HandleY": -30,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_star_01": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -58,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -57,
+          "HandleY": -91,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_legs.png",
+          "HandleX": -19,
+          "HandleY": -20,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_body.png",
+          "HandleX": -12,
+          "HandleY": -28,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_hand.png",
+          "HandleX": 4,
+          "HandleY": -21,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_star_01_arm.png",
+          "HandleX": 6,
+          "HandleY": -25,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "duck_star_02": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -58,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -57,
+          "HandleY": -91,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_legs.png",
+          "HandleX": -19,
+          "HandleY": -20,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_body.png",
+          "HandleX": -12,
+          "HandleY": -28,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_arm_02.png",
+          "HandleX": 9,
+          "HandleY": -24,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_hand_02.png",
+          "HandleX": 16,
+          "HandleY": -24,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_01": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -56,
+          "HandleY": -102,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_legs.png",
+          "HandleX": -15,
+          "HandleY": -31,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_body.png",
+          "HandleX": -6,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_l_arm.png",
+          "HandleX": -19,
+          "HandleY": -42,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_r_arm.png",
+          "HandleX": 4,
+          "HandleY": -33,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -56,
+          "HandleY": -104,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_02": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -56,
+          "HandleY": -102,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_body.png",
+          "HandleX": -6,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_l_arm.png",
+          "HandleX": -19,
+          "HandleY": -42,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -56,
+          "HandleY": -104,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_02_front_leg.png",
+          "HandleX": -9,
+          "HandleY": -33,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_02_back_leg.png",
+          "HandleX": -10,
+          "HandleY": -21,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_02_r_arm.png",
+          "HandleX": 8,
+          "HandleY": -39,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_03": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -56,
+          "HandleY": -102,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -56,
+          "HandleY": -104,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_02_front_leg.png",
+          "HandleX": -9,
+          "HandleY": -33,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_02_r_arm.png",
+          "HandleX": 7,
+          "HandleY": -39,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_body.png",
+          "HandleX": -6,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_03_l_arm.png",
+          "HandleX": -7,
+          "HandleY": -42,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_03_back_leg.png",
+          "HandleX": -4,
+          "HandleY": -25,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_01_b": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -56,
+          "HandleY": -102,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_legs.png",
+          "HandleX": -15,
+          "HandleY": -31,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_body.png",
+          "HandleX": -6,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_l_arm.png",
+          "HandleX": -19,
+          "HandleY": -42,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_r_arm.png",
+          "HandleX": 4,
+          "HandleY": -33,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -56,
+          "HandleY": -104,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_star_01": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -56,
+          "HandleY": -102,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -56,
+          "HandleY": -104,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_02_front_leg.png",
+          "HandleX": -9,
+          "HandleY": -33,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_star_01_arm.png",
+          "HandleX": 7,
+          "HandleY": -39,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_body.png",
+          "HandleX": -6,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_03_l_arm.png",
+          "HandleX": -7,
+          "HandleY": -42,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_03_back_leg.png",
+          "HandleX": -4,
+          "HandleY": -25,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_hand.png",
+          "HandleX": 5,
+          "HandleY": -35,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump_star_02": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -56,
+          "HandleY": -102,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -56,
+          "HandleY": -104,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_02_front_leg.png",
+          "HandleX": -9,
+          "HandleY": -33,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_01_body.png",
+          "HandleX": -6,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_03_l_arm.png",
+          "HandleX": -7,
+          "HandleY": -42,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_03_back_leg.png",
+          "HandleX": -4,
+          "HandleY": -25,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_star_02_r_arm.png",
+          "HandleX": 9,
+          "HandleY": -40,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "duck_hand_02.png",
+          "HandleX": 20,
+          "HandleY": -38,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "fall": {
+      "Sprites": [
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": -63,
+          "HandleY": -94,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "fall_body.png",
+          "HandleX": -13,
+          "HandleY": -38,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_sword.png",
+          "HandleX": -63,
+          "HandleY": -96,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,

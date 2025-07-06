@@ -262,7 +262,7 @@
         {
           "LeftSide": "player_animation",
           "Comparison": "Equals",
-          "RightSide": "joe_boss_intro",
+          "RightSide": "joe_main_boss_intro",
           "ComparisonNext": "Or",
           "IsValid": true
         },
@@ -609,7 +609,7 @@
         {
           "LeftSide": "player_animation",
           "Comparison": "NotEquals",
-          "RightSide": "joe_magic",
+          "RightSide": "joe_main_magic",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -825,7 +825,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_magic",
+      "Animation": "joe_main_magic",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

@@ -1587,14 +1587,14 @@
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_duck",
+          "RightSide": "joe_main_duck",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_duck_walk",
+          "RightSide": "joe_main_duck_walk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2474,14 +2474,14 @@
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_duck",
+          "RightSide": "joe_main_duck",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_duck_walk",
+          "RightSide": "joe_main_duck_walk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2788,7 +2788,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_jump_r",
+      "Animation": "joe_main_jump_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

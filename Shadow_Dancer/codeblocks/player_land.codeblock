@@ -1755,16 +1755,9 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_animation",
+          "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_fall_r",
-          "ComparisonNext": "Or",
-          "IsValid": true
-        },
-        {
-          "LeftSide": "player_animation",
-          "Comparison": "Equals",
-          "RightSide": "joe_fall_l",
+          "RightSide": "joe_fall",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2120,7 +2113,8 @@
     },
     {
       "Values": {
-        "LoopAnimation": "False"
+        "LoopAnimation": "False",
+        "AutoFlip": "True"
       },
       "DataVersion": 6,
       "Category": "Player",
@@ -2152,7 +2146,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_death_r + player_var4",
+      "Animation": "joe_death",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

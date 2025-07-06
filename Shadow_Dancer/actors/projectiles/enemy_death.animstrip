@@ -5,19 +5,12 @@
         "Events": []
       },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "OnlySprite",
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
       "SpriteType": "Channel_2_to_1",
       "Path": "death_flame_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -110,
       "XFlipped": false,
@@ -31,19 +24,12 @@
         "Events": []
       },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "OnlySprite",
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
       "SpriteType": "Channel_2_to_1",
       "Path": "death_flame_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -110,
       "XFlipped": false,
@@ -57,19 +43,12 @@
         "Events": []
       },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "OnlySprite",
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
       "SpriteType": "Channel_2_to_1",
       "Path": "death_flame_03.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -110,
       "XFlipped": false,
@@ -83,19 +62,12 @@
         "Events": []
       },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
-      "RenderType": "OnlySprite",
+      "PaletteLineNeo": 0,
+      "RenderType": "Sliced",
       "SpriteType": "Channel_2_to_1",
       "Path": "death_flame_04.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -64,
       "HandleY": -110,
       "XFlipped": false,
@@ -105,13 +77,15 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": true,
+  "PreventJump": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "",
   "OnFinish": "destroy_actor",
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0
+  "AnimationTag": null,
+  "LinkedMap": ""
 }

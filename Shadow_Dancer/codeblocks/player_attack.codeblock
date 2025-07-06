@@ -81,7 +81,15 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "6",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -1011,7 +1019,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_melee_r",
+      "Animation": "joe_main_melee_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -1191,7 +1199,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_standing_star_r",
+      "Animation": "joe_main_star_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -1420,14 +1428,14 @@
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_duck",
+          "RightSide": "joe_main_duck",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_duck_walk",
+          "RightSide": "joe_main_duck_walk",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -1556,7 +1564,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_melee_low_r",
+      "Animation": "joe_main_duck_melee_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -1736,7 +1744,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_ducking_star_r",
+      "Animation": "joe_main_duck_star_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -1957,14 +1965,14 @@
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_jump",
+          "RightSide": "joe_main_jump",
           "ComparisonNext": "Or",
           "IsValid": true
         },
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_jump_star",
+          "RightSide": "joe_main_jump_star",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2053,7 +2061,7 @@
         {
           "LeftSide": "player_animationtag",
           "Comparison": "Equals",
-          "RightSide": "joe_jump_star",
+          "RightSide": "joe_main_jump_star",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -2702,7 +2710,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_jump_star_r",
+      "Animation": "joe_main_jump_star_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

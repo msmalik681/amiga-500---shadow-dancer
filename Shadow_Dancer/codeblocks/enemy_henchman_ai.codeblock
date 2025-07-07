@@ -2336,7 +2336,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -2367,7 +2369,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "e_henchman_atk_r + actor_var4",
+      "Animation": "e_henchman_atk_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

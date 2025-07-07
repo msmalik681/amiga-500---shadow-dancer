@@ -1,5 +1,5 @@
-Compiled on 06 July 2025 23:34:47
-Version string: SE2025.0.250705.20.30.EX
+Compiled on 07 July 2025 18:10:21
+Version string: SE2025.0.250707.11.54.EX
 
 === Misc ===
 ImageFrames: 356
@@ -30,10 +30,9 @@ Misc data size: 302
     Size | Crunch | Detail
    64380 |        | Music file shadowdancer_stage1
    56708 |        | Asset bundle 10 (joe_base)
-   39292 |        | Asset bundle 7 (enemy_shieldman)
-   38408 |        | Asset bundle 0 (Core project asset bundle)
+   52078 |        | Asset bundle 0 (Core project asset bundle)
    32896 |        | Parallax for background stage2_plx
-   32866 |        | Project virtual machine (codeblocks)
+   32880 |        | Project virtual machine (codeblocks)
    30464 |        | Asset bundle 6 (enemy_roller)
    29798 |        | Project Data
    28800 |        | Parallax for background stage_1_plx
@@ -41,16 +40,17 @@ Misc data size: 302
    26562 |        | Asset bundle 3 (stage2)
    23520 |        | Asset bundle 2 (stage_3)
    20072 |        | Asset bundle 1 (stage_1)
-   18554 |        | Asset bundle 9 (henchmen)
+   18490 |        | Asset bundle 9 (henchmen)
    16530 |        | Tile data for map stage2 (mem restrictions:None)
    12368 |        | Asset bundle 12 (stage_bonus)
    10578 |        | Tile data for map stage_1 (mem restrictions:None)
     8984 |        | Panel thanks
     6502 |        | Asset bundle 4 (boss_gfx)
-    5784 |        | Panel hud
+    5816 |        | Panel hud
     5442 |        | Asset bundle 11 (joe_stage)
     4376 |        | Project Header
     3380 |  (91%) | Panel scorpion_eng_splashscreen
+    3196 |        | Asset bundle 7 (enemy_shieldman)
     2844 |        | Asset bundle 8 (gfx_falling_rocks)
     2760 |        | Tile data for map stage_3 (mem restrictions:None)
     1686 |        | Panel bobs hud
@@ -61,8 +61,8 @@ Misc data size: 302
      844 |        | Header data for map stage2
      728 |        | Map actor data for stage2
       76 |  (95%) | Panel (background color #000)
+      56 |        | Map actor data for stage_1
       56 |        | Map actor data for stage_3
-      28 |        | Map actor data for stage_1
        4 |        | Project virtual machine redirects
        2 |        | Misc Data (paths, hurt boxes etc)
 
@@ -73,23 +73,23 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 36784
 Music memory (shadowdancer_stage1): 64380
 BP Buffer memory: 127880
-Core sfx/gfx memory: 38408
+Core sfx/gfx memory: 52078
 Parallax memory: 32896
 OS/other estimated: 99328
 
 For other:
 Map data memory: 16530
 Map background memory: 1640
-EXE memory: 204584
-vm memory: 32866
+EXE memory: 204680
+vm memory: 32880
 project memory: 29798
 memory reserved for active actors on screen (16): 2312
 memory reserved for dormant actors in map (32): 1152
 OS/other estimated: 105472
 
-Accounted memory chip: 399676
-Accounted memory other: 394354
-Accounted memory total: 794030
+Accounted memory chip: 413346
+Accounted memory other: 394464
+Accounted memory total: 807810
 
 === Possibly unused animations ===
 e_gunman_fall_l
@@ -118,7 +118,7 @@ stomper_lower_body
 === Codeblocks by compiled size ===
 boss_stomper_ai: 7096
 enemy_hit_projectile: 1330
-startup: 1116
+startup: 1056
 hostage_bonus: 1020
 enemy_on_land: 898
 enemy_shieldman_ai: 834
@@ -126,8 +126,8 @@ enemy_gunman_ai: 790
 enemy_bump: 774
 player_land: 716
 load_level: 650
+player_ontimer: 648
 jump_button: 640
-player_ontimer: 612
 enemy_roller_ai: 598
 player_attack: 590
 stage_reset: 534
@@ -179,7 +179,6 @@ load_panel_bottom: 96 (Unused?)
 load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
 autogen_e_henchman_atk_l_1: 90
-autogen_e_henchman_atk_r_1: 90
 autogen_e_roller_atk_l_2: 90
 autogen_e_roller_atk_l_4: 90
 autogen_e_roller_atk_r_2: 90
@@ -191,6 +190,7 @@ autogen_joe_main_melee_r_1: 90
 autogen_joe_melee_air_l_1: 90
 enemy_direction_gosub: 90
 player_direction_gosub: 90
+autogen_e_henchman_atk_r_1: 88
 waitforfirehit: 86
 autogen_joe_melee_air_r_1: 86
 load_music: 78
@@ -225,12 +225,13 @@ autogen_bonus_smoke_ani_7: 38
 autogen_bonus_smoke_ani_9: 38
 autogen_e_gunman_ready_0: 38
 autogen_e_henchman_search_0: 38
+autogen_e_henchman_walk_l_0: 38
 autogen_e_roller_idle_l_0: 38
-autogen_e_shield_idle_l_0: 38
+autogen_e_shield_throw_low_l_6: 38
 autogen_falling_rock_break_2: 38
 autogen_joe_death_l_3: 38
 autogen_joe_high_jump_down_1: 38
-autogen_joe_main_duck_l_0: 38
+autogen_joe_main_boss_intro_0: 38
 autogen_joe_main_duck_star_l_1: 38
 autogen_joe_main_magic_1: 38
 block_coll_force: 32 (Unused?)

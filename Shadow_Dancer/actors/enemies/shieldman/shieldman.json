@@ -1,0 +1,373 @@
+{
+  "ProjectType": "RetroAnimator",
+  "Animations": {
+    "idle_r": {
+      "FrameData": [
+        {
+          "FrameID": "idle_01",
+          "Duration": 8,
+          "Properties": {}
+        },
+        {
+          "FrameID": "idle_02",
+          "Duration": 8,
+          "Properties": {}
+        },
+        {
+          "FrameID": "idle_01",
+          "Duration": 8,
+          "Properties": {}
+        },
+        {
+          "FrameID": "idle_02",
+          "Duration": 8,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "throw_high": {
+      "FrameData": [
+        {
+          "FrameID": "idle_01",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "idle_02",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "idle_01",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "idle_02",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "throw_0",
+          "Duration": 6,
+          "Properties": {}
+        },
+        {
+          "FrameID": "throw_upper_01",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "throw_upper_02",
+          "Duration": 32,
+          "Properties": {}
+        },
+        {
+          "FrameID": "throw_upper_01",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "throw_0",
+          "Duration": 6,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "throw_low": {
+      "FrameData": [
+        {
+          "FrameID": "idle_01",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "idle_02",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "idle_01",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "idle_02",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "throw_0",
+          "Duration": 6,
+          "Properties": {}
+        },
+        {
+          "FrameID": "throw_lower_01",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "throw_lower_02",
+          "Duration": 32,
+          "Properties": {}
+        },
+        {
+          "FrameID": "throw_lower_01",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "throw_0",
+          "Duration": 6,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    }
+  },
+  "Frames": {
+    "throw_0": {
+      "Sprites": [
+        {
+          "FramePath": "legs_main.png",
+          "HandleX": -23,
+          "HandleY": -29,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "throw_catch.png",
+          "HandleX": -33,
+          "HandleY": -59,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "throw_upper_01": {
+      "Sprites": [
+        {
+          "FramePath": "legs_main.png",
+          "HandleX": -23,
+          "HandleY": -29,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "shield.png",
+          "HandleX": 19,
+          "HandleY": -42,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "throw_upper.png",
+          "HandleX": -12,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "throw_upper_02": {
+      "Sprites": [
+        {
+          "FramePath": "legs_main.png",
+          "HandleX": -23,
+          "HandleY": -29,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "throw_upper.png",
+          "HandleX": -12,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "throw_lower_01": {
+      "Sprites": [
+        {
+          "FramePath": "legs_main.png",
+          "HandleX": -23,
+          "HandleY": -29,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "shield.png",
+          "HandleX": 1,
+          "HandleY": -24,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "throw_lower.png",
+          "HandleX": -11,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "throw_lower_02": {
+      "Sprites": [
+        {
+          "FramePath": "legs_main.png",
+          "HandleX": -23,
+          "HandleY": -29,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "throw_lower.png",
+          "HandleX": -11,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "idle_01": {
+      "Sprites": [
+        {
+          "FramePath": "idle_front_arm.png",
+          "HandleX": 8,
+          "HandleY": -44,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "legs_main.png",
+          "HandleX": -23,
+          "HandleY": -29,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_body.png",
+          "HandleX": -11,
+          "HandleY": -48,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": 6,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_back_arm.png",
+          "HandleX": -1,
+          "HandleY": -47,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "idle_02": {
+      "Sprites": [
+        {
+          "FramePath": "idle_front_arm.png",
+          "HandleX": 8,
+          "HandleY": -42,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "legs_main.png",
+          "HandleX": -23,
+          "HandleY": -29,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_body.png",
+          "HandleX": -10,
+          "HandleY": -48,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_head.png",
+          "HandleX": 7,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "idle_back_arm.png",
+          "HandleX": -1,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    }
+  },
+  "Properties": {}
+}

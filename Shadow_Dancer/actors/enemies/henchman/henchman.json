@@ -1,0 +1,237 @@
+{
+  "ProjectType": "RetroAnimator",
+  "Animations": {
+    "atk_r": {
+      "FrameData": [
+        {
+          "FrameID": "atk_01",
+          "Duration": 7,
+          "Properties": {}
+        },
+        {
+          "FrameID": "atk_02",
+          "Duration": 7,
+          "Properties": {}
+        },
+        {
+          "FrameID": "atk_01",
+          "Duration": 7,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "jump_r": {
+      "FrameData": [
+        {
+          "FrameID": "jump",
+          "Duration": 50,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "walk_r": {
+      "FrameData": [
+        {
+          "FrameID": "walk_01",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "walk_02",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "walk_01",
+          "Duration": 2,
+          "Properties": {}
+        },
+        {
+          "FrameID": "walk_03",
+          "Duration": 2,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    }
+  },
+  "Frames": {
+    "walk_01": {
+      "Sprites": [
+        {
+          "FramePath": "walk_01_body.png",
+          "HandleX": -12,
+          "HandleY": -46,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "head.png",
+          "HandleX": 1,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_02": {
+      "Sprites": [
+        {
+          "FramePath": "head.png",
+          "HandleX": 1,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_02_body.png",
+          "HandleX": -22,
+          "HandleY": -46,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_03": {
+      "Sprites": [
+        {
+          "FramePath": "walk_03_upper.png",
+          "HandleX": -10,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "main_legs.png",
+          "HandleX": -25,
+          "HandleY": -39,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "head.png",
+          "HandleX": 1,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "atk_01": {
+      "Sprites": [
+        {
+          "FramePath": "atk_01_upper.png",
+          "HandleX": -29,
+          "HandleY": -57,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "main_legs.png",
+          "HandleX": -25,
+          "HandleY": -39,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "atk_02": {
+      "Sprites": [
+        {
+          "FramePath": "head.png",
+          "HandleX": 3,
+          "HandleY": -47,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "atk_02_upper.png",
+          "HandleX": -17,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "main_legs.png",
+          "HandleX": -25,
+          "HandleY": -39,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "knife_atk": {
+          "Value": 0,
+          "X": 8,
+          "Y": -43,
+          "Width": 34,
+          "Height": 15,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {}
+    },
+    "jump": {
+      "Sprites": [
+        {
+          "FramePath": "head.png",
+          "HandleX": 1,
+          "HandleY": -49,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "jump_body.png",
+          "HandleX": -12,
+          "HandleY": -48,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    }
+  },
+  "Properties": {}
+}

@@ -1,4 +1,4 @@
-Compiled on 08 July 2025 14:27:28
+Compiled on 08 July 2025 18:04:13
 Version string: SE2025.0.250708.17.38.EX
 
 === Misc ===
@@ -32,7 +32,7 @@ Misc data size: 302
    56708 |        | Asset bundle 10 (joe_base)
    52078 |        | Asset bundle 0 (Core project asset bundle)
    32896 |        | Parallax for background stage2_plx
-   32780 |        | Project virtual machine (codeblocks)
+   32852 |        | Project virtual machine (codeblocks)
    30464 |        | Asset bundle 6 (enemy_roller)
    29866 |        | Project Data
    28800 |        | Parallax for background stage_1_plx
@@ -81,15 +81,15 @@ For other:
 Map data memory: 16530
 Map background memory: 1640
 EXE memory: 204680
-vm memory: 32780
+vm memory: 32852
 project memory: 29866
 memory reserved for active actors on screen (16): 2312
 memory reserved for dormant actors in map (32): 1152
 OS/other estimated: 105472
 
 Accounted memory chip: 413346
-Accounted memory other: 394432
-Accounted memory total: 807778
+Accounted memory other: 394504
+Accounted memory total: 807850
 
 === Possibly unused animations ===
 e_gunman_fall_l
@@ -118,7 +118,7 @@ boss_stomper_ai: 7096
 enemy_hit_projectile: 1318
 startup: 1036
 hostage_bonus: 1020
-enemy_on_land: 898
+enemy_on_land: 888
 enemy_shieldman_ai: 834
 enemy_gunman_ai: 790
 enemy_bump: 752
@@ -128,9 +128,9 @@ player_ontimer: 646
 jump_button: 640
 enemy_roller_ai: 598
 player_attack: 590
+enemy_henchman_ai: 544
 stage_reset: 534
 high_jump_up: 486
-enemy_henchman_ai: 462
 pre_startup: 446
 ninja_magic: 440
 ninja_magic_gosub: 408

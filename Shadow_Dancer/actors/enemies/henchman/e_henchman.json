@@ -216,7 +216,7 @@
         },
         {
           "FramePath": "main_legs.png",
-          "HandleX": -25,
+          "HandleX": -24,
           "HandleY": -39,
           "XFlip": false,
           "NoFlip": false,
@@ -227,10 +227,10 @@
       "ColRects": {
         "knife_atk": {
           "Value": 0,
-          "X": 8,
-          "Y": -43,
-          "Width": 34,
-          "Height": 15,
+          "X": 6,
+          "Y": -40,
+          "Width": 37,
+          "Height": 7,
           "ColorR": 0,
           "ColorG": 0,
           "ColorB": 255,

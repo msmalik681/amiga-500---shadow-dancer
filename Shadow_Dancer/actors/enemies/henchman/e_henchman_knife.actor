@@ -115,8 +115,8 @@
   "SpeedRight": 3.4,
   "SpeedUp": 10.0,
   "SpeedDown": 10.0,
-  "AccelLeft": 1.0,
-  "AccelRight": 1.0,
+  "AccelLeft": 2.0,
+  "AccelRight": 2.0,
   "AccelUp": null,
   "AccelDown": 1.0,
   "AccelLeftAir": 1.0,
@@ -127,7 +127,7 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": false,
-  "BlockCollider": null,
+  "BlockCollider": false,
   "CanRidePlatform": false,
   "Camera": null,
   "AutoScroll": null,
@@ -164,7 +164,29 @@
   "AutoSpawn": false,
   "AutoNavigate": false,
   "ActorTimeline": {
-    "TimelineFrames": null,
+    "TimelineFrames": {
+      "50": {
+        "X": 16,
+        "Y": 16,
+        "EaseX": "linear",
+        "EaseY": "linear",
+        "Bezier": "linear",
+        "BezierPoints": [
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "magnitude": 0.0,
+            "sqrMagnitude": 0
+          }
+        ]
+      }
+    },
     "TimelineEvents": {},
     "PingPong": false
   },

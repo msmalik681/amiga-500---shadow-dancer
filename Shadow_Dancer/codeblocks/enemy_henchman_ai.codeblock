@@ -2240,7 +2240,7 @@
         {
           "LeftSide": "enemy_range",
           "Comparison": "LessThan",
-          "RightSide": "60",
+          "RightSide": "55",
           "ComparisonNext": "End",
           "IsValid": true
         }

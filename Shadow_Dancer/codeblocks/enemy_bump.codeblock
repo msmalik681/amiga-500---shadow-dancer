@@ -19,8 +19,8 @@
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": "keep tag for when changing actors",
-      "Variable": "e_hold_tag",
+      "Comment": "keep type for when changing actors",
+      "Variable": "e_hold_type",
       "Expression": "0",
       "Index": "0",
       "Label": "",
@@ -560,8 +560,8 @@
       "ControlMode": "Joys_1",
       "Goto": "",
       "Comment": "",
-      "Variable": "e_hold_tag",
-      "Expression": "actor_tag",
+      "Variable": "actor_var6",
+      "Expression": "actor_type",
       "Index": "0",
       "Label": "",
       "Disabled": false,
@@ -621,7 +621,15 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -2566,7 +2574,9 @@
       "Conditions": []
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -2597,7 +2607,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_fall_r + player_var4",
+      "Animation": "joe_fall_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -3177,7 +3187,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -3208,7 +3220,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "e_ani_fall + actor_var4",
+      "Animation": "e_ani_fall",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

@@ -697,7 +697,9 @@
       ]
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 6,
       "Category": "Player",
       "BasicOperationType": "CommentOnly",
@@ -728,7 +730,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_fall_r + player_var4",
+      "Animation": "joe_fall_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
@@ -775,7 +777,15 @@
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
       "DiceSides": "2",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {

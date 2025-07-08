@@ -2146,7 +2146,7 @@
       "XFloat": null,
       "YFloat": null,
       "ActorType": "none",
-      "Animation": "joe_death",
+      "Animation": "joe_death_r",
       "PushXPixels": "",
       "PushYPixels": "",
       "LookDirection": "look_upleft",

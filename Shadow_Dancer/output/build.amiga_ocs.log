@@ -1,4 +1,4 @@
-Compiled on 08 July 2025 11:46:28
+Compiled on 08 July 2025 13:22:30
 Version string: SE2025.0.250708.17.38.EX
 
 === Misc ===
@@ -8,8 +8,8 @@ Maps and Asset Bundles Count: 13
 Maps and Asset Bundles Data Size: 0
 Actor Count: 23
 Actor Data Size: 4140
-Block Count: 7
-Block Data Size: 476
+Block Count: 8
+Block Data Size: 544
 Anim5 Count: 0
 Anim5 Data Size: 0
 Sound Count: 10
@@ -32,15 +32,15 @@ Misc data size: 302
    56708 |        | Asset bundle 10 (joe_base)
    52078 |        | Asset bundle 0 (Core project asset bundle)
    32896 |        | Parallax for background stage2_plx
-   32790 |        | Project virtual machine (codeblocks)
+   32780 |        | Project virtual machine (codeblocks)
    30464 |        | Asset bundle 6 (enemy_roller)
-   29798 |        | Project Data
+   29866 |        | Project Data
    28800 |        | Parallax for background stage_1_plx
    26702 |        | Asset bundle 5 (enemy_gunman)
    26562 |        | Asset bundle 3 (stage2)
    23520 |        | Asset bundle 2 (stage_3)
    20072 |        | Asset bundle 1 (stage_1)
-   18490 |        | Asset bundle 9 (henchmen)
+   18330 |        | Asset bundle 9 (henchmen)
    16530 |        | Tile data for map stage2 (mem restrictions:None)
    12368 |        | Asset bundle 12 (stage_bonus)
    10578 |        | Tile data for map stage_1 (mem restrictions:None)
@@ -81,15 +81,15 @@ For other:
 Map data memory: 16530
 Map background memory: 1640
 EXE memory: 204680
-vm memory: 32790
-project memory: 29798
+vm memory: 32780
+project memory: 29866
 memory reserved for active actors on screen (16): 2312
 memory reserved for dormant actors in map (32): 1152
 OS/other estimated: 105472
 
 Accounted memory chip: 413346
-Accounted memory other: 394374
-Accounted memory total: 807720
+Accounted memory other: 394432
+Accounted memory total: 807778
 
 === Possibly unused animations ===
 e_gunman_fall_l
@@ -101,9 +101,7 @@ e_shield_throw_low_r
 e_shield_throw_l
 e_shield_throw_r
 joe_death_l
-joe_death_r
 joe_fall_l
-joe_fall_r
 joe_main_duck_melee_l
 joe_main_duck_star_l
 joe_main_jump_l
@@ -117,13 +115,13 @@ stomper_lower_body
 
 === Codeblocks by compiled size ===
 boss_stomper_ai: 7096
-enemy_hit_projectile: 1330
+enemy_hit_projectile: 1318
 startup: 1036
 hostage_bonus: 1020
 enemy_on_land: 898
 enemy_shieldman_ai: 834
 enemy_gunman_ai: 790
-enemy_bump: 774
+enemy_bump: 752
 player_land: 716
 load_level: 650
 player_ontimer: 646
@@ -136,14 +134,14 @@ enemy_henchman_ai: 462
 pre_startup: 446
 ninja_magic: 440
 ninja_magic_gosub: 408
-player_hit: 374
+player_hit: 364
 stage_timer_tick: 354
 star_throw: 354
 flipscreen_smooth: 310 (Unused?)
 do_teleport: 300
+enemy_jump: 286
 flipxymove: 278 (Unused?)
 load_next_level: 268 (Unused?)
-enemy_jump: 252
 player_attack_melee: 228
 stage_falling_rocks_onland: 222
 hostage_bonus_gosub: 216

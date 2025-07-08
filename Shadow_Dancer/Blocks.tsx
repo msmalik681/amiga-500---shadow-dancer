@@ -16,7 +16,11 @@
       <property name="Name" value="jump_up" type="string" />
     </properties>
   </tile>
-  <tile id="3" />
+  <tile id="3">
+    <properties>
+      <property name="Name" value="block_enemy_jump" type="string" />
+    </properties>
+  </tile>
   <tile id="4">
     <properties>
       <property name="Name" value="jump_down" type="string" />

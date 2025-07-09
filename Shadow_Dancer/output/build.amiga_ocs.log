@@ -1,4 +1,4 @@
-Compiled on 09 July 2025 14:46:53
+Compiled on 09 July 2025 16:40:47
 Version string: SE2025.0.250708.17.38.EX
 
 === Misc ===
@@ -30,7 +30,7 @@ Misc data size: 302
     Size | Crunch | Detail
    64380 |        | Music file shadowdancer_stage1
    56708 |        | Asset bundle 10 (joe_base)
-   52078 |        | Asset bundle 0 (Core project asset bundle)
+   33504 |        | Asset bundle 0 (Core project asset bundle)
    32896 |        | Parallax for background stage2_plx
    32754 |        | Project virtual machine (codeblocks)
    30464 |        | Asset bundle 6 (enemy_roller)
@@ -41,16 +41,16 @@ Misc data size: 302
    23520 |        | Asset bundle 2 (stage_3)
    20072 |        | Asset bundle 1 (stage_1)
    18330 |        | Asset bundle 9 (henchmen)
+   16706 |        | Asset bundle 7 (enemy_shieldman)
    16530 |        | Tile data for map stage2 (mem restrictions:None)
    12432 |        | Tile data for map stage_1 (mem restrictions:None)
    12368 |        | Asset bundle 12 (stage_bonus)
+   10346 |        | Asset bundle 11 (joe_stage)
     8984 |        | Panel thanks
     6502 |        | Asset bundle 4 (boss_gfx)
     5816 |        | Panel hud
-    5442 |        | Asset bundle 11 (joe_stage)
     4376 |        | Project Header
     3380 |  (91%) | Panel scorpion_eng_splashscreen
-    3196 |        | Asset bundle 7 (enemy_shieldman)
     2844 |        | Asset bundle 8 (gfx_falling_rocks)
     2760 |        | Tile data for map stage_3 (mem restrictions:None)
     1686 |        | Panel bobs hud
@@ -73,7 +73,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 36784
 Music memory (shadowdancer_stage1): 64380
 BP Buffer memory: 127880
-Core sfx/gfx memory: 52078
+Core sfx/gfx memory: 33504
 Parallax memory: 32896
 OS/other estimated: 99328
 
@@ -87,9 +87,9 @@ memory reserved for active actors on screen (16): 2312
 memory reserved for dormant actors in map (32): 1152
 OS/other estimated: 105472
 
-Accounted memory chip: 413346
+Accounted memory chip: 394772
 Accounted memory other: 394406
-Accounted memory total: 807752
+Accounted memory total: 789178
 
 === Possibly unused animations ===
 e_gunman_fall_l

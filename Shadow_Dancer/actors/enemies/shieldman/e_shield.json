@@ -32,7 +32,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "LinkedMap": "enemy_shieldman"
+      }
     },
     "throw_r": {
       "FrameData": [
@@ -100,7 +102,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "LinkedMap": "enemy_shieldman"
+      }
     },
     "throw_low_r": {
       "FrameData": [
@@ -168,7 +172,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "LinkedMap": "enemy_shieldman"
+      }
     }
   },
   "Frames": {

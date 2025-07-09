@@ -5,9 +5,9 @@
         "Events": []
       },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 16,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Channel_2_to_1",
       "Path": "fire_star_01.png",
@@ -20,13 +20,15 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": false,
   "PreventCollision": false,
+  "PreventJump": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "stage_bonus",
   "OnFinish": null,
   "AutoFlip": true,
   "Streamed": true,
-  "PatternBuffer": 0
+  "AnimationTag": null,
+  "LinkedMap": "stage_bonus"
 }

@@ -5347,7 +5347,7 @@
       "CoreType": "ActorSetType",
       "ControlMode": "Joys_1",
       "Goto": "",
-      "Comment": "",
+      "Comment": "enemy var 6 = holds the actor type when switching actors",
       "Variable": "none",
       "Expression": "",
       "Index": "0",

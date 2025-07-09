@@ -1,4 +1,4 @@
-Compiled on 08 July 2025 18:04:13
+Compiled on 09 July 2025 13:05:22
 Version string: SE2025.0.250708.17.38.EX
 
 === Misc ===
@@ -32,7 +32,7 @@ Misc data size: 302
    56708 |        | Asset bundle 10 (joe_base)
    52078 |        | Asset bundle 0 (Core project asset bundle)
    32896 |        | Parallax for background stage2_plx
-   32852 |        | Project virtual machine (codeblocks)
+   32744 |        | Project virtual machine (codeblocks)
    30464 |        | Asset bundle 6 (enemy_roller)
    29866 |        | Project Data
    28800 |        | Parallax for background stage_1_plx
@@ -81,15 +81,15 @@ For other:
 Map data memory: 16530
 Map background memory: 1640
 EXE memory: 204680
-vm memory: 32852
+vm memory: 32744
 project memory: 29866
 memory reserved for active actors on screen (16): 2312
 memory reserved for dormant actors in map (32): 1152
 OS/other estimated: 105472
 
 Accounted memory chip: 413346
-Accounted memory other: 394504
-Accounted memory total: 807850
+Accounted memory other: 394396
+Accounted memory total: 807742
 
 === Possibly unused animations ===
 e_gunman_fall_l
@@ -118,17 +118,17 @@ boss_stomper_ai: 7096
 enemy_hit_projectile: 1318
 startup: 1036
 hostage_bonus: 1020
-enemy_on_land: 888
+enemy_on_land: 876
 enemy_shieldman_ai: 834
 enemy_gunman_ai: 790
-enemy_bump: 752
+enemy_bump: 746
 player_land: 716
 load_level: 650
 player_ontimer: 646
 jump_button: 640
 enemy_roller_ai: 598
 player_attack: 590
-enemy_henchman_ai: 544
+enemy_henchman_ai: 582
 stage_reset: 534
 high_jump_up: 486
 pre_startup: 446
@@ -139,7 +139,6 @@ stage_timer_tick: 354
 star_throw: 354
 flipscreen_smooth: 310 (Unused?)
 do_teleport: 300
-enemy_jump: 286
 flipxymove: 278 (Unused?)
 load_next_level: 268 (Unused?)
 player_attack_melee: 228
@@ -153,6 +152,7 @@ waitforframes: 194
 check_talkpad: 192 (Unused?)
 enemy_ani_update: 190
 pause: 184
+enemy_jump: 184
 block_count: 178 (Unused?)
 block_projectile: 172
 player_duck_control: 170
@@ -186,7 +186,6 @@ autogen_joe_main_duck_melee_r_1: 90
 autogen_joe_main_melee_l_1: 90
 autogen_joe_main_melee_r_1: 90
 autogen_joe_melee_air_l_1: 90
-enemy_direction_gosub: 90
 player_direction_gosub: 90
 autogen_e_henchman_atk_r_1: 88
 waitforfirehit: 86
@@ -206,6 +205,7 @@ flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 jump_actor: 66 (Unused?)
+enemy_direction_gosub: 62
 destroy_all_actors: 60 (Unused?)
 quit: 60
 destroy_actor: 58

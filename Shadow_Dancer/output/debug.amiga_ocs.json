@@ -19389,1698 +19389,1698 @@
       "CodeBlock": "player_ontimer",
       "CodeBlockLine": 45,
       "MemoryOffset": 29002,
-      "Description": "If temp != falling_rocks ELSE GOTO 00029036"
+      "Description": "If temp != player_x ELSE GOTO 00029046"
     },
     {
       "CodeBlock": "player_ontimer",
       "CodeBlockLine": 45,
-      "MemoryOffset": 29016,
-      "Description": "Set 'temp' to 'falling_rocks'"
+      "MemoryOffset": 29020,
+      "Description": "Set 'temp' to 'player_x'"
     },
     {
       "CodeBlock": "player_ontimer",
       "CodeBlockLine": 45,
-      "MemoryOffset": 29022,
+      "MemoryOffset": 29032,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "player_ontimer",
       "CodeBlockLine": 45,
-      "MemoryOffset": 29028,
+      "MemoryOffset": 29038,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "player_spawn",
       "CodeBlockLine": 0,
-      "MemoryOffset": 29062,
+      "MemoryOffset": 29072,
       "Description": "PLAYER_SPAWN"
     },
     {
       "CodeBlock": "player_spawn",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29062,
+      "MemoryOffset": 29072,
       "Description": "GOTO 'PLAYER_LAND'"
     },
     {
       "CodeBlock": "projectile_on_spawn",
       "CodeBlockLine": 0,
-      "MemoryOffset": 29094,
+      "MemoryOffset": 29104,
       "Description": "PROJECTILE_ON_SPAWN"
     },
     {
       "CodeBlock": "projectile_on_spawn",
       "CodeBlockLine": 1,
-      "MemoryOffset": 29094,
+      "MemoryOffset": 29104,
       "Description": "Set 'projectile_var2' to 'player_var2'"
     },
     {
       "CodeBlock": "spawn_falling_rocks",
       "CodeBlockLine": 0,
-      "MemoryOffset": 29136,
+      "MemoryOffset": 29146,
       "Description": "SPAWN_FALLING_ROCKS"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 0,
-      "MemoryOffset": 29162,
+      "MemoryOffset": 29172,
       "Description": "STAGE_EXIT"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 1,
-      "MemoryOffset": 29162,
-      "Description": "If hostage_count < 1 ELSE GOTO 00029350"
+      "MemoryOffset": 29172,
+      "Description": "If hostage_count < 1 ELSE GOTO 00029360"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 2,
-      "MemoryOffset": 29174,
+      "MemoryOffset": 29184,
       "Description": "Set 'musicpos' to '0'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 2,
-      "MemoryOffset": 29180,
+      "MemoryOffset": 29190,
       "Description": "Set 'music' to 'none'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 2,
-      "MemoryOffset": 29186,
+      "MemoryOffset": 29196,
       "Description": "GOSUB TO 'LOAD_MUSIC'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 3,
-      "MemoryOffset": 29206,
+      "MemoryOffset": 29216,
       "Description": "Set 'newvalue' to 'none'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 3,
-      "MemoryOffset": 29212,
+      "MemoryOffset": 29222,
       "Description": "GOSUB TO 'LOAD_PANEL_TOP'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29232,
+      "MemoryOffset": 29242,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29240,
+      "MemoryOffset": 29250,
       "Description": "GOSUB TO 'UNLOAD_LEVEL'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29260,
+      "MemoryOffset": 29270,
       "Description": "Set 'newvalue' to 'thanks'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29266,
+      "MemoryOffset": 29276,
       "Description": "GOSUB TO 'LOAD_PANEL'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29286,
-      "Description": "If panel != 0 ELSE GOTO 00029344"
+      "MemoryOffset": 29296,
+      "Description": "If panel != 0 ELSE GOTO 00029354"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29298,
+      "MemoryOffset": 29308,
       "Description": "Set 'wait' to '0'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29304,
+      "MemoryOffset": 29314,
       "Description": "GOSUB TO 'WAITFORFRAMES'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29324,
+      "MemoryOffset": 29334,
       "Description": "GOSUB TO 'UNLOAD_PANEL'"
     },
     {
       "CodeBlock": "stage_exit",
       "CodeBlockLine": 5,
-      "MemoryOffset": 29344,
+      "MemoryOffset": 29354,
       "Description": "GOTO 'STARTUP'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 0,
-      "MemoryOffset": 29376,
+      "MemoryOffset": 29386,
       "Description": "STAGE_FALLING_ROCKS_ONLAND"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 2,
-      "MemoryOffset": 29376,
-      "Description": "If actor_var1 == 0 ELSE GOTO 00029498"
+      "MemoryOffset": 29386,
+      "Description": "If actor_var1 == 0 ELSE GOTO 00029508"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 3,
-      "MemoryOffset": 29392,
+      "MemoryOffset": 29402,
       "Description": "Set 'actor_var1' to '1'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29402,
+      "MemoryOffset": 29412,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29408,
+      "MemoryOffset": 29418,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29414,
+      "MemoryOffset": 29424,
       "Description": "Core operation'RollDice'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29422,
+      "MemoryOffset": 29432,
       "Description": "Set 'block_x' to 'dice'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 5,
-      "MemoryOffset": 29428,
-      "Description": "If block_x == 2 ELSE GOTO 00029472"
+      "MemoryOffset": 29438,
+      "Description": "If block_x == 2 ELSE GOTO 00029482"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 6,
-      "MemoryOffset": 29440,
+      "MemoryOffset": 29450,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 6,
-      "MemoryOffset": 29446,
+      "MemoryOffset": 29456,
       "Description": "Raw expression 'falling_rock_b'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 6,
-      "MemoryOffset": 29452,
+      "MemoryOffset": 29462,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 6,
-      "MemoryOffset": 29458,
+      "MemoryOffset": 29468,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 6,
-      "MemoryOffset": 29464,
+      "MemoryOffset": 29474,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 11,
-      "MemoryOffset": 29498,
+      "MemoryOffset": 29508,
       "Description": "If actor_y <= floor_middle"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29516,
+      "MemoryOffset": 29526,
       "Description": "Set 'actor_y' to 'actor_y + 1'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 13,
-      "MemoryOffset": 29534,
-      "Description": "GOTO '00029572'"
+      "MemoryOffset": 29544,
+      "Description": "GOTO '00029582'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 14,
-      "MemoryOffset": 29540,
+      "MemoryOffset": 29550,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 14,
-      "MemoryOffset": 29546,
+      "MemoryOffset": 29556,
       "Description": "Raw expression 'falling_rock_break'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 14,
-      "MemoryOffset": 29552,
+      "MemoryOffset": 29562,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 14,
-      "MemoryOffset": 29558,
+      "MemoryOffset": 29568,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "stage_falling_rocks_onland",
       "CodeBlockLine": 14,
-      "MemoryOffset": 29564,
+      "MemoryOffset": 29574,
       "Description": "Core operation'ActorSetAnimation'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 0,
-      "MemoryOffset": 29598,
+      "MemoryOffset": 29608,
       "Description": "STAGE_RESET"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 1,
-      "MemoryOffset": 29598,
+      "MemoryOffset": 29608,
       "Description": "Set 'wait' to '15'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 1,
-      "MemoryOffset": 29604,
+      "MemoryOffset": 29614,
       "Description": "GOSUB TO 'WAITFORFRAMES'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 2,
-      "MemoryOffset": 29624,
+      "MemoryOffset": 29634,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 2,
-      "MemoryOffset": 29632,
+      "MemoryOffset": 29642,
       "Description": "GOSUB TO 'UNLOAD_LEVEL'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 3,
-      "MemoryOffset": 29652,
+      "MemoryOffset": 29662,
       "Description": "Set 'wait' to '15'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 3,
-      "MemoryOffset": 29658,
+      "MemoryOffset": 29668,
       "Description": "GOSUB TO 'WAITFORFRAMES'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 4,
-      "MemoryOffset": 29678,
+      "MemoryOffset": 29688,
       "Description": "Set 'player_lives' to 'player_lives - 1'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 5,
-      "MemoryOffset": 29688,
-      "Description": "If minutes != 3 ELSE GOTO 00029720"
+      "MemoryOffset": 29698,
+      "Description": "If minutes != 3 ELSE GOTO 00029730"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 5,
-      "MemoryOffset": 29700,
+      "MemoryOffset": 29710,
       "Description": "Set 'minutes' to '3'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 5,
-      "MemoryOffset": 29706,
+      "MemoryOffset": 29716,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 5,
-      "MemoryOffset": 29712,
+      "MemoryOffset": 29722,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 6,
-      "MemoryOffset": 29720,
-      "Description": "If seconds != 00 ELSE GOTO 00029752"
+      "MemoryOffset": 29730,
+      "Description": "If seconds != 00 ELSE GOTO 00029762"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 6,
-      "MemoryOffset": 29732,
+      "MemoryOffset": 29742,
       "Description": "Set 'seconds' to '00'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 6,
-      "MemoryOffset": 29738,
+      "MemoryOffset": 29748,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 6,
-      "MemoryOffset": 29744,
+      "MemoryOffset": 29754,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 7,
-      "MemoryOffset": 29752,
+      "MemoryOffset": 29762,
       "Description": "Set 'player_var1' to '1'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 8,
-      "MemoryOffset": 29762,
+      "MemoryOffset": 29772,
       "Description": "Set 'power_up' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 9,
-      "MemoryOffset": 29768,
+      "MemoryOffset": 29778,
       "Description": "Set 'ninja_magic_count' to '1'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 11,
-      "MemoryOffset": 29774,
+      "MemoryOffset": 29784,
       "Description": "If current_stage == 1"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29786,
+      "MemoryOffset": 29796,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29794,
+      "MemoryOffset": 29804,
       "Description": "Core operation'MusicStop'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29802,
+      "MemoryOffset": 29812,
       "Description": "Set 'music' to 'shadowdancer_stage1'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29808,
+      "MemoryOffset": 29818,
       "Description": "Set 'musicpos' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29814,
+      "MemoryOffset": 29824,
       "Description": "Set 'panel_top' to 'hud'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29820,
+      "MemoryOffset": 29830,
       "Description": "Raw expression 'stage_1'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29826,
+      "MemoryOffset": 29836,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29834,
+      "MemoryOffset": 29844,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29842,
+      "MemoryOffset": 29852,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29862,
+      "MemoryOffset": 29872,
       "Description": "Set 'background' to '-1'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29868,
+      "MemoryOffset": 29878,
       "Description": "Raw expression '14'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29874,
+      "MemoryOffset": 29884,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29882,
+      "MemoryOffset": 29892,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29902,
+      "MemoryOffset": 29912,
       "Description": "GOSUB TO 'LOAD_MUSIC'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 12,
-      "MemoryOffset": 29922,
+      "MemoryOffset": 29932,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 13,
-      "MemoryOffset": 29942,
-      "Description": "GOTO '00030082'"
+      "MemoryOffset": 29952,
+      "Description": "GOTO '00030092'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 13,
-      "MemoryOffset": 29948,
-      "Description": "If current_stage == 2 ELSE GOTO 00030082"
+      "MemoryOffset": 29958,
+      "Description": "If current_stage == 2 ELSE GOTO 00030092"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 14,
-      "MemoryOffset": 29960,
+      "MemoryOffset": 29970,
       "Description": "Set 'falling_rocks' to '0'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 15,
-      "MemoryOffset": 29966,
+      "MemoryOffset": 29976,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 15,
-      "MemoryOffset": 29974,
+      "MemoryOffset": 29984,
       "Description": "Set 'panel_top' to 'hud'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 15,
-      "MemoryOffset": 29980,
+      "MemoryOffset": 29990,
       "Description": "Raw expression 'stage2'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 15,
-      "MemoryOffset": 29986,
+      "MemoryOffset": 29996,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 15,
-      "MemoryOffset": 29994,
+      "MemoryOffset": 30004,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 15,
-      "MemoryOffset": 30002,
+      "MemoryOffset": 30012,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 15,
-      "MemoryOffset": 30022,
+      "MemoryOffset": 30032,
       "Description": "Set 'background' to '-1'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 15,
-      "MemoryOffset": 30028,
+      "MemoryOffset": 30038,
       "Description": "Raw expression '14'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 15,
-      "MemoryOffset": 30034,
+      "MemoryOffset": 30044,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 15,
-      "MemoryOffset": 30042,
+      "MemoryOffset": 30052,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 15,
-      "MemoryOffset": 30062,
+      "MemoryOffset": 30072,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 17,
-      "MemoryOffset": 30082,
+      "MemoryOffset": 30092,
       "Description": "Set 'camera_follow' to '15'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 17,
-      "MemoryOffset": 30088,
+      "MemoryOffset": 30098,
       "Description": "Core operation'RefreshCameraFollow'"
     },
     {
       "CodeBlock": "stage_reset",
       "CodeBlockLine": 17,
-      "MemoryOffset": 30096,
+      "MemoryOffset": 30106,
       "Description": "Set 'maxcamerafollow' to '8 | 0'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 0,
-      "MemoryOffset": 30132,
+      "MemoryOffset": 30142,
       "Description": "STAGE_TIMER_TICK"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 4,
-      "MemoryOffset": 30132,
+      "MemoryOffset": 30142,
       "Description": "Yield on  timer to  next line"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 6,
-      "MemoryOffset": 30152,
-      "Description": "If seconds <= 0 ELSE GOTO 00030202"
+      "MemoryOffset": 30162,
+      "Description": "If seconds <= 0 ELSE GOTO 00030212"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 7,
-      "MemoryOffset": 30164,
-      "Description": "If minutes <= 0 ELSE GOTO 00030202"
+      "MemoryOffset": 30174,
+      "Description": "If minutes <= 0 ELSE GOTO 00030212"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 11,
-      "MemoryOffset": 30202,
-      "Description": "If seconds != seconds - 1 ELSE GOTO 00030242"
-    },
-    {
-      "CodeBlock": "stage_timer_tick",
-      "CodeBlockLine": 11,
-      "MemoryOffset": 30218,
-      "Description": "Set 'seconds' to 'seconds - 1'"
+      "MemoryOffset": 30212,
+      "Description": "If seconds != seconds - 1 ELSE GOTO 00030252"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 11,
       "MemoryOffset": 30228,
+      "Description": "Set 'seconds' to 'seconds - 1'"
+    },
+    {
+      "CodeBlock": "stage_timer_tick",
+      "CodeBlockLine": 11,
+      "MemoryOffset": 30238,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 11,
-      "MemoryOffset": 30234,
+      "MemoryOffset": 30244,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 12,
-      "MemoryOffset": 30242,
-      "Description": "If seconds < 0 ELSE GOTO 00030370"
+      "MemoryOffset": 30252,
+      "Description": "If seconds < 0 ELSE GOTO 00030380"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 13,
-      "MemoryOffset": 30254,
-      "Description": "If seconds != 0 ELSE GOTO 00030286"
+      "MemoryOffset": 30264,
+      "Description": "If seconds != 0 ELSE GOTO 00030296"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 13,
-      "MemoryOffset": 30266,
+      "MemoryOffset": 30276,
       "Description": "Set 'seconds' to '0'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 13,
-      "MemoryOffset": 30272,
+      "MemoryOffset": 30282,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 13,
-      "MemoryOffset": 30278,
+      "MemoryOffset": 30288,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 14,
-      "MemoryOffset": 30286,
-      "Description": "If minutes > 0 ELSE GOTO 00030370"
+      "MemoryOffset": 30296,
+      "Description": "If minutes > 0 ELSE GOTO 00030380"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 15,
-      "MemoryOffset": 30298,
-      "Description": "If minutes != minutes - 1 ELSE GOTO 00030338"
-    },
-    {
-      "CodeBlock": "stage_timer_tick",
-      "CodeBlockLine": 15,
-      "MemoryOffset": 30314,
-      "Description": "Set 'minutes' to 'minutes - 1'"
+      "MemoryOffset": 30308,
+      "Description": "If minutes != minutes - 1 ELSE GOTO 00030348"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 15,
       "MemoryOffset": 30324,
+      "Description": "Set 'minutes' to 'minutes - 1'"
+    },
+    {
+      "CodeBlock": "stage_timer_tick",
+      "CodeBlockLine": 15,
+      "MemoryOffset": 30334,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 15,
-      "MemoryOffset": 30330,
+      "MemoryOffset": 30340,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 16,
-      "MemoryOffset": 30338,
-      "Description": "If seconds != 59 ELSE GOTO 00030370"
+      "MemoryOffset": 30348,
+      "Description": "If seconds != 59 ELSE GOTO 00030380"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 16,
-      "MemoryOffset": 30350,
+      "MemoryOffset": 30360,
       "Description": "Set 'seconds' to '59'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 16,
-      "MemoryOffset": 30356,
+      "MemoryOffset": 30366,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 16,
-      "MemoryOffset": 30362,
+      "MemoryOffset": 30372,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 20,
-      "MemoryOffset": 30370,
-      "Description": "If current_stage == 2 ELSE GOTO 00030460"
+      "MemoryOffset": 30380,
+      "Description": "If current_stage == 2 ELSE GOTO 00030470"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 21,
-      "MemoryOffset": 30382,
+      "MemoryOffset": 30392,
       "Description": "If falling_rocks == 0 AND player_x > 170"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 22,
-      "MemoryOffset": 30412,
+      "MemoryOffset": 30422,
       "Description": "Set 'falling_rocks' to '1'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 23,
-      "MemoryOffset": 30418,
-      "Description": "GOTO '00030460'"
+      "MemoryOffset": 30428,
+      "Description": "GOTO '00030470'"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 23,
-      "MemoryOffset": 30424,
-      "Description": "If falling_rocks == 100 AND player_x > 1111 ELSE GOTO 00030460"
+      "MemoryOffset": 30434,
+      "Description": "If falling_rocks == 100 AND player_x > 1111 ELSE GOTO 00030470"
     },
     {
       "CodeBlock": "stage_timer_tick",
       "CodeBlockLine": 24,
-      "MemoryOffset": 30454,
+      "MemoryOffset": 30464,
       "Description": "Set 'falling_rocks' to '101'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 0,
-      "MemoryOffset": 30486,
+      "MemoryOffset": 30496,
       "Description": "STAR_THROW"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 1,
-      "MemoryOffset": 30486,
+      "MemoryOffset": 30496,
       "Description": "GOSUB TO 'PLAYER_DIRECTION_GOSUB'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 3,
-      "MemoryOffset": 30506,
+      "MemoryOffset": 30516,
       "Description": "If player_animationtag == joe_main_star"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 4,
-      "MemoryOffset": 30526,
+      "MemoryOffset": 30536,
       "Description": "GOSUB TO 'STAR_THROW_GOSUB'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 5,
-      "MemoryOffset": 30546,
+      "MemoryOffset": 30556,
       "Description": "Set 'new_x' to '17 * player_var5 + player_x'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 5,
-      "MemoryOffset": 30576,
+      "MemoryOffset": 30586,
       "Description": "Set 'new_y' to 'player_y - 43'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 6,
-      "MemoryOffset": 30596,
-      "Description": "GOTO '00030788'"
+      "MemoryOffset": 30606,
+      "Description": "GOTO '00030798'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 6,
-      "MemoryOffset": 30602,
+      "MemoryOffset": 30612,
       "Description": "If player_animationtag == joe_main_duck_star"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 7,
-      "MemoryOffset": 30622,
+      "MemoryOffset": 30632,
       "Description": "GOSUB TO 'STAR_THROW_GOSUB'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 8,
-      "MemoryOffset": 30642,
+      "MemoryOffset": 30652,
       "Description": "Set 'new_x' to '17 * player_var5 + player_x'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 8,
-      "MemoryOffset": 30672,
+      "MemoryOffset": 30682,
       "Description": "Set 'new_y' to 'player_y - 19'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 9,
-      "MemoryOffset": 30692,
-      "Description": "GOTO '00030788'"
+      "MemoryOffset": 30702,
+      "Description": "GOTO '00030798'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 9,
-      "MemoryOffset": 30698,
-      "Description": "If player_animationtag == joe_main_jump_star ELSE GOTO 00030788"
+      "MemoryOffset": 30708,
+      "Description": "If player_animationtag == joe_main_jump_star ELSE GOTO 00030798"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 10,
-      "MemoryOffset": 30718,
+      "MemoryOffset": 30728,
       "Description": "GOSUB TO 'STAR_THROW_GOSUB'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 11,
-      "MemoryOffset": 30738,
+      "MemoryOffset": 30748,
       "Description": "Set 'new_x' to '18 * player_var5 + player_x'"
     },
     {
       "CodeBlock": "star_throw",
       "CodeBlockLine": 11,
-      "MemoryOffset": 30768,
+      "MemoryOffset": 30778,
       "Description": "Set 'new_y' to 'player_y - 40'"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 0,
-      "MemoryOffset": 30840,
+      "MemoryOffset": 30850,
       "Description": "STAR_THROW_GOSUB"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 2,
-      "MemoryOffset": 30840,
+      "MemoryOffset": 30850,
       "Description": "If power_up is not zero"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 3,
-      "MemoryOffset": 30850,
+      "MemoryOffset": 30860,
       "Description": "Raw expression 'star_throw_sfx'"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 3,
-      "MemoryOffset": 30856,
+      "MemoryOffset": 30866,
       "Description": "Raw expression 'Note_B2'"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 3,
-      "MemoryOffset": 30862,
+      "MemoryOffset": 30872,
       "Description": "Raw expression ''"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 3,
-      "MemoryOffset": 30868,
+      "MemoryOffset": 30878,
       "Description": "Core operation'Sound'"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 4,
-      "MemoryOffset": 30876,
+      "MemoryOffset": 30886,
       "Description": "Raw expression '4'"
-    },
-    {
-      "CodeBlock": "star_throw_gosub",
-      "CodeBlockLine": 4,
-      "MemoryOffset": 30882,
-      "Description": "Raw expression '0 + ninja_fire_star'"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 4,
       "MemoryOffset": 30892,
+      "Description": "Raw expression '0 + ninja_fire_star'"
+    },
+    {
+      "CodeBlock": "star_throw_gosub",
+      "CodeBlockLine": 4,
+      "MemoryOffset": 30902,
       "Description": "Core operation'ActorShoot'"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 5,
-      "MemoryOffset": 30900,
-      "Description": "GOTO '00030930'"
+      "MemoryOffset": 30910,
+      "Description": "GOTO '00030940'"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 6,
-      "MemoryOffset": 30906,
+      "MemoryOffset": 30916,
       "Description": "Raw expression '4'"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 6,
-      "MemoryOffset": 30912,
+      "MemoryOffset": 30922,
       "Description": "Raw expression '0 + ninja_star'"
     },
     {
       "CodeBlock": "star_throw_gosub",
       "CodeBlockLine": 6,
-      "MemoryOffset": 30922,
+      "MemoryOffset": 30932,
       "Description": "Core operation'ActorShoot'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 0,
-      "MemoryOffset": 30982,
+      "MemoryOffset": 30992,
       "Description": "STARTUP"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 7,
-      "MemoryOffset": 30982,
+      "MemoryOffset": 30992,
       "Description": "Set 'control1jumpcontrols' to '5120'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 8,
-      "MemoryOffset": 30988,
+      "MemoryOffset": 30998,
       "Description": "Set 'newvalue' to '200'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 8,
-      "MemoryOffset": 30994,
+      "MemoryOffset": 31004,
       "Description": "GOSUB TO 'SET_YRESOLUTION'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 8,
-      "MemoryOffset": 31014,
+      "MemoryOffset": 31024,
       "Description": "Core operation'RegenerateScreen'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 9,
-      "MemoryOffset": 31022,
+      "MemoryOffset": 31032,
       "Description": "If current_stage == 1"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 10,
-      "MemoryOffset": 31034,
+      "MemoryOffset": 31044,
       "Description": "Set 'hostage_1' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 11,
-      "MemoryOffset": 31040,
+      "MemoryOffset": 31050,
       "Description": "Set 'hostage_2' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 12,
-      "MemoryOffset": 31046,
+      "MemoryOffset": 31056,
       "Description": "Set 'hostage_3' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 13,
-      "MemoryOffset": 31052,
+      "MemoryOffset": 31062,
       "Description": "Set 'hostage_4' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 14,
-      "MemoryOffset": 31058,
+      "MemoryOffset": 31068,
       "Description": "Set 'hostage_5' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 15,
-      "MemoryOffset": 31064,
+      "MemoryOffset": 31074,
       "Description": "Set 'hostage_6' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 16,
-      "MemoryOffset": 31070,
+      "MemoryOffset": 31080,
       "Description": "Set 'hostage_7' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 17,
-      "MemoryOffset": 31076,
-      "Description": "If hostage_count != 4 ELSE GOTO 00031108"
+      "MemoryOffset": 31086,
+      "Description": "If hostage_count != 4 ELSE GOTO 00031118"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 17,
-      "MemoryOffset": 31088,
+      "MemoryOffset": 31098,
       "Description": "Set 'hostage_count' to '4'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 17,
-      "MemoryOffset": 31094,
+      "MemoryOffset": 31104,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 17,
-      "MemoryOffset": 31100,
+      "MemoryOffset": 31110,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 18,
-      "MemoryOffset": 31108,
+      "MemoryOffset": 31118,
       "Description": "Set 'power_up' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 19,
-      "MemoryOffset": 31114,
+      "MemoryOffset": 31124,
       "Description": "Set 'ninja_magic_count' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 20,
-      "MemoryOffset": 31120,
+      "MemoryOffset": 31130,
       "Description": "Set 'floor_top' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 21,
-      "MemoryOffset": 31126,
+      "MemoryOffset": 31136,
       "Description": "Set 'floor_middle' to '144'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31132,
+      "MemoryOffset": 31142,
       "Description": "Raw expression '3'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31138,
+      "MemoryOffset": 31148,
       "Description": "Raw expression 'joe_base'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31144,
+      "MemoryOffset": 31154,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31152,
+      "MemoryOffset": 31162,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31158,
+      "MemoryOffset": 31168,
       "Description": "Raw expression 'joe_stage'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31164,
+      "MemoryOffset": 31174,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31172,
+      "MemoryOffset": 31182,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31178,
+      "MemoryOffset": 31188,
       "Description": "Raw expression 'henchmen'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31184,
+      "MemoryOffset": 31194,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31192,
+      "MemoryOffset": 31202,
       "Description": "Raw expression '5'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31198,
+      "MemoryOffset": 31208,
       "Description": "Raw expression 'stage_bonus'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31204,
+      "MemoryOffset": 31214,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31212,
+      "MemoryOffset": 31222,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31220,
+      "MemoryOffset": 31230,
       "Description": "Core operation'MusicStop'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31228,
+      "MemoryOffset": 31238,
       "Description": "Set 'music' to 'shadowdancer_stage1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31234,
+      "MemoryOffset": 31244,
       "Description": "Set 'musicpos' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31240,
+      "MemoryOffset": 31250,
       "Description": "Set 'panel_top' to 'hud'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31246,
+      "MemoryOffset": 31256,
       "Description": "Raw expression 'stage_1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31252,
+      "MemoryOffset": 31262,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31260,
+      "MemoryOffset": 31270,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31268,
+      "MemoryOffset": 31278,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31288,
+      "MemoryOffset": 31298,
       "Description": "Set 'background' to '-1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31294,
+      "MemoryOffset": 31304,
       "Description": "Raw expression '14'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31300,
+      "MemoryOffset": 31310,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31308,
+      "MemoryOffset": 31318,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31328,
+      "MemoryOffset": 31338,
       "Description": "GOSUB TO 'LOAD_MUSIC'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 29,
-      "MemoryOffset": 31348,
+      "MemoryOffset": 31358,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 30,
-      "MemoryOffset": 31368,
-      "Description": "GOTO '00031992'"
+      "MemoryOffset": 31378,
+      "Description": "GOTO '00032002'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 30,
-      "MemoryOffset": 31374,
+      "MemoryOffset": 31384,
       "Description": "If current_stage == 2"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 31,
-      "MemoryOffset": 31386,
+      "MemoryOffset": 31396,
       "Description": "Set 'hostage_1' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 32,
-      "MemoryOffset": 31392,
+      "MemoryOffset": 31402,
       "Description": "Set 'hostage_2' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 33,
-      "MemoryOffset": 31398,
+      "MemoryOffset": 31408,
       "Description": "Set 'hostage_3' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 34,
-      "MemoryOffset": 31404,
+      "MemoryOffset": 31414,
       "Description": "Set 'hostage_4' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 35,
-      "MemoryOffset": 31410,
+      "MemoryOffset": 31420,
       "Description": "Set 'hostage_5' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 36,
-      "MemoryOffset": 31416,
+      "MemoryOffset": 31426,
       "Description": "Set 'hostage_6' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 37,
-      "MemoryOffset": 31422,
+      "MemoryOffset": 31432,
       "Description": "Set 'hostage_7' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 38,
-      "MemoryOffset": 31428,
-      "Description": "If hostage_count != 7 ELSE GOTO 00031460"
+      "MemoryOffset": 31438,
+      "Description": "If hostage_count != 7 ELSE GOTO 00031470"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 38,
-      "MemoryOffset": 31440,
+      "MemoryOffset": 31450,
       "Description": "Set 'hostage_count' to '7'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 38,
-      "MemoryOffset": 31446,
+      "MemoryOffset": 31456,
       "Description": "Raw expression '2'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 38,
-      "MemoryOffset": 31452,
+      "MemoryOffset": 31462,
       "Description": "Core operation'RefreshUI'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 39,
-      "MemoryOffset": 31460,
+      "MemoryOffset": 31470,
       "Description": "Set 'power_up' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 40,
-      "MemoryOffset": 31466,
+      "MemoryOffset": 31476,
       "Description": "Set 'ninja_magic_count' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 41,
-      "MemoryOffset": 31472,
+      "MemoryOffset": 31482,
       "Description": "Set 'floor_top' to '144'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 42,
-      "MemoryOffset": 31478,
+      "MemoryOffset": 31488,
       "Description": "Set 'floor_middle' to '240'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 43,
-      "MemoryOffset": 31484,
+      "MemoryOffset": 31494,
       "Description": "Set 'falling_rocks' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31490,
+      "MemoryOffset": 31500,
       "Description": "Raw expression '3'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31496,
+      "MemoryOffset": 31506,
       "Description": "Raw expression 'enemy_roller'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31502,
+      "MemoryOffset": 31512,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31510,
+      "MemoryOffset": 31520,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31516,
+      "MemoryOffset": 31526,
       "Description": "Raw expression 'enemy_roller'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31522,
+      "MemoryOffset": 31532,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31530,
+      "MemoryOffset": 31540,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31536,
+      "MemoryOffset": 31546,
       "Description": "Raw expression 'henchmen'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31542,
+      "MemoryOffset": 31552,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31550,
+      "MemoryOffset": 31560,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31556,
+      "MemoryOffset": 31566,
       "Description": "Raw expression 'stage_bonus'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31562,
+      "MemoryOffset": 31572,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31570,
+      "MemoryOffset": 31580,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31576,
+      "MemoryOffset": 31586,
       "Description": "Raw expression 'enemy_gunman'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31582,
+      "MemoryOffset": 31592,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31590,
+      "MemoryOffset": 31600,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31596,
+      "MemoryOffset": 31606,
       "Description": "Raw expression 'enemy_shieldman'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31602,
+      "MemoryOffset": 31612,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31610,
+      "MemoryOffset": 31620,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31616,
+      "MemoryOffset": 31626,
       "Description": "Raw expression 'joe_base'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31622,
+      "MemoryOffset": 31632,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31630,
+      "MemoryOffset": 31640,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31636,
+      "MemoryOffset": 31646,
       "Description": "Raw expression 'joe_stage'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31642,
+      "MemoryOffset": 31652,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31650,
+      "MemoryOffset": 31660,
       "Description": "Raw expression '5'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31656,
+      "MemoryOffset": 31666,
       "Description": "Raw expression 'gfx_falling_rocks'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31662,
+      "MemoryOffset": 31672,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31670,
+      "MemoryOffset": 31680,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31678,
+      "MemoryOffset": 31688,
       "Description": "Set 'panel_top' to 'hud'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31684,
+      "MemoryOffset": 31694,
       "Description": "Raw expression 'stage2'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31690,
+      "MemoryOffset": 31700,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31698,
+      "MemoryOffset": 31708,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31706,
+      "MemoryOffset": 31716,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31726,
+      "MemoryOffset": 31736,
       "Description": "Set 'background' to '-1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31732,
+      "MemoryOffset": 31742,
       "Description": "Raw expression '14'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31738,
+      "MemoryOffset": 31748,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31746,
+      "MemoryOffset": 31756,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 31766,
+      "MemoryOffset": 31776,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 54,
-      "MemoryOffset": 31786,
-      "Description": "GOTO '00031992'"
+      "MemoryOffset": 31796,
+      "Description": "GOTO '00032002'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 54,
-      "MemoryOffset": 31792,
-      "Description": "If current_stage == 3 ELSE GOTO 00031992"
+      "MemoryOffset": 31802,
+      "Description": "If current_stage == 3 ELSE GOTO 00032002"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 55,
-      "MemoryOffset": 31804,
+      "MemoryOffset": 31814,
       "Description": "Set 'ninja_magic_count' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 56,
-      "MemoryOffset": 31810,
+      "MemoryOffset": 31820,
       "Description": "Set 'power_up' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31816,
+      "MemoryOffset": 31826,
       "Description": "Raw expression '3'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31822,
+      "MemoryOffset": 31832,
       "Description": "Raw expression 'boss_gfx'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31828,
+      "MemoryOffset": 31838,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31836,
+      "MemoryOffset": 31846,
       "Description": "Raw expression '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31842,
+      "MemoryOffset": 31852,
       "Description": "Raw expression 'joe_base'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31848,
+      "MemoryOffset": 31858,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31856,
+      "MemoryOffset": 31866,
       "Description": "Raw expression '5'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31862,
+      "MemoryOffset": 31872,
       "Description": "Raw expression 'gfx_falling_rocks'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31868,
+      "MemoryOffset": 31878,
       "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31876,
+      "MemoryOffset": 31886,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31884,
+      "MemoryOffset": 31894,
       "Description": "Set 'panel_top' to 'hud'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31890,
+      "MemoryOffset": 31900,
       "Description": "Raw expression 'stage_3'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31896,
+      "MemoryOffset": 31906,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31904,
+      "MemoryOffset": 31914,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31912,
+      "MemoryOffset": 31922,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31932,
+      "MemoryOffset": 31942,
       "Description": "Set 'background' to '-1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31938,
+      "MemoryOffset": 31948,
       "Description": "Raw expression '14'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31944,
+      "MemoryOffset": 31954,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31952,
+      "MemoryOffset": 31962,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 31972,
+      "MemoryOffset": 31982,
       "Description": "GOSUB TO 'FADEIN'"
     }
   ],

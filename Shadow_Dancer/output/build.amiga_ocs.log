@@ -1,5 +1,5 @@
-Compiled on 09 July 2025 16:40:47
-Version string: SE2025.0.250708.17.38.EX
+Compiled on 10 July 2025 19:37:34
+Version string: SE2025.0.250710.15.32.EX
 
 === Misc ===
 ImageFrames: 356
@@ -29,23 +29,23 @@ Misc data size: 302
 === Data Sizes ===
     Size | Crunch | Detail
    64380 |        | Music file shadowdancer_stage1
-   56708 |        | Asset bundle 10 (joe_base)
+   56722 |        | Asset bundle 10 (joe_base)
    33504 |        | Asset bundle 0 (Core project asset bundle)
    32896 |        | Parallax for background stage2_plx
    32754 |        | Project virtual machine (codeblocks)
-   30464 |        | Asset bundle 6 (enemy_roller)
+   30474 |        | Asset bundle 6 (enemy_roller)
    29866 |        | Project Data
    28800 |        | Parallax for background stage_1_plx
-   26702 |        | Asset bundle 5 (enemy_gunman)
+   26984 |        | Asset bundle 5 (enemy_gunman)
    26562 |        | Asset bundle 3 (stage2)
    23520 |        | Asset bundle 2 (stage_3)
    20072 |        | Asset bundle 1 (stage_1)
-   18330 |        | Asset bundle 9 (henchmen)
-   16706 |        | Asset bundle 7 (enemy_shieldman)
+   18492 |        | Asset bundle 9 (henchmen)
+   17138 |        | Asset bundle 7 (enemy_shieldman)
    16530 |        | Tile data for map stage2 (mem restrictions:None)
    12432 |        | Tile data for map stage_1 (mem restrictions:None)
    12368 |        | Asset bundle 12 (stage_bonus)
-   10346 |        | Asset bundle 11 (joe_stage)
+   11498 |        | Asset bundle 11 (joe_stage)
     8984 |        | Panel thanks
     6502 |        | Asset bundle 4 (boss_gfx)
     5816 |        | Panel hud

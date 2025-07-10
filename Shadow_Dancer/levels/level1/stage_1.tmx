@@ -2,7 +2,7 @@
 <map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.11" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="120" height="18" tilewidth="16" tileheight="16" hexsidelength="0" infinite="0" nextlayerid="7" nextobjectid="1">
   <properties>
     <property name="skip_transparent" type="bool" value="True" />
-    <property name="amiga_panel" type="string" value="" />
+    <property name="amiga_panel" type="string" value="stage_1_plx" />
   </properties>
   <tileset firstgid="1" source="../../Actors.tsx" />
   <tileset firstgid="257" source="../../Blocks.tsx" />

@@ -50,28 +50,28 @@
           "FrameID": "walk_01",
           "Duration": 2,
           "Properties": {
-            "RenderType": "Sliced"
+            "RenderType": "RetroAnimatorFast"
           }
         },
         {
           "FrameID": "walk_02",
           "Duration": 2,
           "Properties": {
-            "RenderType": "Sliced"
+            "RenderType": "RetroAnimatorFast"
           }
         },
         {
           "FrameID": "walk_01",
           "Duration": 2,
           "Properties": {
-            "RenderType": "Sliced"
+            "RenderType": "RetroAnimatorFast"
           }
         },
         {
           "FrameID": "walk_03",
           "Duration": 2,
           "Properties": {
-            "RenderType": "Sliced"
+            "RenderType": "RetroAnimatorFast"
           }
         }
       ],

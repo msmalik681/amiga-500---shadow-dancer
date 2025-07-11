@@ -1,10 +1,10 @@
 {
     "activeFile": "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1.tmx",
     "expandedProjectPaths": [
-        "levels/level1/stage_1",
-        "levels/level1",
         "levels/level2",
-        "."
+        "levels/level1",
+        ".",
+        "levels/level1/stage_1"
     ],
     "fileStates": {
         "Actors.tsx": {
@@ -63,10 +63,10 @@
         },
         "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1.tmx": {
             "scale": 3,
-            "selectedLayer": 2,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 1481,
-                "y": 148.83333333333331
+                "x": 898.9999999999999,
+                "y": 183.5
             }
         },
         "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1/stage_1.tileset.tsx": {

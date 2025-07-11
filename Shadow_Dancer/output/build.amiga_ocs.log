@@ -1,4 +1,4 @@
-Compiled on 11 July 2025 12:52:51
+Compiled on 11 July 2025 18:53:58
 Version string: SE2025.0.250710.15.32.EX
 
 === Misc ===
@@ -32,15 +32,15 @@ Misc data size: 302
    56722 |        | Asset bundle 10 (joe_base)
    33504 |        | Asset bundle 0 (Core project asset bundle)
    32896 |        | Parallax for background stage2_plx
-   32754 |        | Project virtual machine (codeblocks)
+   32768 |        | Project virtual machine (codeblocks)
    30474 |        | Asset bundle 6 (enemy_roller)
    29866 |        | Project Data
+   29356 |        | Asset bundle 1 (stage_1)
    28800 |        | Parallax for background stage_1_plx
    26984 |        | Asset bundle 5 (enemy_gunman)
    26562 |        | Asset bundle 3 (stage2)
    23520 |        | Asset bundle 2 (stage_3)
-   22756 |        | Asset bundle 9 (henchmen)
-   20072 |        | Asset bundle 1 (stage_1)
+   18144 |        | Asset bundle 9 (henchmen)
    17138 |        | Asset bundle 7 (enemy_shieldman)
    16530 |        | Tile data for map stage2 (mem restrictions:None)
    12432 |        | Tile data for map stage_1 (mem restrictions:None)
@@ -81,15 +81,15 @@ For other:
 Map data memory: 16530
 Map background memory: 1640
 EXE memory: 204680
-vm memory: 32754
+vm memory: 32768
 project memory: 29866
 memory reserved for active actors on screen (16): 2312
 memory reserved for dormant actors in map (32): 1152
 OS/other estimated: 105472
 
 Accounted memory chip: 394772
-Accounted memory other: 394406
-Accounted memory total: 789178
+Accounted memory other: 394420
+Accounted memory total: 789192
 
 === Possibly unused animations ===
 e_gunman_fall_l
@@ -127,8 +127,8 @@ player_ontimer: 656
 load_level: 650
 jump_button: 640
 enemy_roller_ai: 598
+enemy_henchman_ai: 596
 player_attack: 590
-enemy_henchman_ai: 582
 stage_reset: 534
 high_jump_up: 486
 pre_startup: 446

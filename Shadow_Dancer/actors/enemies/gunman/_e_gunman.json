@@ -1,0 +1,625 @@
+{
+  "ProjectType": "RetroAnimator",
+  "Animations": {
+    "ready": {
+      "FrameData": [
+        {
+          "FrameID": "ready_00",
+          "Duration": 5,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "shoot_mid_r": {
+      "FrameData": [
+        {
+          "FrameID": "mid_shoot_01",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "mid_shoot_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "mid_shoot_03",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "mid_shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        },
+        {
+          "FrameID": "mid_shoot_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "mid_shoot_03",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "mid_shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        },
+        {
+          "FrameID": "mid_shoot_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "mid_shoot_03",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "mid_shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        },
+        {
+          "FrameID": "mid_shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "shoot_r": {
+      "FrameData": [
+        {
+          "FrameID": "shoot_01",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "shoot_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "shoot_03",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        },
+        {
+          "FrameID": "shoot_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "shoot_03",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        },
+        {
+          "FrameID": "shoot_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "shoot_03",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        },
+        {
+          "FrameID": "shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "shoot_low_r": {
+      "FrameData": [
+        {
+          "FrameID": "low_shoot_01",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "low_shoot_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "low_shoot_03",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "low_shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        },
+        {
+          "FrameID": "low_shoot_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "low_shoot_03",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "low_shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        },
+        {
+          "FrameID": "low_shoot_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "low_shoot_03",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "low_shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        },
+        {
+          "FrameID": "low_shoot_01",
+          "Duration": 15,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "reload_ani": {
+      "FrameData": [
+        {
+          "FrameID": "reload_01",
+          "Duration": 6,
+          "Properties": {}
+        },
+        {
+          "FrameID": "reload_02",
+          "Duration": 6,
+          "Properties": {}
+        },
+        {
+          "FrameID": "reload_01",
+          "Duration": 6,
+          "Properties": {}
+        },
+        {
+          "FrameID": "reload_02",
+          "Duration": 6,
+          "Properties": {}
+        },
+        {
+          "FrameID": "reload_01",
+          "Duration": 6,
+          "Properties": {}
+        },
+        {
+          "FrameID": "reload_02",
+          "Duration": 6,
+          "Properties": {}
+        },
+        {
+          "FrameID": "reload_02",
+          "Duration": 6,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    }
+  },
+  "Frames": {
+    "mid_shoot_01": {
+      "Sprites": [
+        {
+          "FramePath": "legs_ducking.png",
+          "HandleX": -13,
+          "HandleY": -16,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "mid_shoot_upper.png",
+          "HandleX": -8,
+          "HandleY": -36,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_lower.png",
+          "HandleX": 9,
+          "HandleY": -21,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_upper.png",
+          "HandleX": 13,
+          "HandleY": -23,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "ready_00": {
+      "Sprites": [
+        {
+          "FramePath": "legs_ducking.png",
+          "HandleX": -13,
+          "HandleY": -16,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ready_upper.png",
+          "HandleX": -12,
+          "HandleY": -36,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "mid_shoot_03": {
+      "Sprites": [
+        {
+          "FramePath": "legs_ducking.png",
+          "HandleX": -13,
+          "HandleY": -16,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "mid_shoot_upper.png",
+          "HandleX": -8,
+          "HandleY": -36,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_shoot.png",
+          "HandleX": 9,
+          "HandleY": -28,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "mid_shoot_02": {
+      "Sprites": [
+        {
+          "FramePath": "legs_ducking.png",
+          "HandleX": -13,
+          "HandleY": -16,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "mid_shoot_upper.png",
+          "HandleX": -8,
+          "HandleY": -36,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_lower.png",
+          "HandleX": 9,
+          "HandleY": -21,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_upper.png",
+          "HandleX": 11,
+          "HandleY": -23,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "shoot_01": {
+      "Sprites": [
+        {
+          "FramePath": "shoot_body.png",
+          "HandleX": -16,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_lower.png",
+          "HandleX": 13,
+          "HandleY": -36,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_upper.png",
+          "HandleX": 17,
+          "HandleY": -38,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "shoot_02": {
+      "Sprites": [
+        {
+          "FramePath": "shoot_body.png",
+          "HandleX": -16,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_lower.png",
+          "HandleX": 13,
+          "HandleY": -36,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_upper.png",
+          "HandleX": 15,
+          "HandleY": -38,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "shoot_03": {
+      "Sprites": [
+        {
+          "FramePath": "shoot_body.png",
+          "HandleX": -16,
+          "HandleY": -52,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_shoot.png",
+          "HandleX": 13,
+          "HandleY": -43,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "low_shoot_01": {
+      "Sprites": [
+        {
+          "FramePath": "low_shoot_body.png",
+          "HandleX": -27,
+          "HandleY": -15,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_lower.png",
+          "HandleX": 21,
+          "HandleY": -7,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_upper.png",
+          "HandleX": 25,
+          "HandleY": -9,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "low_shoot_02": {
+      "Sprites": [
+        {
+          "FramePath": "low_shoot_body.png",
+          "HandleX": -27,
+          "HandleY": -15,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_lower.png",
+          "HandleX": 21,
+          "HandleY": -7,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_upper.png",
+          "HandleX": 23,
+          "HandleY": -9,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "low_shoot_03": {
+      "Sprites": [
+        {
+          "FramePath": "low_shoot_body.png",
+          "HandleX": -27,
+          "HandleY": -15,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_shoot.png",
+          "HandleX": 21,
+          "HandleY": -13,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "reload_01": {
+      "Sprites": [
+        {
+          "FramePath": "legs_ducking.png",
+          "HandleX": -13,
+          "HandleY": -16,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "reload_body_01.png",
+          "HandleX": -19,
+          "HandleY": -26,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "reload_head.png",
+          "HandleX": -7,
+          "HandleY": -36,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "reload_02": {
+      "Sprites": [
+        {
+          "FramePath": "legs_ducking.png",
+          "HandleX": -13,
+          "HandleY": -16,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "reload_head.png",
+          "HandleX": -7,
+          "HandleY": -36,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "reload_body_02.png",
+          "HandleX": -20,
+          "HandleY": -26,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    }
+  },
+  "Properties": {}
+}

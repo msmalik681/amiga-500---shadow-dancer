@@ -5,9 +5,9 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_01.png",
@@ -24,9 +24,9 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_02.png",
@@ -43,14 +43,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
+            "Dir": "move_right",
             "Codeblock": "enemy_gunman_ai",
+            "Actor": "none",
             "Sound": null,
+            "Variable": null,
             "Expression": null,
             "Tag": "none",
             "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
             "ColorR": 0,
             "ColorG": 0,
             "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
             "Box": {
               "X": -4,
               "Y": -4,
@@ -64,14 +78,18 @@
               "b": 255,
               "a": 128
             },
-            "Conditions": []
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
           }
         ]
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_03.png",
@@ -88,9 +106,9 @@
         "Events": []
       },
       "Duration": 15,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_01.png",
@@ -107,9 +125,9 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_02.png",
@@ -126,14 +144,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
+            "Dir": "move_right",
             "Codeblock": "enemy_gunman_ai",
+            "Actor": "none",
             "Sound": null,
+            "Variable": null,
             "Expression": null,
             "Tag": "none",
             "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
             "ColorR": 0,
             "ColorG": 0,
             "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
             "Box": {
               "X": -4,
               "Y": -4,
@@ -147,14 +179,18 @@
               "b": 255,
               "a": 128
             },
-            "Conditions": []
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
           }
         ]
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_03.png",
@@ -171,9 +207,9 @@
         "Events": []
       },
       "Duration": 15,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_01.png",
@@ -190,9 +226,9 @@
         "Events": []
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_02.png",
@@ -209,14 +245,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
+            "Dir": "move_right",
             "Codeblock": "enemy_gunman_ai",
+            "Actor": "none",
             "Sound": null,
+            "Variable": null,
             "Expression": null,
             "Tag": "none",
             "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
             "ColorR": 0,
             "ColorG": 0,
             "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
             "Box": {
               "X": -4,
               "Y": -4,
@@ -230,14 +280,18 @@
               "b": 255,
               "a": 128
             },
-            "Conditions": []
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
           }
         ]
       },
       "Duration": 5,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_03.png",
@@ -254,9 +308,9 @@
         "Events": []
       },
       "Duration": 15,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_01.png",
@@ -273,14 +327,28 @@
         "Events": [
           {
             "FrameEventType": "Trigger",
+            "Dir": "move_right",
             "Codeblock": "enemy_gunman_ai",
+            "Actor": "none",
             "Sound": null,
+            "Variable": null,
             "Expression": null,
             "Tag": "none",
             "IsConditional": false,
+            "OverrideDirection": false,
+            "Animation": "none",
+            "AnimationLoop": false,
+            "AutoFlip": false,
+            "AnimationFrame": "0",
+            "IsGlobal": true,
+            "OverrideSpeed": false,
+            "XFloat": null,
+            "YFloat": null,
             "ColorR": 0,
             "ColorG": 0,
             "ColorB": 255,
+            "ResetMovement": true,
+            "ResetAnimation": true,
             "Box": {
               "X": -4,
               "Y": -4,
@@ -294,14 +362,18 @@
               "b": 255,
               "a": 128
             },
-            "Conditions": []
+            "Conditions": [],
+            "Angle": 0.0,
+            "HasActorAngle": false,
+            "HasChildAngle": false,
+            "HasAngle": false
           }
         ]
       },
       "Duration": 1,
-      "Background": false,
       "Multiplexes": 0,
       "PaletteLine": 0,
+      "PaletteLineNeo": 0,
       "RenderType": "SlicedFast",
       "SpriteType": "Attached_16colors",
       "Path": "gunman_shoot_mid_01.png",
@@ -314,13 +386,15 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": true,
   "PreventCollision": false,
+  "PreventJump": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "enemy_gunman",
   "OnFinish": "",
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0
+  "AnimationTag": null,
+  "LinkedMap": "enemy_gunman"
 }

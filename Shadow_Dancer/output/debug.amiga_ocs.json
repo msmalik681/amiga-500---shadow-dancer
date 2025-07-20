@@ -5967,7 +5967,7 @@
       "CodeBlock": "autogen_e_gunman_ready_0",
       "CodeBlockLine": 1,
       "MemoryOffset": 7066,
-      "Description": "Set 'eventtag' to '0'"
+      "Description": "Set 'eventtag' to '20'"
     },
     {
       "CodeBlock": "autogen_e_gunman_ready_0",
@@ -5985,7 +5985,7 @@
       "CodeBlock": "autogen_e_henchman_atk_l_1",
       "CodeBlockLine": 1,
       "MemoryOffset": 7104,
-      "Description": "Set 'eventtag' to '25'"
+      "Description": "Set 'eventtag' to '26'"
     },
     {
       "CodeBlock": "autogen_e_henchman_atk_l_1",
@@ -6033,7 +6033,7 @@
       "CodeBlock": "autogen_e_henchman_atk_r_1",
       "CodeBlockLine": 1,
       "MemoryOffset": 7194,
-      "Description": "Set 'eventtag' to '25'"
+      "Description": "Set 'eventtag' to '26'"
     },
     {
       "CodeBlock": "autogen_e_henchman_atk_r_1",
@@ -6099,7 +6099,7 @@
       "CodeBlock": "autogen_e_henchman_walk_l_0",
       "CodeBlockLine": 1,
       "MemoryOffset": 7320,
-      "Description": "Set 'eventtag' to '30'"
+      "Description": "Set 'eventtag' to '20'"
     },
     {
       "CodeBlock": "autogen_e_henchman_walk_l_0",
@@ -6309,7 +6309,7 @@
       "CodeBlock": "autogen_e_roller_idle_l_0",
       "CodeBlockLine": 1,
       "MemoryOffset": 7718,
-      "Description": "Set 'eventtag' to '30'"
+      "Description": "Set 'eventtag' to '20'"
     },
     {
       "CodeBlock": "autogen_e_roller_idle_l_0",
@@ -6327,7 +6327,7 @@
       "CodeBlock": "autogen_e_shield_throw_low_l_6",
       "CodeBlockLine": 1,
       "MemoryOffset": 7756,
-      "Description": "Set 'eventtag' to '30'"
+      "Description": "Set 'eventtag' to '20'"
     },
     {
       "CodeBlock": "autogen_e_shield_throw_low_l_6",
@@ -6345,7 +6345,7 @@
       "CodeBlock": "autogen_falling_rock_break_2",
       "CodeBlockLine": 1,
       "MemoryOffset": 7794,
-      "Description": "Set 'eventtag' to '30'"
+      "Description": "Set 'eventtag' to '20'"
     },
     {
       "CodeBlock": "autogen_falling_rock_break_2",
@@ -6399,7 +6399,7 @@
       "CodeBlock": "autogen_joe_main_boss_intro_0",
       "CodeBlockLine": 1,
       "MemoryOffset": 7908,
-      "Description": "Set 'eventtag' to '30'"
+      "Description": "Set 'eventtag' to '20'"
     },
     {
       "CodeBlock": "autogen_joe_main_boss_intro_0",
@@ -6513,7 +6513,7 @@
       "CodeBlock": "autogen_joe_main_duck_star_l_1",
       "CodeBlockLine": 1,
       "MemoryOffset": 8126,
-      "Description": "Set 'eventtag' to '30'"
+      "Description": "Set 'eventtag' to '20'"
     },
     {
       "CodeBlock": "autogen_joe_main_duck_star_l_1",
@@ -6531,7 +6531,7 @@
       "CodeBlock": "autogen_joe_main_magic_1",
       "CodeBlockLine": 1,
       "MemoryOffset": 8164,
-      "Description": "Set 'eventtag' to '30'"
+      "Description": "Set 'eventtag' to '20'"
     },
     {
       "CodeBlock": "autogen_joe_main_magic_1",

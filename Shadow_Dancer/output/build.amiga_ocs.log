@@ -1,5 +1,5 @@
-Compiled on 11 July 2025 18:53:58
-Version string: SE2025.0.250710.15.32.EX
+Compiled on 20 July 2025 21:42:56
+Version string: SE2025.0.250720.22.14.EX
 
 === Misc ===
 ImageFrames: 356
@@ -37,12 +37,12 @@ Misc data size: 302
    29866 |        | Project Data
    29356 |        | Asset bundle 1 (stage_1)
    28800 |        | Parallax for background stage_1_plx
-   26984 |        | Asset bundle 5 (enemy_gunman)
    26562 |        | Asset bundle 3 (stage2)
    23520 |        | Asset bundle 2 (stage_3)
    18144 |        | Asset bundle 9 (henchmen)
    17138 |        | Asset bundle 7 (enemy_shieldman)
    16530 |        | Tile data for map stage2 (mem restrictions:None)
+   13636 |        | Asset bundle 5 (enemy_gunman)
    12432 |        | Tile data for map stage_1 (mem restrictions:None)
    12368 |        | Asset bundle 12 (stage_bonus)
    11498 |        | Asset bundle 11 (joe_stage)

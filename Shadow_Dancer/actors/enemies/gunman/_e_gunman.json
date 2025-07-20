@@ -67,11 +67,6 @@
           "FrameID": "mid_shoot_01",
           "Duration": 15,
           "Properties": {}
-        },
-        {
-          "FrameID": "mid_shoot_01",
-          "Duration": 15,
-          "Properties": {}
         }
       ],
       "Properties": {
@@ -123,11 +118,6 @@
         {
           "FrameID": "shoot_03",
           "Duration": 5,
-          "Properties": {}
-        },
-        {
-          "FrameID": "shoot_01",
-          "Duration": 15,
           "Properties": {}
         },
         {
@@ -191,11 +181,6 @@
           "FrameID": "low_shoot_01",
           "Duration": 15,
           "Properties": {}
-        },
-        {
-          "FrameID": "low_shoot_01",
-          "Duration": 15,
-          "Properties": {}
         }
       ],
       "Properties": {
@@ -233,13 +218,6 @@
           "FrameID": "reload_02",
           "Duration": 6,
           "Properties": {}
-        },
-        {
-          "FrameID": "reload_02",
-          "Duration": 6,
-          "Properties": {
-            "RenderType": "RetroAnimator"
-          }
         }
       ],
       "Properties": {

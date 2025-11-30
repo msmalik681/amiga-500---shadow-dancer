@@ -1,0 +1,39 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 2,
+      "Background": false,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "RenderType": "SlicedFast",
+      "SpriteType": "Attached_16colors",
+      "Path": "star_break.png",
+      "HasHitBox": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HandleX": -7,
+      "HandleY": -7,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "star_break",
+      "IsBlank": false
+    }
+  ],
+  "PreventMovement": true,
+  "PreventCollision": true,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": "joe_base",
+  "OnFinish": "destroy_actor",
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0
+}

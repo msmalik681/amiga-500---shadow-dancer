@@ -1,0 +1,206 @@
+{
+    "activeFile": "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "levels/level1/stage_1",
+        "levels/level1",
+        "levels/level2"
+    ],
+    "fileStates": {
+        "Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "Blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/Blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level1/stage_1/stage_1.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level1/stage_1/stage_1.tmx": {
+            "scale": 3,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 455.33333333333326,
+                "y": 98.49999999999999
+            }
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 984,
+                "y": 191.875
+            }
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level3/stage_3.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level3/stage_3.tmx": {
+            "scale": 1.7654166666666666,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 238.47061600188815,
+                "y": 111.87160726929434
+            }
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/Blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1358,
+                "y": -398
+            }
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1/stage_1.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1/stage_1.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 415.3333333333333,
+                "y": 218.16666666666669
+            }
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level3/stage_3.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level3/stage_3.tmx": {
+            "scale": 1.6070833333333332,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.18667358050297,
+                "y": 112.31527093596061
+            }
+        },
+        "C:/users/malik/Documents/Amiga/test/Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/test/Blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx": {
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 145.5,
+                "y": 78.25
+            }
+        },
+        "C:/users/malik/Documents/street fighter amiga/Game Projects/Testing/Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/street fighter amiga/Game Projects/Testing/Blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/street fighter amiga/Game Projects/Testing/levels/Imported map.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/users/malik/Documents/street fighter amiga/Game Projects/Testing/levels/Imported map.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 958,
+                "y": 118
+            }
+        },
+        "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/Blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/levels/level1.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 384,
+                "y": 959.909090909091
+            }
+        },
+        "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/levels/newtileset.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "Z:/home/malik/Documents/Amiga/test/Actors.tsx": {
+            "scaleInDock": 1
+        },
+        "Z:/home/malik/Documents/Amiga/test/Blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "Z:/home/malik/Documents/Amiga/test/levels/stage_1/stage_1.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "Z:/home/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx": {
+            "scale": 2.648125,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 156.33703091810244,
+                "y": 108.56738258201557
+            }
+        },
+        "levels/level1/stage_1/stage_1.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "levels/level1/stage_1/stage_1.tmx": {
+            "expandedObjectLayers": [
+                6
+            ],
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 960,
+                "y": 143.75
+            }
+        },
+        "levels/level2/stage2.tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "levels/level2/stage2.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 983.9999999999999,
+                "y": 191.66666666666663
+            }
+        }
+    },
+    "openFiles": [
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1.tmx"
+    ],
+    "project": "test_project.tiled-project",
+    "recentFiles": [
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1.tmx",
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level1/stage_1/stage_1.tmx",
+        "C:/users/malik/Documents/Amiga/Link to Shadow_Dancer/levels/level3/stage_3.tmx",
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level3/stage_3.tmx",
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level2/stage2.tmx",
+        "C:/users/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",
+        "C:/users/malik/Documents/Amiga/Link to Shadow Dancer/levels/level1/stage_1/stage_1.tmx",
+        "Z:/home/malik/Documents/Amiga/test/levels/stage_1/stage_1.tmx",
+        "levels/level2/stage2.tmx",
+        "Z:/home/malik/Documents/Amiga/scorpion-editor-experimental/Game Projects/Monkey_Lad_Amiga_MegaDrive/levels/level1.tmx",
+        "levels/level1/stage_1/stage_1.tmx",
+        "C:/users/malik/Documents/street fighter amiga/Game Projects/Testing/levels/Imported map.tmx"
+    ]
+}

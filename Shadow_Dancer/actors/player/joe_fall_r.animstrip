@@ -1,0 +1,34 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 30,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "Path": "joe_fall.png",
+      "HandleX": -64,
+      "HandleY": -112,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "joe_fall",
+      "IsBlank": false
+    }
+  ],
+  "PreventAttack": false,
+  "PreventMovement": true,
+  "PreventCollision": true,
+  "PreventJump": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "AnimationTag": null,
+  "LinkedMap": "joe_base"
+}

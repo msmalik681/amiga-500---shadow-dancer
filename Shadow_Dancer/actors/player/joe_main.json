@@ -13,7 +13,8 @@
         }
       ],
       "Properties": {
-        "LinkedMap": "joe_base"
+        "LinkedMap": "joe_base",
+        "IsSynchronised": "False"
       }
     },
     "walk_r": {
@@ -84,7 +85,8 @@
         }
       ],
       "Properties": {
-        "LinkedMap": "joe_base"
+        "LinkedMap": "joe_base",
+        "IsSynchronised": "False"
       }
     },
     "duck_r": {
@@ -100,7 +102,8 @@
       ],
       "Properties": {
         "PreventJump": "False",
-        "LinkedMap": "joe_base"
+        "LinkedMap": "joe_base",
+        "IsSynchronised": "False"
       }
     },
     "duck_walk_r": {
@@ -170,7 +173,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "IsSynchronised": "False"
+      }
     },
     "duck_star_r": {
       "FrameData": [
@@ -201,7 +206,8 @@
       ],
       "Properties": {
         "PreventMovement": "True",
-        "LinkedMap": "joe_base"
+        "LinkedMap": "joe_base",
+        "IsSynchronised": "False"
       }
     },
     "jump_r": {
@@ -248,7 +254,8 @@
         }
       ],
       "Properties": {
-        "LinkedMap": "joe_base"
+        "LinkedMap": "joe_base",
+        "IsSynchronised": "False"
       }
     },
     "jump_star_r": {
@@ -279,7 +286,8 @@
         }
       ],
       "Properties": {
-        "LinkedMap": "joe_base"
+        "LinkedMap": "joe_base",
+        "IsSynchronised": "False"
       }
     },
     "melee_r": {
@@ -312,7 +320,8 @@
       "Properties": {
         "PreventMovement": "True",
         "PreventJump": "True",
-        "LinkedMap": "joe_base"
+        "LinkedMap": "joe_base",
+        "IsSynchronised": "False"
       }
     },
     "star_r": {
@@ -345,7 +354,8 @@
       "Properties": {
         "PreventMovement": "True",
         "PreventJump": "True",
-        "LinkedMap": "joe_base"
+        "LinkedMap": "joe_base",
+        "IsSynchronised": "False"
       }
     },
     "duck_melee_r": {
@@ -378,7 +388,8 @@
       "Properties": {
         "PreventMovement": "True",
         "PreventJump": "True",
-        "LinkedMap": "joe_base"
+        "LinkedMap": "joe_base",
+        "IsSynchronised": "False"
       }
     },
     "magic": {
@@ -399,7 +410,8 @@
         }
       ],
       "Properties": {
-        "LinkedMap": "joe_base"
+        "LinkedMap": "joe_base",
+        "IsSynchronised": "False"
       }
     },
     "boss_intro": {
@@ -416,7 +428,8 @@
       "Properties": {
         "PreventMovement": "True",
         "PreventCollision": "True",
-        "LinkedMap": "joe_base"
+        "LinkedMap": "joe_base",
+        "IsSynchronised": "False"
       }
     }
   },

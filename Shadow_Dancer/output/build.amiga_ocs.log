@@ -1,9 +1,9 @@
-Compiled on 20 July 2025 21:42:56
-Version string: SE2025.0.250720.22.14.EX
+Compiled on 20 December 2025 18:26:19
+Version string: SE2025.0.251219.18.57.EX
 
 === Misc ===
 ImageFrames: 356
-ImageFrame Data Size: 15664
+ImageFrame Data Size: 17088
 Maps and Asset Bundles Count: 13
 Maps and Asset Bundles Data Size: 0
 Actor Count: 23
@@ -20,76 +20,121 @@ Animations Count: 91
 Animations Data Size: 1456
 AnimationFrame Count: 357
 AnimationFrame Data Size: 5712
-Sprites: 61
-Sprites Data Size: 854
-Attack Data: 10
-Attack Data Size: 880
-Misc data size: 302
+Sprites: 77
+Sprites Data Size: 1078
+Attack Data: 12
+Attack Data Size: 1056
+Misc data size: 308
+
+=== Cartridge Composition ===
+ Header |   Offset | Size     | Crunch    | Detail
+   MC01 |      706 |    11324 |  NoCrunch | Music data shadowdancer_stage1
+   MS01 |    12030 |    53056 |  NoCrunch | Music samples shadowdancer_stage1
+   PL06 |    65086 |     1296 |  NoCrunch | Panel (background color #000)
+   PL01 |    66382 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
+   PL02 |    68856 |     5816 |  NoCrunch | Panel hud
+   PC02 |    74672 |     1768 |  NoCrunch | Panel bobs hud
+   MP03 |    76440 |    43200 |  NoCrunch | Parallax for background stage_1_plx
+   PL03 |   119640 |     1636 |  NoCrunch | Panel (background)stage_1_plx
+   MP04 |   121276 |    33924 |  NoCrunch | Parallax for background stage2_plx
+   PL04 |   155200 |     1464 |  NoCrunch | Panel (background)stage2_plx
+   PL05 |   156664 |     8984 |  NoCrunch | Panel thanks
+   VC00 |   165648 |    33998 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |   199646 |      140 |  NoCrunch | Map actor data for stage_1
+   MH01 |   199786 |      848 |  NoCrunch | Header data for map stage_1
+   MD01 |   200634 |    12440 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
+   MA02 |   213074 |       56 |  NoCrunch | Map actor data for stage_3
+   MH02 |   213130 |      848 |  NoCrunch | Header data for map stage_3
+   MD02 |   213978 |     2768 |  NoCrunch | Tile data for map stage_3 (mem restrictions:None)
+   MA03 |   216746 |      728 |  NoCrunch | Map actor data for stage2
+   MH03 |   217474 |      848 |  NoCrunch | Header data for map stage2
+   MD03 |   218322 |    16538 |  NoCrunch | Tile data for map stage2 (mem restrictions:None)
+   AB00 |   234860 |    37016 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB12 |   271876 |    12368 |  NoCrunch | Asset bundle 12 (stage_bonus)
+   AB04 |   284244 |     6502 |  NoCrunch | Asset bundle 4 (boss_gfx)
+   AB02 |   290746 |    23534 |  NoCrunch | Asset bundle 2 (stage_3)
+   AB05 |   314280 |    13636 |  NoCrunch | Asset bundle 5 (enemy_gunman)
+   AB09 |   327916 |    15016 |  NoCrunch | Asset bundle 9 (henchmen)
+   AB06 |   342932 |    30474 |  NoCrunch | Asset bundle 6 (enemy_roller)
+   AB07 |   373406 |    17138 |  NoCrunch | Asset bundle 7 (enemy_shieldman)
+   AB11 |   390544 |    13616 |  NoCrunch | Asset bundle 11 (joe_stage)
+   AB08 |   404160 |     2846 |  NoCrunch | Asset bundle 8 (gfx_falling_rocks)
+   AB10 |   407006 |    62104 |  NoCrunch | Asset bundle 10 (joe_base)
+   AB01 |   469110 |    29920 |  NoCrunch | Asset bundle 1 (stage_1)
+   AB03 |   499030 |    27040 |  NoCrunch | Asset bundle 3 (stage2)
+   DB00 |   526070 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   526072 |     4376 |  NoCrunch | Project Header
+   PD01 |   530448 |        4 |  NoCrunch | Project Custom Collisions
+   PD00 |   530452 |    31696 |  NoCrunch | Project Data
+   VR00 |   562148 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
-    Size | Crunch | Detail
-   64380 |        | Music file shadowdancer_stage1
-   56722 |        | Asset bundle 10 (joe_base)
-   33504 |        | Asset bundle 0 (Core project asset bundle)
-   32896 |        | Parallax for background stage2_plx
-   32768 |        | Project virtual machine (codeblocks)
-   30474 |        | Asset bundle 6 (enemy_roller)
-   29866 |        | Project Data
-   29356 |        | Asset bundle 1 (stage_1)
-   28800 |        | Parallax for background stage_1_plx
-   26562 |        | Asset bundle 3 (stage2)
-   23520 |        | Asset bundle 2 (stage_3)
-   18144 |        | Asset bundle 9 (henchmen)
-   17138 |        | Asset bundle 7 (enemy_shieldman)
-   16530 |        | Tile data for map stage2 (mem restrictions:None)
-   13636 |        | Asset bundle 5 (enemy_gunman)
-   12432 |        | Tile data for map stage_1 (mem restrictions:None)
-   12368 |        | Asset bundle 12 (stage_bonus)
-   11498 |        | Asset bundle 11 (joe_stage)
-    8984 |        | Panel thanks
-    6502 |        | Asset bundle 4 (boss_gfx)
-    5816 |        | Panel hud
-    4376 |        | Project Header
-    3380 |  (91%) | Panel scorpion_eng_splashscreen
-    2844 |        | Asset bundle 8 (gfx_falling_rocks)
-    2760 |        | Tile data for map stage_3 (mem restrictions:None)
-    1686 |        | Panel bobs hud
-    1640 |        | Panel (background)stage_1_plx
-    1464 |        | Panel (background)stage2_plx
-     844 |        | Header data for map stage_1
-     844 |        | Header data for map stage_3
-     844 |        | Header data for map stage2
-     728 |        | Map actor data for stage2
-     140 |        | Map actor data for stage_1
-      76 |  (95%) | Panel (background color #000)
-      56 |        | Map actor data for stage_3
-       4 |        | Project virtual machine redirects
-       2 |        | Misc Data (paths, hurt boxes etc)
+    Size |   Memory | Crunch | Detail
+   62104 |    62104 |        | Asset bundle 10 (joe_base)
+   53056 |    53056 |        | Music samples shadowdancer_stage1
+   43200 |    43200 |        | Parallax for background stage_1_plx
+   37016 |    37016 |        | Asset bundle 0 (Core project asset bundle)
+   33998 |    33998 |        | Project virtual machine (codeblocks)
+   33924 |    33924 |        | Parallax for background stage2_plx
+   31696 |    31696 |        | Project Data
+   30474 |    30474 |        | Asset bundle 6 (enemy_roller)
+   29920 |    29920 |        | Asset bundle 1 (stage_1)
+   27040 |    27040 |        | Asset bundle 3 (stage2)
+   23534 |    23534 |        | Asset bundle 2 (stage_3)
+   17138 |    17138 |        | Asset bundle 7 (enemy_shieldman)
+   16538 |    16538 |        | Tile data for map stage2 (mem restrictions:None)
+   15016 |    15016 |        | Asset bundle 9 (henchmen)
+   13636 |    13636 |        | Asset bundle 5 (enemy_gunman)
+   13616 |    13616 |        | Asset bundle 11 (joe_stage)
+   12440 |    12440 |        | Tile data for map stage_1 (mem restrictions:None)
+   12368 |    12368 |        | Asset bundle 12 (stage_bonus)
+   11324 |    11324 |        | Music data shadowdancer_stage1
+    8984 |     8984 |        | Panel thanks
+    6502 |     6502 |        | Asset bundle 4 (boss_gfx)
+    5816 |     5816 |        | Panel hud
+    4376 |     4376 |        | Project Header
+    2846 |     2846 |        | Asset bundle 8 (gfx_falling_rocks)
+    2768 |     2768 |        | Tile data for map stage_3 (mem restrictions:None)
+    2474 |    36784 |  (94%) | Panel scorpion_eng_splashscreen
+    1768 |     1768 |        | Panel bobs hud
+    1636 |     1636 |        | Panel (background)stage_1_plx
+    1464 |     1464 |        | Panel (background)stage2_plx
+    1296 |     1296 |        | Panel (background color #000)
+     848 |      848 |        | Header data for map stage_1
+     848 |      848 |        | Header data for map stage_3
+     848 |      848 |        | Header data for map stage2
+     728 |      728 |        | Map actor data for stage2
+     140 |      140 |        | Map actor data for stage_1
+      56 |       56 |        | Map actor data for stage_3
+       4 |        4 |        | Project Custom Collisions
+       4 |        4 |        | Project virtual machine redirects
+       2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 36784
-Music memory (shadowdancer_stage1): 64380
+Music sample (shadowdancer_stage1): 53056
 BP Buffer memory: 127880
-Core sfx/gfx memory: 33504
-Parallax memory: 32896
+Core sfx/gfx memory: 37016
+Parallax memory: 43200
 OS/other estimated: 99328
 
 For other:
-Map data memory: 16530
-Map background memory: 1640
-EXE memory: 204680
-vm memory: 32768
-project memory: 29866
-memory reserved for active actors on screen (16): 2312
+Map data memory: 16538
+Map background memory: 1636
+EXE memory: 220124
+vm memory: 33998
+project memory: 31696
+Music data (shadowdancer_stage1): 11324
+memory reserved for active actors on screen (16): 2536
 memory reserved for dormant actors in map (32): 1152
 OS/other estimated: 105472
 
-Accounted memory chip: 394772
-Accounted memory other: 394420
-Accounted memory total: 789192
+Accounted memory chip: 408588
+Accounted memory other: 413152
+Accounted memory total: 821740
 
 === Possibly unused animations ===
 e_gunman_fall_l
@@ -123,30 +168,32 @@ enemy_shieldman_ai: 834
 enemy_gunman_ai: 790
 enemy_bump: 746
 player_land: 716
-player_ontimer: 656
-load_level: 650
+load_level: 676
+player_ontimer: 648
 jump_button: 640
+enemy_henchman_ai: 620
 enemy_roller_ai: 598
-enemy_henchman_ai: 596
 player_attack: 590
-stage_reset: 534
+stage_reset: 526
 high_jump_up: 486
-pre_startup: 446
 ninja_magic: 440
+pre_startup: 438
 ninja_magic_gosub: 408
 player_hit: 364
 stage_timer_tick: 354
 star_throw: 354
+do_teleport: 320
 flipscreen_smooth: 310 (Unused?)
-do_teleport: 300
 flipxymove: 278 (Unused?)
 load_next_level: 268 (Unused?)
+freemem: 256
 player_attack_melee: 228
 stage_falling_rocks_onland: 222
 hostage_bonus_gosub: 216
 enemy_hit_melee: 214
 stage_exit: 214
-block_find: 206 (Unused?)
+block_find: 210 (Unused?)
+Autogen_UnloadAllAssetBundles: 206 (Unused?)
 set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
@@ -157,23 +204,24 @@ block_count: 178 (Unused?)
 block_projectile: 172
 player_duck_control: 170
 flipymove: 162 (Unused?)
+snap_to_screen: 162 (Unused?)
 pre_quit: 160
-snap_to_screen: 158 (Unused?)
 flipxmove: 142 (Unused?)
 star_throw_gosub: 142
 enemy_range_check_gosub: 138
 restart_this_level: 136 (Unused?)
 load_panel: 134
-unload_level: 130
 destroy_all_blocks: 128 (Unused?)
-pre_load_level: 122
+unload_level: 118
 enemy_behind: 118
+anim_force_left: 108 (Unused?)
+anim_force_right: 108 (Unused?)
 fadein: 108
+waitforfireup: 106
 block_pitfall: 106
 unload_panel: 102
-waitforfireup: 102
-waitforfiredown: 98
-load_panel_bottom: 96 (Unused?)
+waitforfiredown: 102
+load_panel_bottom: 96
 load_panel_top: 96
 destroy_child_actors: 94 (Unused?)
 autogen_e_henchman_atk_l_1: 90
@@ -188,6 +236,7 @@ autogen_joe_main_melee_r_1: 90
 autogen_joe_melee_air_l_1: 90
 player_direction_gosub: 90
 autogen_e_henchman_atk_r_1: 88
+pre_load_level: 86
 waitforfirehit: 86
 autogen_joe_melee_air_r_1: 86
 load_music: 78
@@ -209,21 +258,24 @@ enemy_direction_gosub: 62
 destroy_all_actors: 60 (Unused?)
 quit: 60
 destroy_actor: 58
+freemem_hard: 54 (Unused?)
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
 load_panel_finish: 50
 unload_panel_bottom: 50
 unload_panel_top: 50
 AUTOGEN_OUTOFSCREEN_enemy_behind_None_None_None: 50
+autogen_e_gunman_ready_0: 46
+autogen_e_henchman_walk_l_0: 46
 projectile_on_spawn: 42
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
 autogen_bonus_smoke_1000_1: 38
 autogen_bonus_smoke_ani_7: 38
 autogen_bonus_smoke_ani_9: 38
-autogen_e_gunman_ready_0: 38
+autogen_e_gunman_reload_ani_6: 38
 autogen_e_henchman_search_0: 38
-autogen_e_henchman_walk_l_0: 38
+autogen_e_henchman_walk_l_2: 38
 autogen_e_roller_idle_l_0: 38
 autogen_e_shield_throw_low_l_6: 38
 autogen_falling_rock_break_2: 38
@@ -232,12 +284,12 @@ autogen_joe_high_jump_down_1: 38
 autogen_joe_main_boss_intro_0: 38
 autogen_joe_main_duck_star_l_1: 38
 autogen_joe_main_magic_1: 38
+autogen_e_gunman_reload_ani_0: 34
 block_coll_force: 32 (Unused?)
-block_coll_passthru: 32 (Unused?)
-clear_block_collision: 32
+block_coll_passthru: 32
 player_spawn: 32
-vm_registers: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
+hardware_amiga: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
 enemy_on_spawn: 26 (Unused?)
 spawn_falling_rocks: 26 (Unused?)

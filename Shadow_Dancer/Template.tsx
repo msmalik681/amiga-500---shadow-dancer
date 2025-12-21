@@ -31,7 +31,11 @@
       <property name="Name" value="e_gunman_stand" type="string" />
     </properties>
   </tile>
-  <tile id="6" />
+  <tile id="6">
+    <properties>
+      <property name="Name" value="static_enemy" type="string" />
+    </properties>
+  </tile>
   <tile id="7">
     <properties>
       <property name="Name" value="e_gunman_reload" type="string" />

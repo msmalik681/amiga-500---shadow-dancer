@@ -54,7 +54,7 @@
       "PaletteLine": 0,
       "PaletteLineNeo": 0,
       "Bitplane": 0,
-      "RenderType": "Sliced",
+      "RenderType": "Normal",
       "SpriteType": "Attached_16colors",
       "Path": "knife_wait_01.png",
       "HandleX": -16,
@@ -66,10 +66,10 @@
       "IsBlank": false
     }
   ],
-  "PreventAttack": false,
+  "PreventAttack": true,
   "PreventMovement": true,
   "PreventCollision": false,
-  "PreventJump": false,
+  "PreventJump": true,
   "IsSynchronised": false,
   "IsScaleable": false,
   "HideChildren": false,

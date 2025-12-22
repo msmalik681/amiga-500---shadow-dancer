@@ -577,7 +577,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "temp",
-      "Expression": "player_x%16",
+      "Expression": "block_x",
       "Index": "0",
       "Label": "",
       "Disabled": false,

@@ -1,0 +1,5 @@
+ActorAnimation e_henchman_search Frame=0
+ActorNoClear
+ActorRenderMode RenderMode_Default
+Yield 50
+ActorNoClear False

@@ -518,9 +518,9 @@
       "DiceSides": "2",
       "Conditions": [
         {
-          "LeftSide": "player_var4",
+          "LeftSide": "player_var5",
           "Comparison": "Equals",
-          "RightSide": "0",
+          "RightSide": "1",
           "ComparisonNext": "End",
           "IsValid": true
         }

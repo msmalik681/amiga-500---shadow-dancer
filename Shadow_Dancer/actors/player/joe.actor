@@ -162,7 +162,7 @@
   "DataVersion": 8,
   "ActorTag": "-1",
   "AutoSpawn": true,
-  "AutoNavigate": false,
+  "AutoNavigate": true,
   "ActorTimeline": {
     "TimelineFrames": {
       "50": {

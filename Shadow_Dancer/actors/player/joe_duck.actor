@@ -104,9 +104,9 @@
     false
   ],
   "CollBox": {
-    "X": -10,
+    "X": -8,
     "Y": -31,
-    "Width": 20,
+    "Width": 16,
     "Height": 31
   },
   "AttackDelay": 10,

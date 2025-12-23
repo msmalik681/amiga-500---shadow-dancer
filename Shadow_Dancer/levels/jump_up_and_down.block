@@ -1,9 +1,8 @@
 {
-  "Divert_PlayerProjectileCollision": null,
   "BlockImagePath": "levels\\blocks.png",
   "X": 16,
   "Y": 16,
-  "Divert_PlayerCollision": "block_jump_up_and_down",
+  "Divert_PlayerCollision": "none",
   "Divert_PlayerHit": null,
   "Divert_PlayerOverlap": null,
   "Divert_ProjectileCollision": "block_projectile",
@@ -35,5 +34,9 @@
       false
     ]
   ],
+  "ZeroIsTransparent": false,
+  "PaletteLineNeo": 0,
+  "IsForeground": false,
+  "BlockTag": null,
   "TileID": 5
 }

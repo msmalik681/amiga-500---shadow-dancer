@@ -5,19 +5,13 @@
         "Events": []
       },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 16,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "Normal",
       "SpriteType": "Channel_4_to_1",
       "Path": "star_01.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -7,
       "HandleY": -7,
       "XFlipped": false,
@@ -31,19 +25,13 @@
         "Events": []
       },
       "Duration": 2,
-      "Background": false,
       "Multiplexes": 16,
       "PaletteLine": 0,
-      "RenderType": "SlicedFast",
+      "PaletteLineNeo": 0,
+      "Bitplane": 0,
+      "RenderType": "Normal",
       "SpriteType": "Channel_4_to_1",
       "Path": "star_02.png",
-      "HasHitBox": false,
-      "HitBox": {
-        "X": 0,
-        "Y": 0,
-        "Width": 0,
-        "Height": 0
-      },
       "HandleX": -7,
       "HandleY": -7,
       "XFlipped": false,
@@ -53,13 +41,17 @@
       "IsBlank": false
     }
   ],
+  "PreventAttack": false,
   "PreventMovement": false,
   "PreventCollision": false,
+  "PreventJump": false,
+  "IsSynchronised": false,
+  "IsScaleable": false,
   "HideChildren": false,
   "LoopFrame": 0,
-  "LinkedMap": "joe_base",
   "OnFinish": null,
   "AutoFlip": null,
   "Streamed": true,
-  "PatternBuffer": 0
+  "AnimationTag": null,
+  "LinkedMap": "joe_base"
 }

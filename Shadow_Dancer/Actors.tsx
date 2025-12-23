@@ -33,7 +33,7 @@
   </tile>
   <tile id="6">
     <properties>
-      <property name="Name" value="static_enemy" type="string" />
+      <property name="Name" value="e_henchman_still" type="string" />
     </properties>
   </tile>
   <tile id="7">

@@ -10,8 +10,8 @@
     "UpLeft": "",
     "Up": "blank",
     "UpRight": "",
-    "Left": "blank",
-    "Right": "blank",
+    "Left": "e_henchman_search",
+    "Right": "e_henchman_search",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -94,7 +94,7 @@
   ],
   "InvalidDirections": [
     true,
-    false,
+    true,
     true,
     false,
     false,

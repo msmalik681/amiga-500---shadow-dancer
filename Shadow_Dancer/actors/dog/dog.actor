@@ -1,30 +1,30 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "right",
-  "Recycle": "Default",
-  "MoveType": "control_platform",
+  "DefaultLookDir": "left",
+  "Recycle": "Always",
+  "MoveType": "cpu",
   "MaxEntities": 0,
-  "NudgeX": 8,
+  "NudgeX": 10,
   "NudgeY": 16,
   "Idles": {
-    "UpLeft": "",
-    "Up": "",
-    "UpRight": "",
-    "Left": "",
-    "Right": "joe_main_idle_r",
-    "DownLeft": "",
-    "Down": "",
-    "DownRight": ""
+    "UpLeft": "dog_ilde_r",
+    "Up": "dog_ilde_r",
+    "UpRight": "dog_ilde_r",
+    "Left": "dog_ilde_r",
+    "Right": "dog_ilde_r",
+    "DownLeft": "dog_ilde_r",
+    "Down": "dog_ilde_r",
+    "DownRight": "dog_ilde_r"
   },
   "Moves": {
-    "UpLeft": "",
-    "Up": "",
-    "UpRight": "joe_jump_r",
-    "Left": "",
-    "Right": "joe_main_walk_r",
-    "DownLeft": "joe_jump_l",
-    "Down": "",
-    "DownRight": "joe_jump_r"
+    "UpLeft": "dog_ilde_r",
+    "Up": "dog_ilde_r",
+    "UpRight": "dog_ilde_r",
+    "Left": "dog_ilde_r",
+    "Right": "dog_ilde_r",
+    "DownLeft": "dog_ilde_r",
+    "Down": "dog_ilde_r",
+    "DownRight": "dog_ilde_r"
   },
   "Attacks": {
     "UpLeft": "",
@@ -38,10 +38,10 @@
   },
   "ProjectileOffsets": [
     {
-      "x": -22,
-      "y": -35,
-      "magnitude": 41.3400536,
-      "sqrMagnitude": 1709
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
     },
     {
       "x": 0,
@@ -50,16 +50,10 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 22,
-      "y": -35,
-      "magnitude": 41.3400536,
-      "sqrMagnitude": 1709
-    },
-    {
-      "x": -22,
-      "y": -43,
-      "magnitude": 48.30114,
-      "sqrMagnitude": 2333
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
     },
     {
       "x": 0,
@@ -68,10 +62,16 @@
       "sqrMagnitude": 0
     },
     {
-      "x": 22,
-      "y": -43,
-      "magnitude": 48.30114,
-      "sqrMagnitude": 2333
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0
     },
     {
       "x": 0,
@@ -104,55 +104,55 @@
     false
   ],
   "CollBox": {
-    "X": -8,
-    "Y": -55,
-    "Width": 16,
-    "Height": 55
+    "X": -4,
+    "Y": -4,
+    "Width": 8,
+    "Height": 8
   },
-  "AttackDelay": 10,
-  "ZOrder": 1,
-  "SpeedLeft": 3.4,
-  "SpeedRight": 3.4,
-  "SpeedUp": 10.0,
-  "SpeedDown": 10.0,
-  "AccelLeft": 2.0,
-  "AccelRight": 2.0,
-  "AccelUp": 1.0,
-  "AccelDown": 1.0,
-  "AccelLeftAir": 2.0,
-  "AccelRightAir": 2.0,
+  "AttackDelay": 0,
+  "ZOrder": 0,
+  "SpeedLeft": 1.0,
+  "SpeedRight": 1.0,
+  "SpeedUp": 0.0,
+  "SpeedDown": 0.0,
+  "AccelLeft": null,
+  "AccelRight": null,
+  "AccelUp": null,
+  "AccelDown": null,
+  "AccelLeftAir": null,
+  "AccelRightAir": null,
   "RotationSpeed": 0.0,
   "CollType_Left": "block",
   "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": null,
-  "BlockCollider": false,
-  "CanRidePlatform": false,
+  "BlockCollider": null,
+  "CanRidePlatform": null,
   "Camera": null,
-  "AutoScroll": false,
+  "AutoScroll": null,
   "Flags": 0,
-  "AttackProjectile": "",
+  "AttackProjectile": null,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
   "JumpSound": null,
   "DivertAttack": "",
-  "DivertSpawn": "player_spawn",
+  "DivertSpawn": "",
   "DivertPlayerCollision": "",
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
-  "DivertProjectileCollision": "player_hit",
-  "DivertOutOfScreenLeft": "",
+  "DivertProjectileCollision": "",
+  "DivertOutOfScreenLeft": "none",
   "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
-  "DivertPlatformLand": "player_land",
-  "DivertTimer": "player_ontimer",
+  "DivertPlatformLand": null,
+  "DivertTimer": null,
   "DivertTimerFrames": 0,
   "Vars": [
     "0",
-    "1",
+    "0",
     "0",
     "0",
     "0",
@@ -160,8 +160,8 @@
   ],
   "ControlPort": 1,
   "DataVersion": 8,
-  "ActorTag": "-1",
-  "AutoSpawn": true,
+  "ActorTag": "None",
+  "AutoSpawn": null,
   "AutoNavigate": false,
   "ActorTimeline": {
     "TimelineFrames": {
@@ -197,6 +197,6 @@
   "IsAttacker": null,
   "PreviewParent": null,
   "RotationEnabled": false,
-  "TileID": 0,
+  "TileID": 10,
   "MaxTimelineFrames": 50
 }

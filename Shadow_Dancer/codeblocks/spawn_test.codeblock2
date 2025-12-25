@@ -1,0 +1,3 @@
+Spawn dog X=player_x Y=player_y
+NewNoClear False
+Set none

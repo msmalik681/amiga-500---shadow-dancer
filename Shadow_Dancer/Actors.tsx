@@ -51,7 +51,11 @@
       <property name="Name" value="enemy_jump" type="string" />
     </properties>
   </tile>
-  <tile id="10" />
+  <tile id="10">
+    <properties>
+      <property name="Name" value="dog" type="string" />
+    </properties>
+  </tile>
   <tile id="11">
     <properties>
       <property name="Name" value="npc_hostage" type="string" />

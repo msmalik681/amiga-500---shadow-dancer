@@ -3064,7 +3064,7 @@
     {
       "CodeBlock": "startup",
       "Name": "current_stage",
-      "DefaultValue": "1",
+      "DefaultValue": "2",
       "Index": 241,
       "MemoryOffset": 548
     },
@@ -21480,7 +21480,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 30,
       "MemoryOffset": 32124,
-      "Description": "GOTO '00032748'"
+      "Description": "GOTO '00032708'"
     },
     {
       "CodeBlock": "startup",
@@ -21594,7 +21594,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
       "MemoryOffset": 32252,
-      "Description": "Set 'fr[1]' to 'enemy_roller'"
+      "Description": "Set 'fr[1]' to 'henchmen'"
     },
     {
       "CodeBlock": "startup",
@@ -21612,7 +21612,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
       "MemoryOffset": 32272,
-      "Description": "Set 'fr[1]' to 'enemy_roller'"
+      "Description": "Set 'fr[1]' to 'stage_bonus'"
     },
     {
       "CodeBlock": "startup",
@@ -21630,7 +21630,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
       "MemoryOffset": 32292,
-      "Description": "Set 'fr[1]' to 'henchmen'"
+      "Description": "Set 'fr[1]' to 'enemy_gunman'"
     },
     {
       "CodeBlock": "startup",
@@ -21648,7 +21648,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
       "MemoryOffset": 32312,
-      "Description": "Set 'fr[1]' to 'stage_bonus'"
+      "Description": "Set 'fr[1]' to 'enemy_shieldman'"
     },
     {
       "CodeBlock": "startup",
@@ -21666,7 +21666,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
       "MemoryOffset": 32332,
-      "Description": "Set 'fr[1]' to 'enemy_gunman'"
+      "Description": "Set 'fr[1]' to 'joe_base'"
     },
     {
       "CodeBlock": "startup",
@@ -21684,7 +21684,7 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
       "MemoryOffset": 32352,
-      "Description": "Set 'fr[1]' to 'enemy_shieldman'"
+      "Description": "Set 'fr[1]' to 'joe_stage'"
     },
     {
       "CodeBlock": "startup",
@@ -21696,13 +21696,13 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
       "MemoryOffset": 32366,
-      "Description": "Set 'fr[0]' to '1'"
+      "Description": "Set 'fr[0]' to '5'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
       "MemoryOffset": 32372,
-      "Description": "Set 'fr[1]' to 'joe_base'"
+      "Description": "Set 'fr[1]' to 'gfx_falling_rocks'"
     },
     {
       "CodeBlock": "startup",
@@ -21714,139 +21714,139 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
       "MemoryOffset": 32386,
-      "Description": "Set 'fr[0]' to '1'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 53,
-      "MemoryOffset": 32392,
-      "Description": "Set 'fr[1]' to 'joe_stage'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 53,
-      "MemoryOffset": 32398,
-      "Description": "Core operation'AssetBundle'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 53,
-      "MemoryOffset": 32406,
-      "Description": "Set 'fr[0]' to '5'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 53,
-      "MemoryOffset": 32412,
-      "Description": "Set 'fr[1]' to 'gfx_falling_rocks'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 53,
-      "MemoryOffset": 32418,
-      "Description": "Core operation'AssetBundle'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 53,
-      "MemoryOffset": 32426,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 32434,
+      "MemoryOffset": 32394,
       "Description": "Set 'panel_top' to 'hud'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 32440,
+      "MemoryOffset": 32400,
       "Description": "Set 'fr[0]' to 'stage2'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 32446,
+      "MemoryOffset": 32406,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 32454,
+      "MemoryOffset": 32414,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 32462,
+      "MemoryOffset": 32422,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 32482,
+      "MemoryOffset": 32442,
       "Description": "Set 'background' to '-1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 32488,
+      "MemoryOffset": 32448,
       "Description": "Set 'fr[0]' to '25'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 32494,
+      "MemoryOffset": 32454,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 32502,
+      "MemoryOffset": 32462,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 53,
-      "MemoryOffset": 32522,
+      "MemoryOffset": 32482,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 54,
-      "MemoryOffset": 32542,
-      "Description": "GOTO '00032748'"
+      "MemoryOffset": 32502,
+      "Description": "GOTO '00032708'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 54,
-      "MemoryOffset": 32548,
-      "Description": "If current_stage == 3 ELSE GOTO 00032748"
+      "MemoryOffset": 32508,
+      "Description": "If current_stage == 3 ELSE GOTO 00032708"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 55,
-      "MemoryOffset": 32560,
+      "MemoryOffset": 32520,
       "Description": "Set 'ninja_magic_count' to '1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 56,
-      "MemoryOffset": 32566,
+      "MemoryOffset": 32526,
       "Description": "Set 'power_up' to '0'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32572,
+      "MemoryOffset": 32532,
       "Description": "Set 'fr[0]' to '3'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32578,
+      "MemoryOffset": 32538,
       "Description": "Set 'fr[1]' to 'boss_gfx'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 60,
+      "MemoryOffset": 32544,
+      "Description": "Core operation'AssetBundle'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 60,
+      "MemoryOffset": 32552,
+      "Description": "Set 'fr[0]' to '1'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 60,
+      "MemoryOffset": 32558,
+      "Description": "Set 'fr[1]' to 'joe_base'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 60,
+      "MemoryOffset": 32564,
+      "Description": "Core operation'AssetBundle'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 60,
+      "MemoryOffset": 32572,
+      "Description": "Set 'fr[0]' to '5'"
+    },
+    {
+      "CodeBlock": "startup",
+      "CodeBlockLine": 60,
+      "MemoryOffset": 32578,
+      "Description": "Set 'fr[1]' to 'gfx_falling_rocks'"
     },
     {
       "CodeBlock": "startup",
@@ -21858,109 +21858,109 @@
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
       "MemoryOffset": 32592,
-      "Description": "Set 'fr[0]' to '1'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 60,
-      "MemoryOffset": 32598,
-      "Description": "Set 'fr[1]' to 'joe_base'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 60,
-      "MemoryOffset": 32604,
-      "Description": "Core operation'AssetBundle'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 60,
-      "MemoryOffset": 32612,
-      "Description": "Set 'fr[0]' to '5'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 60,
-      "MemoryOffset": 32618,
-      "Description": "Set 'fr[1]' to 'gfx_falling_rocks'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 60,
-      "MemoryOffset": 32624,
-      "Description": "Core operation'AssetBundle'"
-    },
-    {
-      "CodeBlock": "startup",
-      "CodeBlockLine": 60,
-      "MemoryOffset": 32632,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32640,
+      "MemoryOffset": 32600,
       "Description": "Set 'panel_top' to 'hud'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32646,
+      "MemoryOffset": 32606,
       "Description": "Set 'fr[0]' to 'stage_3'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32652,
+      "MemoryOffset": 32612,
       "Description": "Core operation'PushToStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32660,
+      "MemoryOffset": 32620,
       "Description": "Core operation'WaitForNoActors'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32668,
+      "MemoryOffset": 32628,
       "Description": "GOSUB TO 'PRE_LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32688,
+      "MemoryOffset": 32648,
       "Description": "Set 'background' to '-1'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32694,
+      "MemoryOffset": 32654,
       "Description": "Set 'fr[0]' to '25'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32700,
+      "MemoryOffset": 32660,
       "Description": "Core operation'PopFromStack'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32708,
+      "MemoryOffset": 32668,
       "Description": "GOSUB TO 'LOAD_LEVEL'"
     },
     {
       "CodeBlock": "startup",
       "CodeBlockLine": 60,
-      "MemoryOffset": 32728,
+      "MemoryOffset": 32688,
       "Description": "GOSUB TO 'FADEIN'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 0,
-      "MemoryOffset": 32774,
+      "MemoryOffset": 32734,
       "Description": "AUTOGEN_UNLOADALLASSETBUNDLES"
+    },
+    {
+      "CodeBlock": "autogen_unloadallassetbundles",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 32734,
+      "Description": "Set 'fr[0]' to '0'"
+    },
+    {
+      "CodeBlock": "autogen_unloadallassetbundles",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 32740,
+      "Description": "Set 'fr[1]' to 'boss_gfx'"
+    },
+    {
+      "CodeBlock": "autogen_unloadallassetbundles",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 32746,
+      "Description": "Core operation'AssetBundle'"
+    },
+    {
+      "CodeBlock": "autogen_unloadallassetbundles",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 32754,
+      "Description": "Set 'fr[0]' to '0'"
+    },
+    {
+      "CodeBlock": "autogen_unloadallassetbundles",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 32760,
+      "Description": "Set 'fr[1]' to 'enemy_gunman'"
+    },
+    {
+      "CodeBlock": "autogen_unloadallassetbundles",
+      "CodeBlockLine": 9,
+      "MemoryOffset": 32766,
+      "Description": "Core operation'AssetBundle'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
@@ -21972,7 +21972,7 @@
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 9,
       "MemoryOffset": 32780,
-      "Description": "Set 'fr[1]' to 'boss_gfx'"
+      "Description": "Set 'fr[1]' to 'enemy_roller'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
@@ -21990,7 +21990,7 @@
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 9,
       "MemoryOffset": 32800,
-      "Description": "Set 'fr[1]' to 'enemy_gunman'"
+      "Description": "Set 'fr[1]' to 'enemy_shieldman'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
@@ -22008,7 +22008,7 @@
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 9,
       "MemoryOffset": 32820,
-      "Description": "Set 'fr[1]' to 'enemy_roller'"
+      "Description": "Set 'fr[1]' to 'gfx_falling_rocks'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
@@ -22026,7 +22026,7 @@
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 9,
       "MemoryOffset": 32840,
-      "Description": "Set 'fr[1]' to 'enemy_shieldman'"
+      "Description": "Set 'fr[1]' to 'henchmen'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
@@ -22044,7 +22044,7 @@
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 9,
       "MemoryOffset": 32860,
-      "Description": "Set 'fr[1]' to 'gfx_falling_rocks'"
+      "Description": "Set 'fr[1]' to 'joe_base'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
@@ -22062,7 +22062,7 @@
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 9,
       "MemoryOffset": 32880,
-      "Description": "Set 'fr[1]' to 'henchmen'"
+      "Description": "Set 'fr[1]' to 'joe_stage'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
@@ -22080,48 +22080,12 @@
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 9,
       "MemoryOffset": 32900,
-      "Description": "Set 'fr[1]' to 'joe_base'"
-    },
-    {
-      "CodeBlock": "autogen_unloadallassetbundles",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 32906,
-      "Description": "Core operation'AssetBundle'"
-    },
-    {
-      "CodeBlock": "autogen_unloadallassetbundles",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 32914,
-      "Description": "Set 'fr[0]' to '0'"
-    },
-    {
-      "CodeBlock": "autogen_unloadallassetbundles",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 32920,
-      "Description": "Set 'fr[1]' to 'joe_stage'"
-    },
-    {
-      "CodeBlock": "autogen_unloadallassetbundles",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 32926,
-      "Description": "Core operation'AssetBundle'"
-    },
-    {
-      "CodeBlock": "autogen_unloadallassetbundles",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 32934,
-      "Description": "Set 'fr[0]' to '0'"
-    },
-    {
-      "CodeBlock": "autogen_unloadallassetbundles",
-      "CodeBlockLine": 9,
-      "MemoryOffset": 32940,
       "Description": "Set 'fr[1]' to 'stage_bonus'"
     },
     {
       "CodeBlock": "autogen_unloadallassetbundles",
       "CodeBlockLine": 9,
-      "MemoryOffset": 32946,
+      "MemoryOffset": 32906,
       "Description": "Core operation'AssetBundle'"
     }
   ],

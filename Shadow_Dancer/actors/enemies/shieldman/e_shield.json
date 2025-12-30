@@ -213,8 +213,8 @@
         },
         {
           "FramePath": "throw_catch.png",
-          "HandleX": -33,
-          "HandleY": -59,
+          "HandleX": -26,
+          "HandleY": -58,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -237,8 +237,8 @@
         },
         {
           "FramePath": "shield.png",
-          "HandleX": 19,
-          "HandleY": -42,
+          "HandleX": 18,
+          "HandleY": -44,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -246,8 +246,17 @@
         },
         {
           "FramePath": "throw_upper.png",
-          "HandleX": -12,
-          "HandleY": -51,
+          "HandleX": -13,
+          "HandleY": -50,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "throw_upper_arm.png",
+          "HandleX": 19,
+          "HandleY": -47,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -270,8 +279,17 @@
         },
         {
           "FramePath": "throw_upper.png",
-          "HandleX": -12,
-          "HandleY": -51,
+          "HandleX": -13,
+          "HandleY": -50,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "throw_upper_arm.png",
+          "HandleX": 19,
+          "HandleY": -47,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -303,8 +321,8 @@
         },
         {
           "FramePath": "throw_lower.png",
-          "HandleX": -11,
-          "HandleY": -51,
+          "HandleX": -13,
+          "HandleY": -53,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -327,8 +345,8 @@
         },
         {
           "FramePath": "throw_lower.png",
-          "HandleX": -11,
-          "HandleY": -51,
+          "HandleX": -13,
+          "HandleY": -53,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -342,7 +360,7 @@
       "Sprites": [
         {
           "FramePath": "idle_front_arm.png",
-          "HandleX": 8,
+          "HandleX": 6,
           "HandleY": -44,
           "XFlip": false,
           "NoFlip": false,
@@ -360,7 +378,7 @@
         },
         {
           "FramePath": "idle_body.png",
-          "HandleX": -11,
+          "HandleX": -13,
           "HandleY": -48,
           "XFlip": false,
           "NoFlip": false,
@@ -369,7 +387,7 @@
         },
         {
           "FramePath": "idle_head.png",
-          "HandleX": 6,
+          "HandleX": 4,
           "HandleY": -49,
           "XFlip": false,
           "NoFlip": false,
@@ -378,7 +396,7 @@
         },
         {
           "FramePath": "idle_back_arm.png",
-          "HandleX": -1,
+          "HandleX": -3,
           "HandleY": -47,
           "XFlip": false,
           "NoFlip": false,
@@ -393,7 +411,7 @@
       "Sprites": [
         {
           "FramePath": "idle_front_arm.png",
-          "HandleX": 8,
+          "HandleX": 6,
           "HandleY": -42,
           "XFlip": false,
           "NoFlip": false,
@@ -411,7 +429,7 @@
         },
         {
           "FramePath": "idle_body.png",
-          "HandleX": -10,
+          "HandleX": -12,
           "HandleY": -48,
           "XFlip": false,
           "NoFlip": false,
@@ -420,7 +438,7 @@
         },
         {
           "FramePath": "idle_head.png",
-          "HandleX": 7,
+          "HandleX": 5,
           "HandleY": -49,
           "XFlip": false,
           "NoFlip": false,
@@ -429,7 +447,7 @@
         },
         {
           "FramePath": "idle_back_arm.png",
-          "HandleX": -1,
+          "HandleX": -3,
           "HandleY": -49,
           "XFlip": false,
           "NoFlip": false,

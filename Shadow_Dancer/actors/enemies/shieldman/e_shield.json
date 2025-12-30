@@ -204,8 +204,8 @@
       "Sprites": [
         {
           "FramePath": "legs_main.png",
-          "HandleX": -23,
-          "HandleY": -29,
+          "HandleX": -17,
+          "HandleY": -27,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -213,8 +213,8 @@
         },
         {
           "FramePath": "throw_catch.png",
-          "HandleX": -26,
-          "HandleY": -58,
+          "HandleX": -20,
+          "HandleY": -56,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -228,8 +228,8 @@
       "Sprites": [
         {
           "FramePath": "legs_main.png",
-          "HandleX": -23,
-          "HandleY": -29,
+          "HandleX": -17,
+          "HandleY": -27,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -237,8 +237,8 @@
         },
         {
           "FramePath": "shield.png",
-          "HandleX": 18,
-          "HandleY": -44,
+          "HandleX": 24,
+          "HandleY": -42,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -246,8 +246,8 @@
         },
         {
           "FramePath": "throw_upper.png",
-          "HandleX": -13,
-          "HandleY": -50,
+          "HandleX": -7,
+          "HandleY": -48,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -255,8 +255,8 @@
         },
         {
           "FramePath": "throw_upper_arm.png",
-          "HandleX": 19,
-          "HandleY": -47,
+          "HandleX": 25,
+          "HandleY": -45,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -270,8 +270,8 @@
       "Sprites": [
         {
           "FramePath": "legs_main.png",
-          "HandleX": -23,
-          "HandleY": -29,
+          "HandleX": -17,
+          "HandleY": -27,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -279,8 +279,8 @@
         },
         {
           "FramePath": "throw_upper.png",
-          "HandleX": -13,
-          "HandleY": -50,
+          "HandleX": -7,
+          "HandleY": -48,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -288,8 +288,8 @@
         },
         {
           "FramePath": "throw_upper_arm.png",
-          "HandleX": 19,
-          "HandleY": -47,
+          "HandleX": 25,
+          "HandleY": -45,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -303,8 +303,8 @@
       "Sprites": [
         {
           "FramePath": "legs_main.png",
-          "HandleX": -23,
-          "HandleY": -29,
+          "HandleX": -17,
+          "HandleY": -27,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -312,8 +312,8 @@
         },
         {
           "FramePath": "shield.png",
-          "HandleX": 1,
-          "HandleY": -24,
+          "HandleX": 7,
+          "HandleY": -22,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -321,8 +321,8 @@
         },
         {
           "FramePath": "throw_lower.png",
-          "HandleX": -13,
-          "HandleY": -53,
+          "HandleX": -7,
+          "HandleY": -51,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -336,8 +336,8 @@
       "Sprites": [
         {
           "FramePath": "legs_main.png",
-          "HandleX": -23,
-          "HandleY": -29,
+          "HandleX": -17,
+          "HandleY": -27,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -345,8 +345,8 @@
         },
         {
           "FramePath": "throw_lower.png",
-          "HandleX": -13,
-          "HandleY": -53,
+          "HandleX": -7,
+          "HandleY": -51,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -360,8 +360,8 @@
       "Sprites": [
         {
           "FramePath": "idle_front_arm.png",
-          "HandleX": 6,
-          "HandleY": -44,
+          "HandleX": 12,
+          "HandleY": -42,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -369,8 +369,8 @@
         },
         {
           "FramePath": "legs_main.png",
-          "HandleX": -23,
-          "HandleY": -29,
+          "HandleX": -17,
+          "HandleY": -27,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -378,8 +378,8 @@
         },
         {
           "FramePath": "idle_body.png",
-          "HandleX": -13,
-          "HandleY": -48,
+          "HandleX": -7,
+          "HandleY": -46,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -387,8 +387,8 @@
         },
         {
           "FramePath": "idle_head.png",
-          "HandleX": 4,
-          "HandleY": -49,
+          "HandleX": 10,
+          "HandleY": -47,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -396,8 +396,8 @@
         },
         {
           "FramePath": "idle_back_arm.png",
-          "HandleX": -3,
-          "HandleY": -47,
+          "HandleX": 3,
+          "HandleY": -45,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -411,8 +411,8 @@
       "Sprites": [
         {
           "FramePath": "idle_front_arm.png",
-          "HandleX": 6,
-          "HandleY": -42,
+          "HandleX": 12,
+          "HandleY": -40,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -420,8 +420,8 @@
         },
         {
           "FramePath": "legs_main.png",
-          "HandleX": -23,
-          "HandleY": -29,
+          "HandleX": -17,
+          "HandleY": -27,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -429,8 +429,8 @@
         },
         {
           "FramePath": "idle_body.png",
-          "HandleX": -12,
-          "HandleY": -48,
+          "HandleX": -6,
+          "HandleY": -46,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -438,8 +438,8 @@
         },
         {
           "FramePath": "idle_head.png",
-          "HandleX": 5,
-          "HandleY": -49,
+          "HandleX": 11,
+          "HandleY": -47,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -447,8 +447,8 @@
         },
         {
           "FramePath": "idle_back_arm.png",
-          "HandleX": -3,
-          "HandleY": -49,
+          "HandleX": 3,
+          "HandleY": -47,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,

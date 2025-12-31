@@ -202,7 +202,7 @@
       "Channel": null
     },
     "ho": {
-      "LinkedMap": "",
+      "LinkedMap": "joe_stage",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
@@ -237,21 +237,28 @@
       "Channel": null
     },
     "save_hostage_sfx": {
-      "LinkedMap": "",
+      "LinkedMap": "joe_stage",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "lightning": {
-      "LinkedMap": "",
+      "LinkedMap": "boss_gfx",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "boss_alarm": {
-      "LinkedMap": "",
+      "LinkedMap": "boss_gfx",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "sfx_gun_shoot": {
+      "LinkedMap": "enemy_gunman",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,

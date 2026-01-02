@@ -1,4 +1,4 @@
-Compiled on 02 January 2026 10:24:48
+Compiled on 02 January 2026 10:33:16
 Version string: SE2025.0.251231.22.44.EX
 
 === Misc ===
@@ -28,52 +28,52 @@ Misc data size: 326
 
 === Cartridge Composition ===
  Header |   Offset | Size     | Crunch    | Detail
-   MC01 |      706 |    11324 |  NoCrunch | Music data shadowdancer_stage1
-   MS01 |    12030 |    53056 |  NoCrunch | Music samples shadowdancer_stage1
-   PL06 |    65086 |     1296 |  NoCrunch | Panel (background color #000)
-   PL01 |    66382 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
-   PL02 |    68856 |     5816 |  NoCrunch | Panel hud
-   PC02 |    74672 |     1768 |  NoCrunch | Panel bobs hud
-   MP03 |    76440 |    43200 |  NoCrunch | Parallax for background stage_1_plx
-   PL03 |   119640 |     1636 |  NoCrunch | Panel (background)stage_1_plx
-   MP04 |   121276 |    33924 |  NoCrunch | Parallax for background stage2_plx
-   PL04 |   155200 |     1464 |  NoCrunch | Panel (background)stage2_plx
-   PL05 |   156664 |     8984 |  NoCrunch | Panel thanks
-   VC00 |   165648 |    33988 |  NoCrunch | Project virtual machine (codeblocks)
-   MA01 |   199636 |       28 |  NoCrunch | Map actor data for stage_1
-   MH01 |   199664 |      848 |  NoCrunch | Header data for map stage_1
-   MD01 |   200512 |    12440 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
-   MA02 |   212952 |       56 |  NoCrunch | Map actor data for stage_3
-   MH02 |   213008 |      848 |  NoCrunch | Header data for map stage_3
-   MD02 |   213856 |     2768 |  NoCrunch | Tile data for map stage_3 (mem restrictions:None)
-   MA03 |   216624 |      168 |  NoCrunch | Map actor data for stage2
-   MH03 |   216792 |      848 |  NoCrunch | Header data for map stage2
-   MD03 |   217640 |    16538 |  NoCrunch | Tile data for map stage2 (mem restrictions:None)
-   AB00 |   234178 |    13926 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
-   AB12 |   248104 |    11284 |  NoCrunch | Asset bundle 12 (stage_bonus)
-   AB04 |   259388 |    28014 |  NoCrunch | Asset bundle 4 (boss_gfx)
-   AB02 |   287402 |    23534 |  NoCrunch | Asset bundle 2 (stage_3)
-   AB05 |   310936 |    15450 |  NoCrunch | Asset bundle 5 (enemy_gunman)
-   AB09 |   326386 |    15458 |  NoCrunch | Asset bundle 9 (henchmen)
-   AB06 |   341844 |    30474 |  NoCrunch | Asset bundle 6 (enemy_roller)
-   AB07 |   372318 |    16258 |  NoCrunch | Asset bundle 7 (enemy_shieldman)
-   AB11 |   388576 |    17008 |  NoCrunch | Asset bundle 11 (joe_stage)
-   AB08 |   405584 |     2846 |  NoCrunch | Asset bundle 8 (gfx_falling_rocks)
-   AB10 |   408430 |    49028 |  NoCrunch | Asset bundle 10 (joe_base)
-   AB01 |   457458 |    29920 |  NoCrunch | Asset bundle 1 (stage_1)
-   AB03 |   487378 |    27040 |  NoCrunch | Asset bundle 3 (stage2)
-   DB00 |   514418 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
-   PH00 |   514420 |     4376 |  NoCrunch | Project Header
-   PD01 |   518796 |        4 |  NoCrunch | Project Custom Collisions
-   PD00 |   518800 |    31198 |  NoCrunch | Project Data
-   VR00 |   549998 |        4 |  NoCrunch | Project virtual machine redirects
+   MC01 |    76994 |    11324 |  NoCrunch | Music data shadowdancer_stage1
+   MS01 |    88318 |    53056 |  NoCrunch | Music samples shadowdancer_stage1
+   PL06 |   141374 |     1296 |  NoCrunch | Panel (background color #000)
+   PL01 |   142670 |     2474 |       ZX0 | Panel scorpion_eng_splashscreen
+   PL02 |   145144 |     5816 |  NoCrunch | Panel hud
+   PC02 |   150960 |     1768 |  NoCrunch | Panel bobs hud
+   MP03 |   152728 |    43200 |  NoCrunch | Parallax for background stage_1_plx
+   PL03 |   195928 |     1636 |  NoCrunch | Panel (background)stage_1_plx
+   MP04 |   197564 |    33924 |  NoCrunch | Parallax for background stage2_plx
+   PL04 |   231488 |     1464 |  NoCrunch | Panel (background)stage2_plx
+   PL05 |   232952 |     8984 |  NoCrunch | Panel thanks
+   VC00 |   241936 |    34048 |  NoCrunch | Project virtual machine (codeblocks)
+   MA01 |   275984 |       28 |  NoCrunch | Map actor data for stage_1
+   MH01 |   276012 |      848 |  NoCrunch | Header data for map stage_1
+   MD01 |   276860 |    12440 |  NoCrunch | Tile data for map stage_1 (mem restrictions:None)
+   MA02 |   289300 |       56 |  NoCrunch | Map actor data for stage_3
+   MH02 |   289356 |      848 |  NoCrunch | Header data for map stage_3
+   MD02 |   290204 |     2768 |  NoCrunch | Tile data for map stage_3 (mem restrictions:None)
+   MA03 |   292972 |      168 |  NoCrunch | Map actor data for stage2
+   MH03 |   293140 |      848 |  NoCrunch | Header data for map stage2
+   MD03 |   293988 |    16538 |  NoCrunch | Tile data for map stage2 (mem restrictions:None)
+   AB00 |   310526 |    13926 |  NoCrunch | Asset bundle 0 (Core project asset bundle)
+   AB12 |   324452 |    11284 |  NoCrunch | Asset bundle 12 (stage_bonus)
+   AB04 |   335736 |    28014 |  NoCrunch | Asset bundle 4 (boss_gfx)
+   AB02 |   363750 |    23534 |  NoCrunch | Asset bundle 2 (stage_3)
+   AB05 |   387284 |    15450 |  NoCrunch | Asset bundle 5 (enemy_gunman)
+   AB09 |   402734 |    15458 |  NoCrunch | Asset bundle 9 (henchmen)
+   AB06 |   418192 |    30474 |  NoCrunch | Asset bundle 6 (enemy_roller)
+   AB07 |   448666 |    16258 |  NoCrunch | Asset bundle 7 (enemy_shieldman)
+   AB11 |   464924 |    17008 |  NoCrunch | Asset bundle 11 (joe_stage)
+   AB08 |   481932 |     2846 |  NoCrunch | Asset bundle 8 (gfx_falling_rocks)
+   AB10 |   484778 |    49028 |  NoCrunch | Asset bundle 10 (joe_base)
+   AB01 |   533806 |    29920 |  NoCrunch | Asset bundle 1 (stage_1)
+   AB03 |   563726 |    27040 |  NoCrunch | Asset bundle 3 (stage2)
+   DB00 |   590766 |        2 |  NoCrunch | Misc Data (paths, hurt boxes etc)
+   PH00 |   590768 |     4376 |  NoCrunch | Project Header
+   PD01 |   595144 |        4 |  NoCrunch | Project Custom Collisions
+   PD00 |   595148 |    31198 |  NoCrunch | Project Data
+   VR00 |   626346 |        4 |  NoCrunch | Project virtual machine redirects
 
 === Data Sizes ===
     Size |   Memory | Crunch | Detail
    53056 |    53056 |        | Music samples shadowdancer_stage1
    49028 |    49028 |        | Asset bundle 10 (joe_base)
    43200 |    43200 |        | Parallax for background stage_1_plx
-   33988 |    33988 |        | Project virtual machine (codeblocks)
+   34048 |    34048 |        | Project virtual machine (codeblocks)
    33924 |    33924 |        | Parallax for background stage2_plx
    31198 |    31198 |        | Project Data
    30474 |    30474 |        | Asset bundle 6 (enemy_roller)
@@ -110,6 +110,9 @@ Misc data size: 326
        4 |        4 |        | Project virtual machine redirects
        2 |        2 |        | Misc Data (paths, hurt boxes etc)
 
+=== ADF Size ===
+626374 bytes total (out of 901120, 69%)
+
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
@@ -125,7 +128,7 @@ For other:
 Map data memory: 16538
 Map background memory: 1636
 EXE memory: 219712
-vm memory: 33988
+vm memory: 34048
 project memory: 31198
 Music data (shadowdancer_stage1): 11324
 memory reserved for active actors on screen (16): 2536
@@ -133,8 +136,8 @@ memory reserved for dormant actors in map (32): 1152
 OS/other estimated: 105472
 
 Accounted memory chip: 385498
-Accounted memory other: 412232
-Accounted memory total: 797730
+Accounted memory other: 412292
+Accounted memory total: 797790
 
 === Possibly unused animations ===
 dog_ilde_l
@@ -164,7 +167,7 @@ boss_stomper_ai: 7096
 enemy_hit_projectile: 1318
 enemy_on_land: 1038
 hostage_bonus: 1020
-startup: 916
+startup: 976
 enemy_gunman_ai: 858
 enemy_shieldman_ai: 834
 jump_button: 756

@@ -435,7 +435,9 @@
       "Conditions": []
     },
     {
-      "Values": {},
+      "Values": {
+        "AutoFlip": "True"
+      },
       "DataVersion": 7,
       "Category": "Actor",
       "BasicOperationType": "CommentOnly",
@@ -465,7 +467,7 @@
       "NewBlock": "none",
       "TeleportName": "none",
       "ActorType": "none",
-      "Animation": "e_ani_fall + actor_var4",
+      "Animation": "e_ani_fall",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
       "ResetAnimations": true,
@@ -530,7 +532,7 @@
       "Breakpoint": false,
       "Background": null,
       "Level": "none",
-      "X": "-40 * actor_var5",
+      "X": "-40 * e_velo",
       "Y": "-40",
       "NewBlock": "none",
       "TeleportName": "none",

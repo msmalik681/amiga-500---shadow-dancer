@@ -4741,7 +4741,7 @@
       "Breakpoint": false,
       "Background": null,
       "Level": "none",
-      "X": "-40 * actor_var5",
+      "X": "-40 * e_velo",
       "Y": "-35",
       "NewBlock": "none",
       "TeleportName": "none",

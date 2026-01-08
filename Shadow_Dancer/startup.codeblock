@@ -3306,7 +3306,7 @@
       "Expression": "enemy_gunman",
       "Index": "0",
       "Label": "",
-      "Disabled": true,
+      "Disabled": false,
       "Breakpoint": false,
       "Background": null,
       "Level": "none",

@@ -126,82 +126,52 @@
         {
           "FrameID": "shoot_02",
           "Duration": 5,
-          "Properties": {
-            "RenderType": "RetroAnimator",
-            "Events": "{\r\n  \"Events\": []\r\n}"
-          }
+          "Properties": {}
         },
         {
           "FrameID": "shoot_03",
           "Duration": 5,
-          "Properties": {
-            "RenderType": "RetroAnimator",
-            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"enemy_gunman_ai\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-          }
+          "Properties": {}
         },
         {
           "FrameID": "shoot_01",
-          "Duration": 15,
-          "Properties": {
-            "RenderType": "RetroAnimator",
-            "Events": "{\r\n  \"Events\": []\r\n}"
-          }
+          "Duration": 5,
+          "Properties": {}
         },
         {
           "FrameID": "shoot_02",
           "Duration": 5,
-          "Properties": {
-            "RenderType": "RetroAnimator",
-            "Events": "{\r\n  \"Events\": []\r\n}"
-          }
+          "Properties": {}
         },
         {
           "FrameID": "shoot_03",
           "Duration": 5,
-          "Properties": {
-            "RenderType": "RetroAnimator",
-            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"enemy_gunman_ai\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-          }
+          "Properties": {}
         },
         {
           "FrameID": "shoot_01",
-          "Duration": 15,
-          "Properties": {
-            "RenderType": "RetroAnimator",
-            "Events": "{\r\n  \"Events\": []\r\n}"
-          }
+          "Duration": 5,
+          "Properties": {}
         },
         {
           "FrameID": "shoot_02",
           "Duration": 5,
-          "Properties": {
-            "RenderType": "RetroAnimator",
-            "Events": "{\r\n  \"Events\": []\r\n}"
-          }
+          "Properties": {}
         },
         {
           "FrameID": "shoot_03",
           "Duration": 5,
-          "Properties": {
-            "RenderType": "RetroAnimator",
-            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"enemy_gunman_ai\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-          }
+          "Properties": {}
         },
         {
           "FrameID": "shoot_01",
-          "Duration": 15,
-          "Properties": {
-            "RenderType": "RetroAnimator",
-            "Events": "{\r\n  \"Events\": []\r\n}"
-          }
+          "Duration": 5,
+          "Properties": {}
         },
         {
           "FrameID": "shoot_end",
           "Duration": 5,
-          "Properties": {
-            "RenderType": "RetroAnimator",
-            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"enemy_gunman_ai\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-          }
+          "Properties": {}
         }
       ],
       "Properties": {
@@ -376,9 +346,9 @@
       "Sprites": [
         {
           "FramePath": "legs_ducking.png",
-          "HandleX": -13,
+          "HandleX": -8,
           "HandleY": -16,
-          "XFlip": false,
+          "XFlip": true,
           "NoFlip": false,
           "RenderMode": 0,
           "Properties": {}
@@ -394,7 +364,7 @@
         },
         {
           "FramePath": "gun_lower.png",
-          "HandleX": 9,
+          "HandleX": 8,
           "HandleY": -21,
           "XFlip": false,
           "NoFlip": false,
@@ -403,7 +373,7 @@
         },
         {
           "FramePath": "gun_upper.png",
-          "HandleX": 13,
+          "HandleX": 12,
           "HandleY": -23,
           "XFlip": false,
           "NoFlip": false,
@@ -442,9 +412,9 @@
       "Sprites": [
         {
           "FramePath": "legs_ducking.png",
-          "HandleX": -13,
+          "HandleX": -8,
           "HandleY": -16,
-          "XFlip": false,
+          "XFlip": true,
           "NoFlip": false,
           "RenderMode": 0,
           "Properties": {}
@@ -460,7 +430,7 @@
         },
         {
           "FramePath": "gun_shoot.png",
-          "HandleX": 9,
+          "HandleX": 8,
           "HandleY": -28,
           "XFlip": false,
           "NoFlip": false,
@@ -475,9 +445,9 @@
       "Sprites": [
         {
           "FramePath": "legs_ducking.png",
-          "HandleX": -13,
+          "HandleX": -8,
           "HandleY": -16,
-          "XFlip": false,
+          "XFlip": true,
           "NoFlip": false,
           "RenderMode": 0,
           "Properties": {}
@@ -493,7 +463,7 @@
         },
         {
           "FramePath": "gun_lower.png",
-          "HandleX": 9,
+          "HandleX": 8,
           "HandleY": -21,
           "XFlip": false,
           "NoFlip": false,
@@ -502,7 +472,7 @@
         },
         {
           "FramePath": "gun_upper.png",
-          "HandleX": 11,
+          "HandleX": 10,
           "HandleY": -23,
           "XFlip": false,
           "NoFlip": false,
@@ -516,18 +486,9 @@
     "shoot_01": {
       "Sprites": [
         {
-          "FramePath": "shoot_body.png",
-          "HandleX": -16,
-          "HandleY": -52,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
           "FramePath": "gun_lower.png",
-          "HandleX": 13,
-          "HandleY": -36,
+          "HandleX": 8,
+          "HandleY": -37,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -535,8 +496,26 @@
         },
         {
           "FramePath": "gun_upper.png",
-          "HandleX": 17,
-          "HandleY": -38,
+          "HandleX": 12,
+          "HandleY": -39,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "mid_shoot_upper.png",
+          "HandleX": -8,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "shoot_legs.png",
+          "HandleX": -8,
+          "HandleY": -30,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -546,21 +525,12 @@
       "ColRects": {},
       "Properties": {}
     },
-    "shoot_02": {
+    "shoot_end": {
       "Sprites": [
         {
-          "FramePath": "shoot_body.png",
-          "HandleX": -16,
-          "HandleY": -52,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
           "FramePath": "gun_lower.png",
-          "HandleX": 13,
-          "HandleY": -36,
+          "HandleX": 8,
+          "HandleY": -37,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -568,32 +538,26 @@
         },
         {
           "FramePath": "gun_upper.png",
-          "HandleX": 15,
-          "HandleY": -38,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        }
-      ],
-      "ColRects": {},
-      "Properties": {}
-    },
-    "shoot_03": {
-      "Sprites": [
-        {
-          "FramePath": "shoot_body.png",
-          "HandleX": -16,
-          "HandleY": -52,
+          "HandleX": 12,
+          "HandleY": -39,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
           "Properties": {}
         },
         {
-          "FramePath": "gun_shoot.png",
-          "HandleX": 13,
-          "HandleY": -43,
+          "FramePath": "mid_shoot_upper.png",
+          "HandleX": -8,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "shoot_legs.png",
+          "HandleX": -8,
+          "HandleY": -30,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -796,9 +760,9 @@
       "Sprites": [
         {
           "FramePath": "legs_ducking.png",
-          "HandleX": -13,
+          "HandleX": -8,
           "HandleY": -16,
-          "XFlip": false,
+          "XFlip": true,
           "NoFlip": false,
           "RenderMode": 0,
           "Properties": {}
@@ -814,7 +778,7 @@
         },
         {
           "FramePath": "gun_lower.png",
-          "HandleX": 9,
+          "HandleX": 8,
           "HandleY": -21,
           "XFlip": false,
           "NoFlip": false,
@@ -867,21 +831,12 @@
       "ColRects": {},
       "Properties": {}
     },
-    "shoot_end": {
+    "shoot_02": {
       "Sprites": [
         {
-          "FramePath": "shoot_body.png",
-          "HandleX": -16,
-          "HandleY": -52,
-          "XFlip": false,
-          "NoFlip": false,
-          "RenderMode": 0,
-          "Properties": {}
-        },
-        {
           "FramePath": "gun_lower.png",
-          "HandleX": 13,
-          "HandleY": -36,
+          "HandleX": 8,
+          "HandleY": -37,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
@@ -889,8 +844,59 @@
         },
         {
           "FramePath": "gun_upper.png",
-          "HandleX": 17,
-          "HandleY": -38,
+          "HandleX": 11,
+          "HandleY": -39,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "mid_shoot_upper.png",
+          "HandleX": -8,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "shoot_legs.png",
+          "HandleX": -8,
+          "HandleY": -30,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "shoot_03": {
+      "Sprites": [
+        {
+          "FramePath": "mid_shoot_upper.png",
+          "HandleX": -8,
+          "HandleY": -51,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "shoot_legs.png",
+          "HandleX": -8,
+          "HandleY": -30,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "gun_shoot.png",
+          "HandleX": 7,
+          "HandleY": -43,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,

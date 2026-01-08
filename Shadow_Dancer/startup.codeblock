@@ -1768,7 +1768,7 @@
       "Expression": "stage_bonus",
       "Index": "0",
       "Label": "",
-      "Disabled": false,
+      "Disabled": true,
       "Breakpoint": false,
       "Background": null,
       "Level": "none",

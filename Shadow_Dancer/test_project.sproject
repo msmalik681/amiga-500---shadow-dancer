@@ -1,5 +1,5 @@
 {
-  "TargetPlatform": "amiga_ocs_trackdisk",
+  "TargetPlatform": "amiga_ocs",
   "StartupCodeBlock": "startup",
   "Recompile": true,
   "DataVersion": 3,
